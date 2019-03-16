@@ -1,16 +1,3 @@
-### xishiqu
-
-##项目架构
-
-##项目总结0316
-#1. vue的swipe插件 mini ui的引入问题 
-需要注意顺序，再就是设置外框以及引入别忘记加css 
-
-#2. json跨域问题 以及json写在哪里
-
-#3. vue.config.js的配置
-runtimeCompiler 与  Compiler（淘汰） 
-网上的一些方法 有过时的情况：
 module.exports = {
   // 基本路径
   baseUrl: '/',
