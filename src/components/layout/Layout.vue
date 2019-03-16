@@ -2,20 +2,53 @@
   <div class="layout-container">
     <Header></Header>
     <main>
-      注： ①本文档有个与函数比肩的重要概念-mixin, 我将其译为混合书写，混入或混写。②点击这里可回到文档首页。注： ①本文档有个与函数比肩的重要概念-mixin, 我将其译为混合书写，混入或混写。②点击这里可回到文档首页。
+      <MainTop></MainTop>
+      <MainCenter></MainCenter>
+      <MainBottom></MainBottom>
+      {{aaa()}}
     </main>
     <Tabbar></Tabbar>
   </div>
 </template>
 
 <script>
+
 import Header from './Header'
+import MainTop from './MainTop'
+import MainCenter from './MainCenter'
+import MainBottom from './MainBottom'
 import Tabbar from './Tabbar'
+import { log } from 'util';
+
 export default {
+  // data: {
+  //   fruits: []
+  // },
+
   components: {
     Header,
+    MainTop,
+    MainCenter,
+    MainBottom,
     Tabbar
+  },
+
+  // mounted () { 
+  //   fetch('https://api.myjson.com/bins/ld5jy')
+  //     .then(response => response.json())
+  //     .then(result => {
+  //       this.fruits = result
+  //   })
+  // },
+
+  methods: {
+    aaa(){
+      console.log("aaa")
+      
+    }
   }
+  
+
 }
 </script>
 

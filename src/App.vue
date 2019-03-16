@@ -14,4 +14,5 @@ export default {
 
 <style lang="stylus">
 @import '~@/assets/reset.styl'
+
 </style>
