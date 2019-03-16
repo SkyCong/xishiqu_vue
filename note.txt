@@ -1,0 +1,16 @@
+2019-3-15
+设计稿：
+iphone6/7/8: 750 * 1334
+iphone5: 640 * 1136
+
+1vw = window.innerWidth / 100
+375px / 100 = 3.75px
+320px / 100 = 3.2px
+
+1vw = 3.75px
+100px = 100/3.75 = 26.666666vw
+
+1vw = 3.2px
+100px = 31.25vw
+
+https://www.jianshu.com/p/5d38d552fa52
