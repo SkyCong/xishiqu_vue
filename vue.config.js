@@ -1,6 +1,6 @@
 module.exports = {
   // 基本路径
-  baseUrl: '/',
+  baseUrl: './',
   // 输出文件目录
   outputDir: 'dist',
   // eslint-loader 是否在保存的时候检查
@@ -15,16 +15,27 @@ module.exports = {
 
   devServer: {
     open: process.platform === 'darwin',
-    host: '0.0.0.0',
-    port: 5001,
+    host: '10.60.18.152',
+    port: 8080,
     https: false,
     hotOnly: false,
-    // See https://github.com/vuejs/vue-cli/blob/dev/docs/cli-service.md#configuring-proxy
-    proxy: null, // string | Object
+    // 查阅 https://github.com/vuejs/vue-doc-zh-cn/vue-cli/cli-service.md#配置代理
+    proxy: {
+      "/proxy/": {
+        target: "http://m.xishiqu.com",
+        secure: false,
+        changeOrigin: true,
+        pathRewrite: {
+          "^/proxy": ""
+        }
+      }, // string | Object
+
+    },
     before: app => {}
   },
   // 第三方插件配置
   pluginOptions: {
     // ...
   }
+
 }

@@ -33,13 +33,13 @@ export default {
     Tabbar
   },
 
-  // mounted () { 
-  //   fetch('https://api.myjson.com/bins/ld5jy')
-  //     .then(response => response.json())
-  //     .then(result => {
-  //       this.fruits = result
-  //   })
-  // },
+  mounted () { 
+    fetch('/proxy/ajax/home/index?cityCode=021')
+      .then(response => response.json())
+    //   .then(result => {
+    //     this.fruits = result
+    // })
+  },
 
   methods: {
     aaa(){
