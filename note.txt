@@ -14,3 +14,11 @@ iphone5: 640 * 1136
 100px = 31.25vw
 
 https://www.jianshu.com/p/5d38d552fa52
+
+2019-3-18
+created
+- Axios请求，安全吗？
+mounted
+- ajax请求慢于mounted，等到mounted 完毕后再去更新数据，缺点是渲染两次
+- ajax请求快于mounted, mounted没执行，数据就更新了，优点可以减少一次渲染
+updated

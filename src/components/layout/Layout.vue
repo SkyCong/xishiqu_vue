@@ -1,11 +1,11 @@
 <template>
   <div class="layout-container">
     <Header></Header>
+    <!-- <div v-for="(fruit, n) in fruits" :key="n">{{fruit.title}}</div> -->
     <main>
-      <MainTop></MainTop>
+      <MainTop :fruits="fruits" :banners="banners"></MainTop>
       <MainCenter></MainCenter>
       <MainBottom></MainBottom>
-      {{aaa()}}
     </main>
     <Tabbar></Tabbar>
   </div>
@@ -18,12 +18,15 @@ import MainTop from './MainTop'
 import MainCenter from './MainCenter'
 import MainBottom from './MainBottom'
 import Tabbar from './Tabbar'
-import { log } from 'util';
 
 export default {
-  // data: {
-  //   fruits: []
-  // },
+
+  data () {
+    return {
+       fruits: [],
+       banners: []
+    }
+  },
 
   components: {
     Header,
@@ -34,17 +37,24 @@ export default {
   },
 
   mounted () { 
-    fetch('/proxy/ajax/home/index?cityCode=021')
-      .then(response => response.json())
-    //   .then(result => {
-    //     this.fruits = result
-    // })
+    this.get()
   },
 
   methods: {
-    aaa(){
-      console.log("aaa")
+    get(){
+      fetch('proxy/ajax/home/index?cityCode=021')
+        .then(response => response.json())
+        .then(result => {
+          this.fruits = result.result.frontCateInfo
+      })
+      fetch('https://api.myjson.com/bins/6ufni')
+        .then(response => response.json())
+        .then(result => {
+          this.banners = result
+      })
+
       
+      // console.log(fruits.frontCateInfo)
     }
   }
   
@@ -60,7 +70,9 @@ export default {
   flex-direction column
   main
     flex 1
-    background #fff
+    background #fff   
     ellipsis(auto, 2)
+    overflow scroll
+
 </style>
 

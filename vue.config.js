@@ -11,7 +11,9 @@ module.exports = {
   // webpack配置
   // see https://github.com/vuejs/vue-cli/blob/dev/docs/webpack.md
   chainWebpack: () => {},
-  configureWebpack: () => {},
+  configureWebpack: config => {
+    // console.log(config);
+  },
 
   devServer: {
     open: process.platform === 'darwin',
