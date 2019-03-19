@@ -17,31 +17,6 @@
           <span :class="setClass(fruit.pinyinName)"></span>
           {{fruit.title}}
         </div>
-        <!-- <div class="item"><span class="cate-icon huajugeju"></span>
-          话剧歌剧
-        </div>
-        <div class="item"><span class="cate-icon xiuxianyule"></span>
-          休闲娱乐
-        </div>
-        <div class="item"><span class="cate-icon film"></span>
-          电影
-        </div>
-        <div class="item"><span class="cate-icon tiyusaishi"></span>
-          体育赛事
-        </div>
-        <div class="item"><span class="cate-icon ertongqinzi"></span>
-          儿童亲子
-        </div>        
-        <div class="item"><span class="cate-icon yinyuehui"></span>
-          音乐会
-        </div>
-        <div class="item"><span class="cate-icon quyizaji"></span>
-          曲艺杂技
-        </div>
-        <div class="item"><span class="cate-icon wudaobalei"></span>
-          舞蹈芭蕾
-        </div> -->
-
       </div>
      </div>  
 

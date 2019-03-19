@@ -1,3 +1,9 @@
+// const path = require('path')
+
+// function resolve(pathname) {
+//   return path.resolve(__dirname, pathname)
+// }
+
 module.exports = {
   // 基本路径
   baseUrl: './',
@@ -12,7 +18,13 @@ module.exports = {
   // see https://github.com/vuejs/vue-cli/blob/dev/docs/webpack.md
   chainWebpack: () => {},
   configureWebpack: config => {
-    // console.log(config);
+    // console.log(config)
+    // config.resolve.alias = {
+    //   ...config.resolve.alias,
+    //   home: resolve('./src/views/home'),
+    //   assets: resolve('./src/assets'),
+    //   utils: resolve('./src/utils')
+    // }
   },
 
   devServer: {
@@ -24,8 +36,8 @@ module.exports = {
     // 查阅 https://github.com/vuejs/vue-doc-zh-cn/vue-cli/cli-service.md#配置代理
     proxy: {
       "/proxy/": {
-        target: "http://m.xishiqu.com",
-        secure: false,
+        target: "http://m.xishiqu.com/",
+        secure: true,//false 为http
         changeOrigin: true,
         pathRewrite: {
           "^/proxy": ""
