@@ -1,6 +1,14 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Home from './views/home/Home.vue'
+
+import Show from '@/views/home/Show'
+import Class from '@/views/home/Class'
+import Interest from '@/views/home/Interest'
+import Resell from '@/views/home/Resell'
+import Login from '@/views/home/Login'
+
+// import MovieList from '@/components/movielist/MovieList'
+// import ComingSoon from '@/components/movielist/ComingSoon'
 
 Vue.use(Router)
 
@@ -8,17 +16,44 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'home',
-      component: Home
+      redirect: '/show'
+    },
+    {
+      path: '/show',
+      name: 'show',
+      component: Show
+
+    },
+    {
+      path: '/class',
+      name: 'class',
+      component: Class
+      // ,
+      // children: [
+      //   {
+      //     path: 'inTheater',
+      //     component: MovieList
+      //   },
+      //   {
+      //     path: 'comingSoon',
+      //     component: ComingSoon
+      //   }
+      // ]
+    },    
+    {
+      path: '/interest',
+      name: 'interest',
+      component: Interest
+    },
+    {
+      path: '/resell',
+      name: 'resell',
+      component: Resell
+    },
+    {
+      path: '/login',
+      name: 'login',
+      component: Login
     }
-    //,
-    // {
-    //   path: '/about',
-    //   name: 'about',
-    //   // route level code-splitting
-    //   // this generates a separate chunk (about.[hash].js) for this route
-    //   // which is lazy-loaded when the route is visited.
-    //   component: () => import(/* webpackChunkName: "about" */ './views/About.vue')
-    // }
   ]
 })

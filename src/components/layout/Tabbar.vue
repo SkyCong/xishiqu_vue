@@ -1,30 +1,30 @@
 <template>
   <div class="tabbar-container">
     <ul>
-     	<li :class="currentIndex === 0 ? 'active' : ''" @click="handleClick(0)">
+     	<router-link to="/show" active-class="active" tag="li">
          <span class="i home"></span>
          <span class="text">首页</span>
-      </li>
+      </router-link>
 
-      <li :class="currentIndex === 1 ? 'active' : ''" @click="handleClick(1)">
+     	<router-link to="/class" active-class="active" tag="li">
         <span class="i category"></span>
         <span class="text">分类</span>
-      </li>
+      </router-link>
 
-      <li :class="currentIndex === 2 ? 'active' : ''" @click="handleClick(2)">
+     	<router-link to="/interest" active-class="active" tag="li">
         <span class="i article">
         </span> <span class="text">同趣</span>
-      </li>
+      </router-link>
 
-      <li :class="currentIndex === 3 ? 'active' : ''" @click="handleClick(3)">
+     	<router-link to="/resell" active-class="active" tag="li">
         <span class="i ticket"></span>
         <span class="text">转票</span>
-      </li>
+      </router-link>
 
-      <li :class="currentIndex === 4 ? 'active' : ''" @click="handleClick(4)">
+     	<router-link to="/login" active-class="active" tag="li">
         <span class="i my"></span> 
         <span class="text">我</span>
-      </li>
+      </router-link>
 
     </ul>
   </div>
@@ -32,17 +32,7 @@
 
 <script>
 export default {
-  data() {
-    return {
-      currentIndex: 0
-    };
-  },
 
-  methods: {
-    handleClick(index) {
-      this.currentIndex = index;
-    }
-  }
 };
 </script>
 
