@@ -4,8 +4,8 @@
     <div>
       <ShowTop :fruits="fruits" :banners="banners" class="block-wrapper"></ShowTop>
       <div class="block-wrapper">
-        <ShowSevenInfo></ShowSevenInfo>
-        <ShowCateInfo></ShowCateInfo>
+        <ShowSevenInfo ></ShowSevenInfo>
+        <ShowCateInfo :activityCateInfos="activityCateInfos"></ShowCateInfo>
         <ShowLikeInfo :activityLikeInfos="activityLikeInfos"></ShowLikeInfo>
       </div>
     </div>
@@ -30,6 +30,7 @@ export default {
     return {
        fruits: [],
        banners: [],
+       activityCateInfos: [],
        activityLikeInfos: []
     }
   },
@@ -44,15 +45,16 @@ export default {
 
   async created() {
     
-    const result1 = await request({
+    const data = await request({
       url: 'ajax/home/index?cityCode=021'
     })
-    const result2 = await request({
+    const moskData = await request({
       url: 'https://api.myjson.com/bins/6ufni'
     })
-    this.fruits = result1.result.frontCateInfo
-    this.banners = result2
-    this.activityLikeInfos = result1.result.activityLikeInfo    
+    this.fruits = data.result.frontCateInfo
+    this.banners = moskData
+    this.activityCateInfos = data.result.activityCateInfo   
+    this.activityLikeInfos = data.result.activityLikeInfo   
   },
 
 }
@@ -70,7 +72,7 @@ export default {
         border-bottom 1px solid #efefef
         padding .1rem 0
           &:last-child 
-            border-bottom none                    
+            border-bottom none   
 
 </style>
 

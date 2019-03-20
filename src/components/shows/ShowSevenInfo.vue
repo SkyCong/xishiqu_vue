@@ -1,5 +1,3 @@
 <template>
-  <div>Week</div>
+  <div>Show777</div>
 </template>
-
-

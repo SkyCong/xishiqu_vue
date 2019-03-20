@@ -14,9 +14,8 @@ export default {
   },
   computed: {
     flag() {
-      if(this.maxDiscount == '')
-        return false
-      return true
+      if(this.maxDiscount != '')
+        return true
     }
   }
 }
