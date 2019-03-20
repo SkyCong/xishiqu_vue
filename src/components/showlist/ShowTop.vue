@@ -1,5 +1,5 @@
 <template>
-  <div class="block-wrapper">
+  <div>
   
     <!-- ———————Banner———————————————————————————————————————— -->
     <div>
@@ -83,10 +83,7 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
-  .block-wrapper
-    padding .1rem .12rem
-    background #fff
-    margin-bottom .12rem
+
 
     .banne
       height: 1.7rem;

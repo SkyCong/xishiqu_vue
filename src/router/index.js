@@ -13,6 +13,7 @@ import Login from '@/views/home/Login'
 Vue.use(Router)
 
 export default new Router({
+
   routes: [
     {
       path: '/',

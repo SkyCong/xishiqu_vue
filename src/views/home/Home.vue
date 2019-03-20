@@ -1,9 +1,10 @@
 <template>
   <div class="layout-container">
-    <Header></Header>
     <!-- <div v-for="(fruit, n) in fruits" :key="n">{{fruit.title}}</div> -->
     <main>
-      <router-view></router-view>
+      <keep-alive>
+        <router-view></router-view>
+      </keep-alive>
     </main>
     
     <Tabbar></Tabbar>
@@ -12,7 +13,6 @@
 
 <script>
 
-import Header from '@/components/layout/Header'
 import Tabbar from '@/components/layout/Tabbar'
 import Show from '@/views/home/Show'
 // import MainTop from './MainTop'
@@ -23,7 +23,6 @@ import Show from '@/views/home/Show'
 export default {
 
   components: {
-    Header,
     Tabbar,
     Show
   }

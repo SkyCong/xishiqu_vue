@@ -28,21 +28,17 @@ module.exports = {
   },
 
   devServer: {
-    open: process.platform === 'darwin',
     host: '10.60.18.152',
     port: 8080,
-    https: false,
-    hotOnly: false,
-    // 查阅 https://github.com/vuejs/vue-doc-zh-cn/vue-cli/cli-service.md#配置代理
     proxy: {
-      "/proxy/": {
-        target: "http://m.xishiqu.com/",
-        secure: true,//false 为http
-        changeOrigin: true,
-        pathRewrite: {
-          "^/proxy": ""
-        }
-      }, // string | Object
+      '/ajax': {
+        target: 'http://m.xishiqu.com',
+        secure: false,//false 为http
+        changeOrigin: true
+        // pathRewrite: { 渲染页码时为空
+        //   "^/proxy": ""
+        // }
+      }, 
 
     },
     before: app => {}
