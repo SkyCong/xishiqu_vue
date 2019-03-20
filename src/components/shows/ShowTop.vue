@@ -1,6 +1,5 @@
 <template>
   <div>
-  
     <!-- ———————Banner———————————————————————————————————————— -->
     <div>
       <mt-swipe :auto="4000" class="banne">

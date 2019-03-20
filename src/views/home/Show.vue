@@ -1,11 +1,13 @@
 <template>
-  <div>
+  <div id="home_some">
     <ShowHeader></ShowHeader>
-    <div class="block-wrapper">
-      <ShowTop :fruits="fruits" :banners="banners"></ShowTop>
-      <ShowCard></ShowCard>
-      <ShowLevel></ShowLevel>
-      <ShowVertical :activityLikeInfos="activityLikeInfos"></ShowVertical>
+    <div>
+      <ShowTop :fruits="fruits" :banners="banners" class="block-wrapper"></ShowTop>
+      <div class="block-wrapper">
+        <ShowSevenInfo></ShowSevenInfo>
+        <ShowCateInfo></ShowCateInfo>
+        <ShowLikeInfo :activityLikeInfos="activityLikeInfos"></ShowLikeInfo>
+      </div>
     </div>
   </div>  
 </template>
@@ -14,11 +16,11 @@
 <script>
 
 import request from '@/utils/request'
-import ShowHeader from '@/components/showlist/ShowHeader'
-import ShowTop from '@/components/showlist/ShowTop'
-import ShowCard from '@/components/showlist/ShowCard'
-import ShowLevel from '@/components/showlist/ShowLevel'
-import ShowVertical from '@/components/showlist/ShowVertical'
+import ShowHeader from '@/components/shows/ShowHeader'
+import ShowTop from '@/components/shows/ShowTop'
+import ShowSevenInfo from '@/components/shows/ShowSevenInfo'
+import ShowCateInfo from '@/components/shows/ShowCateInfo'
+import ShowLikeInfo from '@/components/shows/ShowLikeInfo'
 
 
 
@@ -35,9 +37,9 @@ export default {
   components: {
     ShowHeader,
     ShowTop,
-    ShowCard,
-    ShowLevel,
-    ShowVertical
+    ShowSevenInfo,
+    ShowCateInfo,
+    ShowLikeInfo
   },
 
   async created() {
@@ -57,16 +59,18 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
-
-  .block-wrapper
-    padding .1rem .12rem
-    background #fff
-    margin-bottom .12rem
-    .block
-      border-bottom 1px solid #efefef
-      padding .1rem 0
-        &:last-child 
-          border-bottom none                    
+  #home_some
+    background: #F4F4F4;
+    padding-bottom: .55rem;
+    .block-wrapper
+      padding: .1rem .12rem;
+      background: #fff;
+      margin-bottom: .12rem;
+      .block
+        border-bottom 1px solid #efefef
+        padding .1rem 0
+          &:last-child 
+            border-bottom none                    
 
 </style>
 

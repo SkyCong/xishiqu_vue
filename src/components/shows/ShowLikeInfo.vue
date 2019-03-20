@@ -9,7 +9,7 @@
       <!---->
       <div class="thumbnail" :style="{backgroundImage : 'url('+activity.actImgUrl+')'}">
         <!-- <div class="thumbnail__tag"><span>{{activity.maxDiscount}}</span>折 起 -->
-        <ShowVerticalDis :maxDiscount="activity.maxDiscount"></ShowVerticalDis>
+        <ShowDiscount :maxDiscount="activity.maxDiscount"></ShowDiscount>
       </div>
       <div class="main">
         <h1 class="title">{{activity.actName}}</h1>
@@ -29,7 +29,7 @@
 
 
 <script>
-import ShowVerticalDis from './ShowVerticalDis'
+import ShowDiscount from '@/components/common/showlist/ShowDiscount'
 
 export default {
 
@@ -40,7 +40,7 @@ export default {
   },
 
   components: {
-    ShowVerticalDis
+    ShowDiscount
   }
 
 }
