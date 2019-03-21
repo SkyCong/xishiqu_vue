@@ -38,7 +38,7 @@
 export default {
 
   props: {
-    mData: Array
+    mData: Object
   }
 }
 

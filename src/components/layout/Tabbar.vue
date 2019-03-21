@@ -6,7 +6,7 @@
          <span class="text">首页</span>
       </router-link>
 
-     	<router-link to="/class" active-class="active" tag="li">
+     	<router-link to="/category" active-class="active" tag="li">
         <span class="i category"></span>
         <span class="text">分类</span>
       </router-link>

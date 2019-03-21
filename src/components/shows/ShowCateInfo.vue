@@ -20,7 +20,7 @@ export default {
 
   props: {
     activityCateInfos: {
-      type: Object
+      type: Array
     }
   },
 
@@ -62,7 +62,6 @@ export default {
       color: #999
       font-size: .12rem
       margin-top: .05rem
-        
         
 </style>
 

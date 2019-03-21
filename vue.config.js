@@ -6,14 +6,14 @@
 
 module.exports = {
   // 基本路径
-  baseUrl: './',
-  // 输出文件目录
-  outputDir: 'dist',
-  // eslint-loader 是否在保存的时候检查
-  lintOnSave: true,
-  // use the full build with in-browser compiler?
-  // https://vuejs.org/v2/guide/installation.html#Runtime-Compiler-vs-Runtime-only
-  runtimeCompiler: true, //关键点在这 
+  // baseUrl: './',
+  // // 输出文件目录
+  // outputDir: 'dist',
+  // // eslint-loader 是否在保存的时候检查
+  // lintOnSave: true,
+  // // use the full build with in-browser compiler?
+  // // https://vuejs.org/v2/guide/installation.html#Runtime-Compiler-vs-Runtime-only
+  // runtimeCompiler: true, //关键点在这 
   // webpack配置
   // see https://github.com/vuejs/vue-cli/blob/dev/docs/webpack.md
   chainWebpack: () => {},
@@ -28,24 +28,18 @@ module.exports = {
   },
 
   devServer: {
-    host: '10.60.18.152',
+    host: '10.60.18.51',
     port: 8080,
     proxy: {
       '/ajax': {
-        target: 'http://m.xishiqu.com',
+        target: 'http://m.xishiqu.com/',
         secure: false,//false 为http
         changeOrigin: true
-        // pathRewrite: { 渲染页码时为空
+        // pathRewrite: { 
         //   "^/proxy": ""
         // }
-      }, 
-
-    },
-    before: app => {}
-  },
-  // 第三方插件配置
-  pluginOptions: {
-    // ...
+      }
+    }
   }
 
 }

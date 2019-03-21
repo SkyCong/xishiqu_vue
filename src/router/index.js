@@ -2,7 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 
 import Show from '@/views/home/Show'
-import Class from '@/views/home/Class'
+import Category from '@/views/home/Category'
 import Interest from '@/views/home/Interest'
 import Resell from '@/views/home/Resell'
 import Login from '@/views/home/Login'
@@ -26,9 +26,9 @@ export default new Router({
 
     },
     {
-      path: '/class',
-      name: 'class',
-      component: Class
+      path: '/category',
+      name: 'category',
+      component: Category
       // ,
       // children: [
       //   {

@@ -35,7 +35,7 @@ export default {
 
   props: {
     activityLikeInfos: {
-      type: Object
+      type: Array
     }
   },
 

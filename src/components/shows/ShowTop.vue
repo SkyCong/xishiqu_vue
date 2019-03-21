@@ -3,7 +3,7 @@
     <!-- ———————Banner———————————————————————————————————————— -->
     <div>
       <mt-swipe :auto="4000" class="banne">
-        <mt-swipe-item v-for="(banner , n) in banners" :key="n">
+        <mt-swipe-item v-for="(banner , n) in bannerInfos" :key="n">
           <a :href="banner.url"><img :src="banner.imgUrl"></a>  
         </mt-swipe-item>
       </mt-swipe>
@@ -12,7 +12,7 @@
     <!-- ———————Nav导航———————————————————————————————————————— -->
      <div class="categories">
       <div class="wrapper">
-        <div class="item" v-for="(fruit , n) in fruits" :key="n">
+        <div class="item" v-for="(fruit , n) in frontCateInfos.slice(1)" :key="n">
           <span :class="setClass(fruit.pinyinName)"></span>
           {{fruit.title}}
         </div>
@@ -63,11 +63,11 @@
 <script>
 export default {
   props: {
-    fruits: {
-      type: Object
+    frontCateInfos: {
+      type: Array
     },
-    banners:{
-      type: Object
+    bannerInfos:{
+      type: Array
     }
 
   },

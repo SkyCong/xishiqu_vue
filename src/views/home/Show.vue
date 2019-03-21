@@ -2,7 +2,7 @@
   <div id="home_some">
     <ShowHeader></ShowHeader>
     <div>
-      <ShowTop :fruits="fruits" :banners="banners" class="block-wrapper"></ShowTop>
+      <ShowTop :frontCateInfos="topData.frontCateInfo" :bannerInfos="topData.bannerInfo" class="block-wrapper"></ShowTop>
       <div class="block-wrapper">
         <ShowSevenInfo ></ShowSevenInfo>
         <ShowCateInfo :activityCateInfos="activityCateInfos"></ShowCateInfo>
@@ -21,6 +21,7 @@ import ShowTop from '@/components/shows/ShowTop'
 import ShowSevenInfo from '@/components/shows/ShowSevenInfo'
 import ShowCateInfo from '@/components/shows/ShowCateInfo'
 import ShowLikeInfo from '@/components/shows/ShowLikeInfo'
+import { Indicator } from 'mint-ui'
 
 
 
@@ -28,8 +29,7 @@ export default {
 
   data () {
     return {
-       fruits: [],
-       banners: [],
+       topData: [],
        activityCateInfos: [],
        activityLikeInfos: []
     }
@@ -44,17 +44,27 @@ export default {
   },
 
   async created() {
-    
+    Indicator.open({
+      text: '加载中...',
+      spinnerType: 'fading-circle'
+    });
     const data = await request({
-      url: 'ajax/home/index?cityCode=021'
+      url: 'https://api.myjson.com/bins/z3fja',
+      // url: '/proxy/ajax/home/index',
+      // params : {
+      //   cityCode : '021'
+      // }
+
     })
     const moskData = await request({
-      url: 'https://api.myjson.com/bins/6ufni'
+      url: 'https://api.myjson.com/bins/9cfp6'
     })
-    this.fruits = data.result.frontCateInfo
-    this.banners = moskData
+
+    this.topData = moskData
     this.activityCateInfos = data.result.activityCateInfo   
-    this.activityLikeInfos = data.result.activityLikeInfo   
+    this.activityLikeInfos = data.result.activityLikeInfo  
+
+    Indicator.close();
   },
 
 }
