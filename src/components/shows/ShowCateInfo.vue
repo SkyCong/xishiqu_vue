@@ -5,8 +5,8 @@
         {{activityCate.mTitle}}
         <small>查看更多</small>
       </h3>
-      <ShowCard :mData="activityCate.mData" v-if="flagCard(activityCate.pinyinName)"></ShowCard>
-      <ShowItemX :mData="activityCate.mData" v-if="flagItemX(activityCate.pinyinName)"></ShowItemX>
+      <ShowCard :mData="activityCate.mData[0]" v-if="flagCard(activityCate.pinyinName)"></ShowCard>
+      <ShowItemX :pinyinName="activityCate.pinyinName" :mData="activityCate.mData" v-if="flagItemX(activityCate.pinyinName)"></ShowItemX>
     </div>  
   </div>
 </template>

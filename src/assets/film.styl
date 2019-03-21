@@ -1,0 +1,137 @@
+.node--film {
+    display: flex;
+    font-size: .12rem;
+    line-height: 1.2;
+    color: #999;
+    position: relative;
+    padding: .1rem 0;
+    border-bottom: 1px solid #eee;
+    margin-bottom: .1rem;
+    .thumbnail {
+        width: .967rem;
+        height: 1.28rem;
+        border-radius: 4px;
+        margin-right: .2rem;
+        position: relative;
+        z-index: 10;
+        border-radius: 4px;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        .thumbnail__tag {
+            position: absolute;
+            top: 4px;
+            left: 4px;
+            color: #333;
+            padding: 2px 4px;
+            background: rgba(255, 255, 255, .9);
+            border-radius: 2px;
+            font-size: .1rem;
+        }
+        .thumbnail__score {
+            position: absolute;
+            bottom: 4px;
+            left: 4px;
+            color: #fff;
+            font-size: .1rem;
+            &:first-letter {
+                font-size: .16rem;
+            }
+        }
+        .thumbnail__img {
+            width: 100%;
+            height: auto;
+            border-radius: 4px;
+        }
+    }
+    .main {
+        flex: 1;
+        position: relative;
+        z-index: 10;
+        min-width: 0;
+    }
+    .i {
+        margin-bottom: .05rem;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+    .title {
+        font-size: 14px;
+        font-weight: bold;
+        color: #333;
+        line-height: 1.2;
+        margin: 0 0 .05rem 0;
+    }
+    .scores {
+        color: #FF884E;
+        font-size: 9px;
+        .score {
+            display: inline-block;
+            margin-right: .17rem;
+            .score__source {
+                border: 1px solid #FFD8C5;
+                letter-spacing: .02rem;
+                padding: .02rem 0.08rem .03rem;
+                margin-right: .025rem;
+                margin-bottom: 0;
+            }
+        }
+    }
+    &.time {
+        color: #999999;
+        font-size: 10px;
+    }
+    &.quote {
+        font-size: 12px;
+        color: #000;
+    }
+    &.actors {
+        color: #666;
+        font-size: 10px;
+    }
+    .btn {
+        position: absolute;
+        top: .4rem;
+        right: .05rem;
+        border-radius: 4px;
+        color: #fff;
+        font-size: 12px;
+        &.btn-seat {
+            background: #FF884E;
+        }
+        &.btn-presale {
+            background: #F6A623;
+        }
+    }
+    &.vertical {
+        width: 1rem;
+        border: none;
+        padding: 0;
+        margin: 0;
+        flex-direction: column;
+        .thumbnail {
+            width: 100%;
+            height: 1.4rem;
+            margin: 0 0 .05rem 0;
+            border-radius: 4px;
+        }
+        .title {
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            font-weight: normal;
+            font-size: .12rem;
+        }
+        .price {
+            font-size: .14rem;
+            margin-bottom: .05rem;
+        }
+        .date {
+            color: #999;
+            font-size: .1rem;
+        }
+    }
+}
