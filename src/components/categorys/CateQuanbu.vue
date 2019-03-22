@@ -1,5 +1,5 @@
 <template>
-  <div>Main</div>
+  <div>quanbu</div>
 </template>
 
 

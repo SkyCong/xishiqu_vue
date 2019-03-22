@@ -7,14 +7,28 @@ import Interest from '@/views/home/Interest'
 import Resell from '@/views/home/Resell'
 import Login from '@/views/home/Login'
 
+import CateQuanbu from '@/components/categorys/CateQuanbu'
+import CateYanchanghui from '@/components/categorys/CateYanchanghui'
+import CateHuajugeju from '@/components/categorys/CateHuajugeju'
+import CateXiuxianyule from '@/components/categorys/CateXiuxianyule'
+import CateFilm from '@/components/categorys/CateFilm'
+import CateTiyusaishi from '@/components/categorys/CateTiyusaishi'
+import CateErtongqinzi from '@/components/categorys/CateErtongqinzi'
+import CateYinyuehui from '@/components/categorys/CateYinyuehui'
+import CateQuyizaji from '@/components/categorys/CateQuyizaji'
+import CateWudaobalei from '@/components/categorys/CateWudaobalei'
+
+
+
 // import MovieList from '@/components/movielist/MovieList'
 // import ComingSoon from '@/components/movielist/ComingSoon'
 
 Vue.use(Router)
 
 export default new Router({
-
+  mode: 'history',
   routes: [
+    
     {
       path: '/',
       redirect: '/show'
@@ -28,18 +42,50 @@ export default new Router({
     {
       path: '/category',
       name: 'category',
-      component: Category
-      // ,
-      // children: [
-      //   {
-      //     path: 'inTheater',
-      //     component: MovieList
-      //   },
-      //   {
-      //     path: 'comingSoon',
-      //     component: ComingSoon
-      //   }
-      // ]
+      redirect: '/category/quanbu',
+      component: Category,
+      children: [
+        {
+          path: 'quanbu',
+          component: CateQuanbu
+        },
+        {
+          path: 'yanchanghui',
+          component: CateYanchanghui
+        },
+        {
+          path: 'huajugeju',
+          component: CateHuajugeju
+        },
+        {
+          path: 'xiuxianyule',
+          component: CateXiuxianyule
+        },
+        {
+          path: 'film',
+          component: CateFilm
+        },
+        {
+          path: 'tiyusaishi',
+          component: CateTiyusaishi
+        },
+        {
+          path: 'ertongqinzi',
+          component: CateErtongqinzi
+        },
+        {
+          path: 'yinyuehui',
+          component: CateYinyuehui
+        },
+        {
+          path: 'quyizaji',
+          component: CateQuyizaji
+        },
+        {
+          path: 'wudaobalei',
+          component: CateWudaobalei
+        }
+      ]
     },    
     {
       path: '/interest',

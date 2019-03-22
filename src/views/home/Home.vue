@@ -40,7 +40,6 @@ export default {
     flex 1
     background #fff   
     ellipsis(auto, 2)
-    overflow scroll
 
 </style>
 

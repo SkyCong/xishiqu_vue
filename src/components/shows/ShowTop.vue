@@ -12,8 +12,8 @@
     <!-- ———————Nav导航———————————————————————————————————————— -->
      <div class="categories">
       <div class="wrapper">
-        <div class="item" v-for="(fruit , n) in frontCateInfos.slice(1)" :key="n">
-          <span :class="setClass(fruit.pinyinName)"></span>
+        <div class="item" v-for="(fruit , n) in frontCateInfos" :key="n">
+          <span :class="'cate-icon '+fruit.pinyinName"></span>
           {{fruit.title}}
         </div>
       </div>
@@ -71,13 +71,7 @@ export default {
     }
 
   },
-  methods: {
-    setClass(value) {
-      let obj = {face: true}
-      obj["cate-icon "+`${value}`] = true
-      return obj
-    },
-  },
+
 }
 </script>
 

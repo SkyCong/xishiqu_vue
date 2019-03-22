@@ -1,12 +1,14 @@
 <template>
   <div id="home_some">
     <ShowHeader></ShowHeader>
-    <div>
-      <ShowTop :frontCateInfos="topData.frontCateInfo" :bannerInfos="topData.bannerInfo" class="block-wrapper"></ShowTop>
-      <div class="block-wrapper">
-        <ShowSevenInfo ></ShowSevenInfo>
-        <ShowCateInfo :activityCateInfos="activityCateInfos"></ShowCateInfo>
-        <ShowLikeInfo :activityLikeInfos="activityLikeInfos"></ShowLikeInfo>
+    <div class="list-wrap">
+      <div>
+        <ShowTop :frontCateInfos="topData.frontCateInfo" :bannerInfos="topData.bannerInfo" class="block-wrapper"></ShowTop>
+        <div class="block-wrapper">
+          <ShowSevenInfo ></ShowSevenInfo>
+          <ShowCateInfo :activityCateInfos="activityCateInfos"></ShowCateInfo>
+          <ShowLikeInfo :activityLikeInfos="activityLikeInfos"></ShowLikeInfo>
+        </div>        
       </div>
     </div>
   </div>  
@@ -16,6 +18,7 @@
 <script>
 
 import request from '@/utils/request'
+import BScroll from 'better-scroll'
 import ShowHeader from '@/components/shows/ShowHeader'
 import ShowTop from '@/components/shows/ShowTop'
 import ShowSevenInfo from '@/components/shows/ShowSevenInfo'
@@ -50,14 +53,14 @@ export default {
     });
     const data = await request({
       url: 'https://api.myjson.com/bins/z3fja',
-      // url: '/proxy/ajax/home/index',
+      // url: '/ajax/home/index',
       // params : {
       //   cityCode : '021'
       // }
 
     })
     const moskData = await request({
-      url: 'https://api.myjson.com/bins/9cfp6'
+      url: 'https://api.myjson.com/bins/16zelu'
     })
 
     this.topData = moskData
@@ -67,22 +70,29 @@ export default {
     Indicator.close();
   },
 
+  mounted() {
+    let bScroll = new BScroll('.list-wrap')
+  },
+
 }
 </script>
 
 <style lang="stylus" scoped>
   #home_some
+    height 100%
     background: #F4F4F4;
     padding-bottom: .55rem;
-    .block-wrapper
-      padding: .1rem .12rem;
-      background: #fff;
-      margin-bottom: .12rem;
-      .block
-        border-bottom 1px solid #efefef
-        padding .1rem 0
-          &:last-child 
-            border-bottom none   
+    .list-wrap
+      height 100%
+      .block-wrapper
+        padding: .1rem .12rem;
+        background: #fff;
+        margin-bottom: .12rem;
+        .block
+          border-bottom 1px solid #efefef
+          padding .1rem 0
+            &:last-child 
+              border-bottom none   
 
 </style>
 

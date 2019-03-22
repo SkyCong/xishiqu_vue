@@ -45,19 +45,16 @@
         </div> 
         <i class="btn-date"></i>
       </div>
-
-
     </div>
 
-    
     <div class="categories">
       <div class="wrapper">
-        <div class="item" v-for="(fruit , n) in frontCateInfos" :key="n">
-          <span :class="setClass(fruit.pinyinName)"></span>
+        <router-link class="item" v-for="(fruit , n) in frontCateInfos" :key="n" tag="div" active-class="active" :to="'/category/'+fruit.pinyinName">
+          <span tag="span" :class="'cate-icon '+fruit.pinyinName"  ></span>
           {{fruit.title}}
-        </div>
+        </router-link>
       </div>
-    </div>  
+    </div> 
 
   </div>
 </template>
@@ -74,22 +71,18 @@ export default {
   },
 
   async created() {
+    // Indicator.open({
+    //   text: '加载中...',
+    //   spinnerType: 'fading-circle'
+    // });
     let moskData = await request({
       url: 'https://api.myjson.com/bins/9cfp6'
     })
 
     this.frontCateInfos = moskData.frontCateInfo
-
+    // Indicator.close();
   },
 
-
-  methods: {
-    setClass(value) {
-      let obj = {face: true}
-      obj["cate-icon "+`${value}`] = true
-      return obj
-    }
-  }
 }
 </script>
 
@@ -236,19 +229,23 @@ export default {
         -webkit-justify-content space-between
         -ms-flex-pack justify
         justify-content space-between
-        .item
-          color #999
-          width .52rem
-          font-size .12rem
-          text-align center
 
+
+        .item
+          color: #999;
+          width: .52rem;
+          font-size: .12rem;
+          text-align: center;
+          padding-bottom: .05rem;
+          border-bottom: 2px solid transparent;
           .cate-icon 
             display block
             height .45rem
             background-size contain
             background-repeat no-repeat
             background-position 50%
-
+          .quanbu      
+            background-image url(../../assets/nav/quanbu.png)
 
           .yanchanghui      
             background-image url(../../assets/nav/yanchanghui.png)
@@ -277,6 +274,36 @@ export default {
           .wudaobalei      
             background-image url(../../assets/nav/wudaobalei.png)
       
+        .active
+          color: #ff5400;
+          border-color: #ff5400;
+          .quanbu      
+            background-image url(../../assets/nav/a-quanbu.png)
 
+          .yanchanghui      
+            background-image url(../../assets/nav/a-yanchanghui.png)
 
+          .huajugeju
+            background-image url(../../assets/nav/a-huajugeju.png)
+
+          .film  
+            background-image url(../../assets/nav/a-film.png)
+
+          .xiuxianyule
+            background-image url(../../assets/nav/a-xiuxianyule.png)
+
+          .tiyusaishi
+            background-image url(../../assets/nav/a-tiyusaishi.png)
+
+          .ertongqinzi      
+            background-image url(../../assets/nav/a-ertongqinzi.png)
+
+          .yinyuehui
+            background-image url(../../assets/nav/a-yinyuehui.png)
+
+          .quyizaji
+            background-image url(../../assets/nav/a-quyizaji.png)
+
+          .wudaobalei      
+            background-image url(../../assets/nav/a-wudaobalei.png)
 </style>
