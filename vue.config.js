@@ -29,7 +29,7 @@ module.exports = {
 
   devServer: {
     host: '10.60.18.51',
-    port: 8081,
+    port: 8080,
     proxy: {
       '/ajax': {
         target: 'http://m.xishiqu.com/',

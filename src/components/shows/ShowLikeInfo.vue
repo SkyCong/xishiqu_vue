@@ -1,6 +1,6 @@
 <template>
 
-  <div class="block favours" >
+  <div class="favours" >
 
     <h3 class="block__title">投你所喜</h3>
 

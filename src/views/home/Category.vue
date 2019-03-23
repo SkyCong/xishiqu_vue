@@ -1,7 +1,7 @@
 <template>
   <div id="category">
     <CateHeader class="page__header"></CateHeader>
-    <router-view></router-view>
+    <router-view class="CateScorll"></router-view>
   </div>
     
 </template>

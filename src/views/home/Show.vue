@@ -8,7 +8,8 @@
           <ShowSevenInfo ></ShowSevenInfo>
           <ShowCateInfo :activityCateInfos="activityCateInfos"></ShowCateInfo>
           <ShowLikeInfo :activityLikeInfos="activityLikeInfos"></ShowLikeInfo>
-        </div>        
+        </div>
+        <div class="report"><span class="text">举报电话：<a href="tel:021-52398129" class="tel">021-52398129-403</a></span></div>        
       </div>
     </div>
   </div>  
@@ -60,7 +61,7 @@ export default {
 
     })
     const moskData = await request({
-      url: 'https://api.myjson.com/bins/16zelu'
+      url: '../showHeader.json'
     })
 
     this.topData = moskData
@@ -81,7 +82,7 @@ export default {
   #home_some
     height 100%
     background: #F4F4F4;
-    padding-bottom: .55rem;
+    padding-bottom: .48rem;
     .list-wrap
       height 100%
       .block-wrapper
@@ -93,6 +94,15 @@ export default {
           padding .1rem 0
             &:last-child 
               border-bottom none   
+    .report 
+      background url(../../assets/tips/report.png) left .2rem center/.8rem no-repeat
+      padding 0rem .12rem 0rem 1.2rem
+      font-size .12rem
+      height .5rem
+      line-height .5rem
+      color #999
+      .tel 
+        color #999
 
 </style>
 

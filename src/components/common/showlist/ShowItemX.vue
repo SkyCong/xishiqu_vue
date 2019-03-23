@@ -1,13 +1,10 @@
 <template>
-  <div class="node-list">
-    <div class="wrapper" :style="'width: '+1.12*mData.length+'rem;'">
-      <!--11.2*mData.length-->
-      <template v-if="flagItemX(pinyinName)">
+  <div class="node-list" ref="tab"> 
+     <!-- ref="tab" -->
+    <!--11.2*mData.length-->
+    <template v-if="pinyinName!='film'">
+      <div class="wrapper" :style="'width: '+1.12*(mData.length-1)+'rem;'">
         <div class="node node--activity vertical" v-for="(item , n) in mData.slice(1)" :key="n">
-          <!---->
-          <!---->
-
-          
           <div class="thumbnail" :style="{backgroundImage : 'url('+item.actImgUrl+')'}">
             <!---->
             <div class="thumbnail__hot">
@@ -28,64 +25,80 @@
           </div>
           <!---->
         </div>
-      </template>
-      <template v-else>
-        <div class="node node--film vertical" v-for="(film , t) in mData" :key="t">
-          <div class="thumbnail" :style="{backgroundImage : 'url('+film.filmImg+')'}">            
-          <div class="thumbnail__score">{{film.scoreD}}</div>
-          </div>
-          
-          <div class="main">
-            <h1 class="filmName">{{film.filmName}}</h1>
-          </div>
+      </div>
+    </template>
+
+    <template v-else>
+        <div class="wrapper" :style="'width: '+1.12*mData.length+'rem;'">
+          <!-- <div> -->
+            <div class="node node--film vertical" v-for="(film , t) in mData" :key="t">
+              <div class="thumbnail" :style="{backgroundImage : 'url('+film.filmImg+')'}">
+                <div class="thumbnail__score">{{film.scoreD}}</div>
+              </div>
+              <div class="main">
+                <h1 class="filmName">{{film.filmName}}</h1>
+              </div>
+            </div>  
+          <!-- </div>        -->
         </div>
-      </template>
-    </div> 
+    </template>
+    
   </div>
 </template>
+
 <script>
+import BScroll from 'better-scroll'
 
 export default {
 
   props: {
     mData: Array,
-    pinyinName : String
-  }
-  ,
-    methods: {
-    flagItemX(state) {
-      if(state != 'film')
-        return true
-    }
-  }
+    pinyinName: String
+  },
 
+
+
+  mounted() {
+    this.$nextTick(()=>{
+      if (!this.scroll) {
+        this.scroll=new BScroll(this.$refs.tab, {
+            startX:0,
+            click:true,
+            scrollX:true,
+            scrollY:false,
+            eventPassthrough:'vertical'
+        })
+      }
+      else{
+        this.scroll.refresh()
+      }
+    })
+
+    // let sol = new BScroll(this.$refs.tab, {
+    //       startX:0,
+    //       click:true,
+    //       scrollX:true,
+    //       scrollY:false,
+    //       eventPassthrough:'vertical'
+    //     })
+    //   }
+  }
 }
 
 </script>
 
 <style lang="stylus">
-@import '~@/assets/film.styl'
+@import '~@/assets/film.styl';
+  .node-list 
+    // overflow-x auto 
+    padding .1rem 0
+    margin-right -.12rem
 
-    .main-node 
-        margin-bottom .12rem
-        .node--activity.vertical 
-            width 100%
-            .thumbnail 
-                width 100%
-                height 1.5rem    
-            .main 
-                display none
-                 
-    .node-list 
-        overflow-x auto
-        padding .1rem 0
-        margin-right -.12rem
-        .wrapper 
-            width 5.48rem
-            display flex
-            padding-right .12rem
-            justify-content space-between
-            
-        
+    .wrapper 
+      display flex
+      padding-right .12rem
+      justify-content space-between
+      // overflow-x scroll !important
+
 </style>
 

@@ -1,0 +1,416 @@
+{
+    "code": "200",
+    "msg": "success",
+    "result": {
+        "a": [
+            {
+                "cfgName": "港澳台地区",
+                "areaName": "澳门",
+                "areaCode": "853",
+                "areaAbbre": "am"
+            }
+        ],
+        "b": [
+            {
+                "cfgName": "华北地区",
+                "areaName": "北京",
+                "areaCode": "010",
+                "areaAbbre": "bj"
+            }
+        ],
+        "c": [
+            {
+                "cfgName": "西南地区",
+                "areaName": "成都",
+                "areaCode": "028",
+                "areaAbbre": "cd"
+            },
+            {
+                "cfgName": "东北地区",
+                "areaName": "长春",
+                "areaCode": "431",
+                "areaAbbre": "changchu"
+            },
+            {
+                "cfgName": "西南地区",
+                "areaName": "重庆",
+                "areaCode": "023",
+                "areaAbbre": "cq"
+            },
+            {
+                "cfgName": "华中地区",
+                "areaName": "长沙",
+                "areaCode": "731",
+                "areaAbbre": "cs"
+            },
+            {
+                "cfgName": "华东地区",
+                "areaName": "常州",
+                "areaCode": "519",
+                "areaAbbre": "cz"
+            }
+        ],
+        "d": [
+            {
+                "cfgName": "华南地区",
+                "areaName": "东莞",
+                "areaCode": "769",
+                "areaAbbre": "dg"
+            },
+            {
+                "cfgName": "东北地区",
+                "areaName": "大连",
+                "areaCode": "411",
+                "areaAbbre": "dl"
+            }
+        ],
+        "f": [
+            {
+                "cfgName": "华南地区",
+                "areaName": "佛山",
+                "areaCode": "757",
+                "areaAbbre": "fs"
+            },
+            {
+                "cfgName": "华东地区",
+                "areaName": "福州",
+                "areaCode": "591",
+                "areaAbbre": "fz"
+            }
+        ],
+        "g": [
+            {
+                "cfgName": "华东地区",
+                "areaName": "海外",
+                "areaCode": "100",
+                "areaAbbre": "global"
+            },
+            {
+                "cfgName": "西南地区",
+                "areaName": "贵阳",
+                "areaCode": "851",
+                "areaAbbre": "gy"
+            },
+            {
+                "cfgName": "华南地区",
+                "areaName": "广州",
+                "areaCode": "020",
+                "areaAbbre": "gz"
+            }
+        ],
+        "h": [
+            {
+                "cfgName": "东北地区",
+                "areaName": "哈尔滨",
+                "areaCode": "451",
+                "areaAbbre": "heb"
+            },
+            {
+                "cfgName": "华东地区",
+                "areaName": "合肥",
+                "areaCode": "551",
+                "areaAbbre": "hf"
+            },
+            {
+                "cfgName": "华北地区",
+                "areaName": "呼和浩特",
+                "areaCode": "471",
+                "areaAbbre": "hhht"
+            },
+            {
+                "cfgName": "华东地区",
+                "areaName": "淮安",
+                "areaCode": "517",
+                "areaAbbre": "huaian"
+            },
+            {
+                "cfgName": "华南地区",
+                "areaName": "惠州",
+                "areaCode": "752",
+                "areaAbbre": "huizhou"
+            },
+            {
+                "cfgName": "华东地区",
+                "areaName": "杭州",
+                "areaCode": "571",
+                "areaAbbre": "hz"
+            }
+        ],
+        "j": [
+            {
+                "cfgName": "华东地区",
+                "areaName": "金华",
+                "areaCode": "579",
+                "areaAbbre": "jinhua"
+            },
+            {
+                "cfgName": "华东地区",
+                "areaName": "济南",
+                "areaCode": "531",
+                "areaAbbre": "jn"
+            },
+            {
+                "cfgName": "华东地区",
+                "areaName": "嘉兴",
+                "areaCode": "573",
+                "areaAbbre": "jx"
+            }
+        ],
+        "k": [
+            {
+                "cfgName": "西南地区",
+                "areaName": "昆明",
+                "areaCode": "871",
+                "areaAbbre": "km"
+            }
+        ],
+        "l": [
+            {
+                "cfgName": "华东地区",
+                "areaName": "连云港",
+                "areaCode": "518",
+                "areaAbbre": "lianyung"
+            },
+            {
+                "cfgName": "华北地区",
+                "areaName": "临沂",
+                "areaCode": "539",
+                "areaAbbre": "linyi"
+            },
+            {
+                "cfgName": "华东地区",
+                "areaName": "丽水",
+                "areaCode": "578",
+                "areaAbbre": "ls"
+            },
+            {
+                "cfgName": "华中地区",
+                "areaName": "洛阳市",
+                "areaCode": "379",
+                "areaAbbre": "luoyang"
+            }
+        ],
+        "m": [
+            {
+                "cfgName": "华东地区",
+                "areaName": "马鞍山",
+                "areaCode": "555",
+                "areaAbbre": "mas"
+            }
+        ],
+        "n": [
+            {
+                "cfgName": "华东地区",
+                "areaName": "宁波",
+                "areaCode": "574",
+                "areaAbbre": "nb"
+            },
+            {
+                "cfgName": "华东地区",
+                "areaName": "南昌",
+                "areaCode": "791",
+                "areaAbbre": "nc"
+            },
+            {
+                "cfgName": "华东地区",
+                "areaName": "南京",
+                "areaCode": "025",
+                "areaAbbre": "nj"
+            },
+            {
+                "cfgName": "华南地区",
+                "areaName": "南宁",
+                "areaCode": "771",
+                "areaAbbre": "nn"
+            },
+            {
+                "cfgName": "华东地区",
+                "areaName": "南通",
+                "areaCode": "513",
+                "areaAbbre": "nt"
+            }
+        ],
+        "q": [
+            {
+                "cfgName": "华东地区",
+                "areaName": "青岛",
+                "areaCode": "532",
+                "areaAbbre": "qd"
+            },
+            {
+                "cfgName": "华北地区",
+                "areaName": "秦皇岛",
+                "areaCode": "335",
+                "areaAbbre": "qhd"
+            },
+            {
+                "cfgName": "华东地区",
+                "areaName": "泉州",
+                "areaCode": "595",
+                "areaAbbre": "quanzhou"
+            }
+        ],
+        "s": [
+            {
+                "cfgName": "华东地区",
+                "areaName": "上海",
+                "areaCode": "021",
+                "areaAbbre": "sh"
+            },
+            {
+                "cfgName": "华东地区",
+                "areaName": "绍兴",
+                "areaCode": "575",
+                "areaAbbre": "shaoxing"
+            },
+            {
+                "cfgName": "华北地区",
+                "areaName": "石家庄",
+                "areaCode": "311",
+                "areaAbbre": "sjz"
+            },
+            {
+                "cfgName": "华东地区",
+                "areaName": "苏州",
+                "areaCode": "512",
+                "areaAbbre": "suzhou"
+            },
+            {
+                "cfgName": "东北地区",
+                "areaName": "沈阳",
+                "areaCode": "024",
+                "areaAbbre": "sy"
+            },
+            {
+                "cfgName": "华南地区",
+                "areaName": "深圳",
+                "areaCode": "755",
+                "areaAbbre": "sz"
+            }
+        ],
+        "t": [
+            {
+                "cfgName": "港澳台地区",
+                "areaName": "台湾",
+                "areaCode": "886",
+                "areaAbbre": "taiwan"
+            },
+            {
+                "cfgName": "华北地区",
+                "areaName": "天津",
+                "areaCode": "022",
+                "areaAbbre": "tj"
+            },
+            {
+                "cfgName": "华北地区",
+                "areaName": "太原",
+                "areaCode": "351",
+                "areaAbbre": "ty"
+            },
+            {
+                "cfgName": "华东地区",
+                "areaName": "台州",
+                "areaCode": "576",
+                "areaAbbre": "tzhou"
+            }
+        ],
+        "w": [
+            {
+                "cfgName": "华东地区",
+                "areaName": "威海",
+                "areaCode": "631",
+                "areaAbbre": "weihai"
+            },
+            {
+                "cfgName": "华东地区",
+                "areaName": "潍坊",
+                "areaCode": "536",
+                "areaAbbre": "wfang"
+            },
+            {
+                "cfgName": "华中地区",
+                "areaName": "武汉",
+                "areaCode": "027",
+                "areaAbbre": "wh"
+            },
+            {
+                "cfgName": "华东地区",
+                "areaName": "无锡",
+                "areaCode": "510",
+                "areaAbbre": "wx"
+            },
+            {
+                "cfgName": "华东地区",
+                "areaName": "温州",
+                "areaCode": "577",
+                "areaAbbre": "wz"
+            }
+        ],
+        "x": [
+            {
+                "cfgName": "西北地区",
+                "areaName": "西安市",
+                "areaCode": "029",
+                "areaAbbre": "xa"
+            },
+            {
+                "cfgName": "港澳台地区",
+                "areaName": "香港",
+                "areaCode": "852",
+                "areaAbbre": "xg"
+            },
+            {
+                "cfgName": "华东地区",
+                "areaName": "厦门",
+                "areaCode": "592",
+                "areaAbbre": "xm"
+            },
+            {
+                "cfgName": "华东地区",
+                "areaName": "徐州",
+                "areaCode": "516",
+                "areaAbbre": "xz"
+            }
+        ],
+        "y": [
+            {
+                "cfgName": "华东地区",
+                "areaName": "扬州",
+                "areaCode": "514",
+                "areaAbbre": "yangzhou"
+            },
+            {
+                "cfgName": "西北地区",
+                "areaName": "银川",
+                "areaCode": "951",
+                "areaAbbre": "yinchuan"
+            },
+            {
+                "cfgName": "华东地区",
+                "areaName": "烟台",
+                "areaCode": "535",
+                "areaAbbre": "yt"
+            }
+        ],
+        "z": [
+            {
+                "cfgName": "华南地区",
+                "areaName": "珠海",
+                "areaCode": "756",
+                "areaAbbre": "zh"
+            },
+            {
+                "cfgName": "华南地区",
+                "areaName": "中山市",
+                "areaCode": "760",
+                "areaAbbre": "zs"
+            },
+            {
+                "cfgName": "华中地区",
+                "areaName": "郑州",
+                "areaCode": "371",
+                "areaAbbre": "zz"
+            }
+        ]
+    }
+}

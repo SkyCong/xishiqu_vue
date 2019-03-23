@@ -76,7 +76,7 @@ export default {
     //   spinnerType: 'fading-circle'
     // });
     let moskData = await request({
-      url: 'https://api.myjson.com/bins/9cfp6'
+      url: '../cateHeader.json'
     })
 
     this.frontCateInfos = moskData.frontCateInfo

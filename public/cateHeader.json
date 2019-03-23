@@ -1,0 +1,96 @@
+{
+    "bannerInfo": [
+        {
+            "idNameName": "费玉清",
+            "imgUrl": "http://image.xishiqu.cn/upload/apic/920/181/920181214//1E2A6AC5-E816-41EE-BE00-6E90A3B1C7F8.jpg",
+            "url": "http://m.xishiqu.com/activity/anlianthysh?specialidName=81"
+        },
+        {
+            "idName": "汪峰",
+            "imgUrl": "http://image4.xishiqu.cn/upload/apic/920/190/920190308//46FD7A75-1FB3-422F-A984-5997578D6441.jpg",
+            "url": "http://m.xishiqu.com/activity/anlianthysh?specialidName=81"
+        },
+        {
+            "idName": "郭富城",
+            "imgUrl": "http://image3.xishiqu.cn/upload/apic/920/190/920190308//4662B1D3-5FC7-0A78-8080-2A8DB2D17CB7.jpg",
+            "url": "http://m.xishiqu.com/activity/anlianthysh?specialidName=81"
+        },
+        {
+            "idName": "张杰",
+            "imgUrl": "http://image3.xishiqu.cn/upload/apic/920/190/920190311//BF9B112D-169E-EE08-AC6C-4F0B6007D447.jpg",
+            "url": "http://m.xishiqu.com/activity/anlianthysh?specialidName=81"
+        },
+        {
+            "idName": "桃花源",
+            "imgUrl": "http://image4.xishiqu.cn/upload/apic/920/181/920181024//0D59EA12-9D33-2A58-E4E6-BBB803938161.jpg",
+            "url": "http://m.xishiqu.com/activity/anlianthysh?specialidName=81"
+        },
+        {
+            "idName": "林宥嘉",
+            "imgUrl": "http://image4.xishiqu.cn/upload/apic/920/190/920190308//D1E1FC36-0DFD-7500-B572-6F5A93CD7992.jpg",
+            "url": "http://m.xishiqu.com/activity/anlianthysh?specialidName=81"
+        }
+    ],
+    "frontCateInfo": [
+        {
+            "pinyinName": "quanbu",
+            "title": "全部",
+            "isCustom": 0,
+            "code": "3000"
+        },
+        {
+            "pinyinName": "yanchanghui",
+            "title": "演唱会",
+            "isCustom": 0,
+            "code": "4000"
+        },
+        {
+            "pinyinName": "huajugeju",
+            "title": "话剧歌剧",
+            "isCustom": 0,
+            "code": "5000"
+        },
+        {
+            "pinyinName": "xiuxianyule",
+            "title": "休闲娱乐",
+            "isCustom": 0,
+            "code": "B000"
+        },
+        {
+            "pinyinName": "film",
+            "title": "电影",
+            "isCustom": 0,
+            "code": "C000"
+        },
+        {
+            "pinyinName": "tiyusaishi",
+            "title": "体育赛事",
+            "isCustom": 0,
+            "code": "A000"
+        },
+        {
+            "pinyinName": "ertongqinzi",
+            "title": "儿童亲子",
+            "isCustom": 0,
+            "code": "7000"
+        },
+        {
+            "pinyinName": "yinyuehui",
+            "title": "音乐会",
+            "isCustom": 0,
+            "code": "6000"
+        },
+        {
+            "pinyinName": "quyizaji",
+            "title": "曲艺杂技",
+            "isCustom": 0,
+            "code": "9000"
+        },
+        {
+            "pinyinName": "wudaobalei",
+            "title": "舞蹈芭蕾",
+            "isCustom": 0,
+            "code": "8000"
+        }
+    ]
+}

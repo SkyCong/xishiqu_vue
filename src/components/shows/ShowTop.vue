@@ -61,6 +61,8 @@
 </template>
 
 <script>
+import BScroll from 'better-scroll'
+
 export default {
   props: {
     frontCateInfos: {
@@ -69,9 +71,17 @@ export default {
     bannerInfos:{
       type: Array
     }
-
   },
 
+  mounted() {
+    let navScorll = new BScroll(".categories", {
+        startX:0,
+        click:true,
+        scrollX:true,
+        scrollY:false,
+        eventPassthrough:'vertical'
+      })
+    }
 }
 </script>
 
