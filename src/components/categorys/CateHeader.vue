@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="">
     <div class="header-container">
       <!-- ——————————————左边的定位—————————————— -->
       <div class="left">
@@ -76,7 +76,7 @@ export default {
     //   spinnerType: 'fading-circle'
     // });
     let moskData = await request({
-      url: '../cateHeader.json'
+      url: '/cateHeader.json'
     })
 
     this.frontCateInfos = moskData.frontCateInfo
@@ -218,6 +218,12 @@ export default {
       overflow-x: auto;
       -webkit-box-shadow: 0 0 4px 0 #ddd;
       box-shadow: 0 0 4px 0 #ddd;
+      background: #fff;
+      position: fixed;
+      z-index: 800;
+      top: .45rem;
+      left: 0;
+      width: 100%;
       .wrapper 
         width 6.7rem
         padding-right .12rem

@@ -1,0 +1,1838 @@
+{
+    "code": "200",
+    "msg": "success",
+    "result": {
+        "bannerInfo": [
+            {
+                "imgUrl": "http://image4.xishiqu.cn/upload/apic/920/181/920181024//0D59EA12-9D33-2A58-E4E6-BBB803938161.jpg",
+                "url": "http://m.xishiqu.com/activity/anlianthysh?specialId=81"
+            }
+        ],
+        "frontCateInfo": [
+            {
+                "pinyinName": "yanchanghui",
+                "title": "演唱会",
+                "isCustom": 0,
+                "code": "4000"
+            },
+            {
+                "pinyinName": "huajugeju",
+                "title": "话剧歌剧",
+                "isCustom": 0,
+                "code": "5000"
+            },
+            {
+                "pinyinName": "xiuxianyule",
+                "title": "休闲娱乐",
+                "isCustom": 0,
+                "code": "B000"
+            },
+            {
+                "pinyinName": "film",
+                "title": "电影",
+                "isCustom": 0,
+                "code": "C000"
+            },
+            {
+                "pinyinName": "tiyusaishi",
+                "title": "体育赛事",
+                "isCustom": 0,
+                "code": "A000"
+            },
+            {
+                "pinyinName": "ertongqinzi",
+                "title": "儿童亲子",
+                "isCustom": 0,
+                "code": "7000"
+            },
+            {
+                "pinyinName": "yinyuehui",
+                "title": "音乐会",
+                "isCustom": 0,
+                "code": "6000"
+            },
+            {
+                "pinyinName": "quyizaji",
+                "title": "曲艺杂技",
+                "isCustom": 0,
+                "code": "9000"
+            },
+            {
+                "pinyinName": "wudaobalei",
+                "title": "舞蹈芭蕾",
+                "isCustom": 0,
+                "code": "8000"
+            }
+        ],
+        "mktInfo": [
+            {
+                "actTitle": "秒杀",
+                "event": {
+                    "actionData": "http://m.xishiqu.com/html/shopping11secKill.php#/secKill?specialId=153",
+                    "action": "wap2"
+                },
+                "imgUrl": "http://image.xishiqu.cn/upload/apic/920/181/920181228//8110B248-8C7F-6AF1-A2CD-C9ED4075E698.png",
+                "isMiaosha": 0,
+                "msStartTime": -5907413000,
+                "nextStartTime": "2019-01-14 14:00:00",
+                "acRemark": ""
+            },
+            {
+                "actTitle": "每月打卡",
+                "event": {
+                    "actionData": "http://m.xishiqu.com/html/mktKit.php?mkId=1202&specialId=153",
+                    "action": "wap2"
+                },
+                "imgUrl": "http://image3.xishiqu.cn/upload/apic/920/190/920190307//51709A14-F31C-DC33-3CFC-AB81EB7EAEB2.jpg",
+                "isMiaosha": 0,
+                "msStartTime": "",
+                "nextStartTime": "",
+                "acRemark": ""
+            },
+            {
+                "actTitle": "西米有礼",
+                "event": {
+                    "actionData": "",
+                    "action": "gift"
+                },
+                "imgUrl": "http://image4.xishiqu.cn/upload/apic/920/180/920180330//D2F65965-E313-1188-7C9A-DF7911CA4AE5.jpg",
+                "isMiaosha": 0,
+                "msStartTime": "",
+                "nextStartTime": "",
+                "acRemark": "赢100西米"
+            }
+        ],
+        "activityCateInfo": [
+            {
+                "mTitle": "演唱会",
+                "pinyinName": "yanchanghui",
+                "mData": [
+                    {
+                        "actCode": "20190313001",
+                        "actName": "预订 2019超级草莓音乐节—上海站",
+                        "actImgUrl": "http://image.xishiqu.cn/upload/activity/119/031/20190313001/v/b/F4F0FD71-3A45-1DFF-1C96-67891F5D7226.jpg",
+                        "actHdImgUrl": "",
+                        "lowPrice": "578.00",
+                        "hotLevel": "113.4",
+                        "city": {
+                            "cityCode": "021",
+                            "cityName": "上海"
+                        },
+                        "venue": {
+                            "veName": "上海滩运动公社（原上海瑞可碧橄榄球俱乐部）"
+                        },
+                        "maxDiscount": "",
+                        "actTime": "04.26~04.28",
+                        "intro": "本次沪蓉双城超级草莓现场共设置10个舞台，邀请包括来自英国、美国、日本、荷兰等150余组艺人参演",
+                        "sellerCount": "3",
+                        "pinyinName": "cmsh"
+                    },
+                    {
+                        "actCode": "20181119002",
+                        "actName": "预订 费玉清告别演唱会—上海站",
+                        "actImgUrl": "http://image3.xishiqu.cn/upload/activity/118/111/20181119002/v/b/9E466839-6A8D-FAFB-EEA1-D90077E96646.jpg",
+                        "actHdImgUrl": "",
+                        "lowPrice": "550.00",
+                        "hotLevel": "134.9",
+                        "city": {
+                            "cityCode": "021",
+                            "cityName": "上海"
+                        },
+                        "venue": {
+                            "veName": "梅赛德斯—奔驰文化中心"
+                        },
+                        "maxDiscount": "",
+                        "actTime": "03.30~03.31",
+                        "intro": "他的演唱会，永远都是一个人，一套西装，一杯白开水，自己一个人唱满几个小时",
+                        "sellerCount": "12",
+                        "pinyinName": "feiyuqsh"
+                    },
+                    {
+                        "actCode": "20190123010",
+                        "actName": "预订  林宥嘉idol世界巡回演唱会—上海站",
+                        "actImgUrl": "http://image5.xishiqu.cn/upload/activity/119/012/20190123010/v/b/611C0E22-07DF-84F3-61C5-50B09735633F.jpg",
+                        "actHdImgUrl": "",
+                        "lowPrice": "642.00",
+                        "hotLevel": "103.7",
+                        "city": {
+                            "cityCode": "021",
+                            "cityName": "上海"
+                        },
+                        "venue": {
+                            "veName": "上海虹口足球场"
+                        },
+                        "maxDiscount": "",
+                        "actTime": "05.11 周六 19:30",
+                        "intro": "这是一场跨越语言隔阂的演唱会，连不懂中文的人都可以非常享受",
+                        "sellerCount": "8",
+                        "pinyinName": "lyjidolychshz"
+                    },
+                    {
+                        "actCode": "20190123009",
+                        "actName": "预订  张杰【未  LIVE】 巡回演唱会—上海站",
+                        "actImgUrl": "http://image.xishiqu.cn/upload/activity/119/012/20190123009/v/b/1BFA522A-B4DD-87CD-6ACE-944926E0C04C.jpg",
+                        "actHdImgUrl": "",
+                        "lowPrice": "486.00",
+                        "hotLevel": "96.5",
+                        "city": {
+                            "cityCode": "021",
+                            "cityName": "上海"
+                        },
+                        "venue": {
+                            "veName": "上海虹口足球场"
+                        },
+                        "maxDiscount": "",
+                        "actTime": "04.20 周六 19:30",
+                        "intro": "2019焕然升级，再度出发，星星集结，共赴华语LIVE。过去成曲，唱向未来，张杰将未LIVE献给你",
+                        "sellerCount": "8",
+                        "pinyinName": "zjwlychshz"
+                    },
+                    {
+                        "actCode": "20190122001",
+                        "actName": "陈绮贞20周年演唱会《漫漫长夜 Cheer 20》—上海站",
+                        "actImgUrl": "http://image3.xishiqu.cn/upload/activity/119/012/20190122001/v/b/6D344526-964F-A4E7-11A5-847D13C4AC59.jpg",
+                        "actHdImgUrl": "",
+                        "lowPrice": "420.00",
+                        "hotLevel": "116.0",
+                        "city": {
+                            "cityCode": "021",
+                            "cityName": "上海"
+                        },
+                        "venue": {
+                            "veName": "梅赛德斯—奔驰文化中心"
+                        },
+                        "maxDiscount": "",
+                        "actTime": "04.20 周六 19:30",
+                        "intro": "有一个夜晚，像20年一样长，我们赞颂黑暗与星空，希望天永远不要亮",
+                        "sellerCount": "8",
+                        "pinyinName": "cqzmmcycshz"
+                    },
+                    {
+                        "actCode": "20190123011",
+                        "actName": "预订  Troye Sivan特洛伊 希梵：盛放巡演—上海站",
+                        "actImgUrl": "http://image5.xishiqu.cn/upload/activity/119/012/20190123011/v/b/331D361E-118E-F164-638B-A76802698174.jpg",
+                        "actHdImgUrl": "",
+                        "lowPrice": "980.00",
+                        "hotLevel": "142.3",
+                        "city": {
+                            "cityCode": "021",
+                            "cityName": "上海"
+                        },
+                        "venue": {
+                            "veName": "梅赛德斯—奔驰文化中心"
+                        },
+                        "maxDiscount": "",
+                        "actTime": "04.22 周一 20:00",
+                        "intro": "澳洲流行才子，TroyeSivan特洛伊希梵，盛放巡演2019上海站",
+                        "sellerCount": "8",
+                        "pinyinName": "tstlysfychshz"
+                    },
+                    {
+                        "actCode": "20190125001",
+                        "actName": "预订  汪峰《就这样》巡回演唱会—上海站",
+                        "actImgUrl": "http://image3.xishiqu.cn/upload/activity/119/012/20190125001/v/b/6A30C2A9-0476-11EC-F80D-CAD09D17D75E.jpg",
+                        "actHdImgUrl": "",
+                        "lowPrice": "500.00",
+                        "hotLevel": "98.5",
+                        "city": {
+                            "cityCode": "021",
+                            "cityName": "上海"
+                        },
+                        "venue": {
+                            "veName": "梅赛德斯—奔驰文化中心"
+                        },
+                        "maxDiscount": "",
+                        "actTime": "05.25 周六 19:30",
+                        "intro": "此次巡回演唱会，大步前进的汪峰用回归的姿态开启着一段全新的旅程",
+                        "sellerCount": "7",
+                        "pinyinName": "wfjzyychshz"
+                    },
+                    {
+                        "actCode": "20190215005",
+                        "actName": "预订 郭富城《舞林密码》世界巡回演唱会—上海站",
+                        "actImgUrl": "http://image5.xishiqu.cn/upload/activity/119/021/20190215005/v/b/77781A61-4A82-77B4-CAE2-18F6013FB34E.jpg",
+                        "actHdImgUrl": "",
+                        "lowPrice": "610.00",
+                        "hotLevel": "100.6",
+                        "city": {
+                            "cityCode": "021",
+                            "cityName": "上海"
+                        },
+                        "venue": {
+                            "veName": "梅赛德斯—奔驰文化中心"
+                        },
+                        "maxDiscount": "",
+                        "actTime": "05.11 周六 19:30",
+                        "intro": "华人音乐之骄傲，演出舞台之动魄，震撼寰宇的划时代全球巡演终于拉开帷幕",
+                        "sellerCount": "4",
+                        "pinyinName": "gfcshych"
+                    },
+                    {
+                        "actCode": "20181112001",
+                        "actName": "预订 伍佰 China Blue Rock Star演唱会—上海站",
+                        "actImgUrl": "http://image6.xishiqu.cn/upload/activity/118/111/20181112001/v/b/2F8ADC07-9265-D47D-1F6B-7D813B6695A3.jpg",
+                        "actHdImgUrl": "",
+                        "lowPrice": "420.00",
+                        "hotLevel": "99.8",
+                        "city": {
+                            "cityCode": "021",
+                            "cityName": "上海"
+                        },
+                        "venue": {
+                            "veName": "梅赛德斯—奔驰文化中心"
+                        },
+                        "maxDiscount": "",
+                        "actTime": "05.18 周六 19:30",
+                        "intro": "他的大型演唱会绝对不只是一辈子要朝圣一次的现场，而是每一次降临都是不能错过的现场。",
+                        "sellerCount": "9",
+                        "pinyinName": "wbychsh"
+                    },
+                    {
+                        "actCode": "20190215007",
+                        "actName": "预订 LOVE LIVE! SUNSHINE Aqours World Love Live! ASIA TOUR—上海站",
+                        "actImgUrl": "http://image.xishiqu.cn/upload/activity/119/021/20190215007/v/b/27B929F8-BA15-2A08-7ACB-48079863740C.jpg",
+                        "actHdImgUrl": "",
+                        "lowPrice": "968.00",
+                        "hotLevel": "144.1",
+                        "city": {
+                            "cityCode": "021",
+                            "cityName": "上海"
+                        },
+                        "venue": {
+                            "veName": "上海虹桥•国家会展中心"
+                        },
+                        "maxDiscount": "",
+                        "actTime": "03.23~03.24",
+                        "intro": "唱响上海，嗨翻LoveLive",
+                        "sellerCount": "3",
+                        "pinyinName": "ssawllat"
+                    },
+                    {
+                        "actCode": "20190304002",
+                        "actName": "预订 HYDE世界巡回演唱会2019—上海站",
+                        "actImgUrl": "http://image4.xishiqu.cn/upload/activity/119/030/20190304002/v/b/B039B601-59E0-83EB-A14D-8D893F502FF6.jpg",
+                        "actHdImgUrl": "",
+                        "lowPrice": "1075.00",
+                        "hotLevel": "113.8",
+                        "city": {
+                            "cityCode": "021",
+                            "cityName": "上海"
+                        },
+                        "venue": {
+                            "veName": "上海虹桥•国家会展中心"
+                        },
+                        "maxDiscount": "",
+                        "actTime": "03.27 周三 19:30",
+                        "intro": "HYDE用现场的不羁的live告诉你，你可以用音乐对抗整个世界的压力",
+                        "sellerCount": "2",
+                        "pinyinName": "hydeychshz"
+                    }
+                ]
+            },
+            {
+                "mTitle": "话剧歌剧",
+                "pinyinName": "huajugeju",
+                "mData": [
+                    {
+                        "actCode": "20180925017",
+                        "actName": "赖声川经典舞台剧作品《暗恋桃花源》（经典版）—上海站",
+                        "actImgUrl": "http://image4.xishiqu.cn/upload/activity/118/092/20180925017/v/b/349154CF-395A-B31C-E617-8374640A5296.jpg",
+                        "actHdImgUrl": "",
+                        "lowPrice": "1880.00",
+                        "hotLevel": "178.2",
+                        "city": {
+                            "cityCode": "021",
+                            "cityName": "上海"
+                        },
+                        "venue": {
+                            "veName": "上剧场"
+                        },
+                        "maxDiscount": "",
+                        "actTime": "03.23~03.24",
+                        "intro": "暗恋桃花源一剧以奇特的戏剧结构和悲喜交错的观看效果闻名于世，被称为表演工作坊的镇团之宝",
+                        "sellerCount": "6",
+                        "pinyinName": "anlianthysh"
+                    },
+                    {
+                        "actCode": "20190321004",
+                        "actName": "预订 法语原版音乐剧《巴黎圣母院》—上海站",
+                        "actImgUrl": "http://image3.xishiqu.cn/upload/activity/119/032/20190321004/v/b/B96689F5-266F-FBBE-F373-83139B3B6B07.jpg",
+                        "actHdImgUrl": "",
+                        "lowPrice": "304.00",
+                        "hotLevel": "108.0",
+                        "city": {
+                            "cityCode": "021",
+                            "cityName": "上海"
+                        },
+                        "venue": {
+                            "veName": "上汽上海文化广场"
+                        },
+                        "maxDiscount": "",
+                        "actTime": "07.19~07.26",
+                        "intro": "巴黎圣母院值得看的一部音乐剧。",
+                        "sellerCount": "6",
+                        "pinyinName": "blsmy"
+                    },
+                    {
+                        "actCode": "20190308001",
+                        "actName": "预订 音乐剧《白夜行》—上海站",
+                        "actImgUrl": "http://image.xishiqu.cn/upload/activity/119/030/20190308001/v/b/5B4E590B-48CF-FBBD-0102-53C7980B1D35.jpg",
+                        "actHdImgUrl": "",
+                        "lowPrice": "535.00",
+                        "hotLevel": "117.3",
+                        "city": {
+                            "cityCode": "021",
+                            "cityName": "上海"
+                        },
+                        "venue": {
+                            "veName": "上汽上海文化广场"
+                        },
+                        "maxDiscount": "",
+                        "actTime": "06.29~07.07",
+                        "intro": "2018音乐剧黑马，2019再度引燃魔都，白夜行音乐剧，春夏巡演上海站",
+                        "sellerCount": "8",
+                        "pinyinName": "byxyyj"
+                    },
+                    {
+                        "actCode": "20181227012",
+                        "actName": "话剧 暗恋桃花源（专属版）—上海站",
+                        "actImgUrl": "http://image6.xishiqu.cn/upload/activity/118/122/20181227012/v/b/35D6EB1F-F39B-BA2A-0B34-1CFC402FC1D9.jpg",
+                        "actHdImgUrl": "",
+                        "lowPrice": "265.00",
+                        "hotLevel": "124.2",
+                        "city": {
+                            "cityCode": "021",
+                            "cityName": "上海"
+                        },
+                        "venue": {
+                            "veName": "上剧场"
+                        },
+                        "maxDiscount": "",
+                        "actTime": "04.18~04.21",
+                        "intro": "暗恋桃花源一剧以奇特的戏剧结构和悲喜交错的观看效果闻名于世，被称为表演工作坊的镇团之宝",
+                        "sellerCount": "6",
+                        "pinyinName": "anthyzsbshz"
+                    },
+                    {
+                        "actCode": "20190221009",
+                        "actName": "预订 东野圭吾《信》音乐剧中文版—上海站",
+                        "actImgUrl": "http://image.xishiqu.cn/upload/activity/119/022/20190221009/v/b/36221F16-5D8B-3B5C-F87D-06081C0B99EF.jpg",
+                        "actHdImgUrl": "",
+                        "lowPrice": "320.00",
+                        "hotLevel": "143.6",
+                        "city": {
+                            "cityCode": "021",
+                            "cityName": "上海"
+                        },
+                        "venue": {
+                            "veName": "云峰剧院"
+                        },
+                        "maxDiscount": "",
+                        "actTime": "04.18~04.28",
+                        "intro": "他们即将在舞台上进行一场有关经验和灵感、过去与现在的对决交锋，碰撞出全新的火花",
+                        "sellerCount": "10",
+                        "pinyinName": "yyjxshz"
+                    },
+                    {
+                        "actCode": "20190123007",
+                        "actName": "《暗恋桃花源》（30周年纪念版）—上海站",
+                        "actImgUrl": "http://image6.xishiqu.cn/upload/activity/119/012/20190123007/v/b/C75E8E3B-4587-73D0-9729-C08FA60855FA.jpg",
+                        "actHdImgUrl": "",
+                        "lowPrice": "276.00",
+                        "hotLevel": "118.6",
+                        "city": {
+                            "cityCode": "021",
+                            "cityName": "上海"
+                        },
+                        "venue": {
+                            "veName": "上剧场"
+                        },
+                        "maxDiscount": "",
+                        "actTime": "04.05~04.14",
+                        "intro": "三十年常演不衰，再度献演上剧场舞台，邀您共赴桃花源之约",
+                        "sellerCount": "2",
+                        "pinyinName": "althyjnbshz"
+                    },
+                    {
+                        "actCode": "20181107009",
+                        "actName": "预订 世界原版经典音乐剧《猫》CATS—上海站",
+                        "actImgUrl": "http://image3.xishiqu.cn/upload/activity/118/110/20181107009/v/b/4E44BF04-CA0B-A7D7-FF8B-CA2C85CF7C93.jpg",
+                        "actHdImgUrl": "",
+                        "lowPrice": "536.00",
+                        "hotLevel": "113.2",
+                        "city": {
+                            "cityCode": "021",
+                            "cityName": "上海"
+                        },
+                        "venue": {
+                            "veName": "上汽上海文化广场"
+                        },
+                        "maxDiscount": "",
+                        "actTime": "06.07~06.16",
+                        "intro": "一个特别的夜晚，杰里科猫家族正在举行一年一度的舞会。形形色色的猫咪们为争取那一个重生机会",
+                        "sellerCount": "8",
+                        "pinyinName": "maoshangh"
+                    },
+                    {
+                        "actCode": "20190221006",
+                        "actName": "阿加莎 克里斯蒂传世巨著 无人生还—上海站",
+                        "actImgUrl": "http://image.xishiqu.cn/upload/activity/119/022/20190221006/v/b/2C6EFB3C-94B3-9454-4A19-1853DCEB887A.jpg",
+                        "actHdImgUrl": "",
+                        "lowPrice": "278.00",
+                        "hotLevel": "121.9",
+                        "city": {
+                            "cityCode": "021",
+                            "cityName": "上海"
+                        },
+                        "venue": {
+                            "veName": "美琪大戏院"
+                        },
+                        "maxDiscount": "",
+                        "actTime": "07.25~08.04",
+                        "intro": "古老的童谣如同诅咒，在心中一次次响起，揭开了人们各自隐藏在心中多年的秘密",
+                        "sellerCount": "6",
+                        "pinyinName": "wrshshz"
+                    },
+                    {
+                        "actCode": "20190312028",
+                        "actName": "英国国家剧院现场呈现《简 爱》—上海站",
+                        "actImgUrl": "http://image3.xishiqu.cn/upload/activity/119/031/20190312027/v/b/BD8B115D-9585-6F56-DC58-9177A792F846.jpg",
+                        "actHdImgUrl": "",
+                        "lowPrice": "300.00",
+                        "hotLevel": "149.9",
+                        "city": {
+                            "cityCode": "021",
+                            "cityName": "上海"
+                        },
+                        "venue": {
+                            "veName": "黄浦剧场"
+                        },
+                        "maxDiscount": "",
+                        "actTime": "03.29~04.19",
+                        "intro": "英国国家剧院与布里斯托老维克剧院联合出品",
+                        "sellerCount": "1",
+                        "pinyinName": "jiaaiaaa"
+                    },
+                    {
+                        "actCode": "20181212009",
+                        "actName": "阿加莎推理名剧《谋杀启事》中文版—上海站",
+                        "actImgUrl": "http://image5.xishiqu.cn/upload/activity/118/121/20181212009/v/b/22A93E43-3C70-0CC7-018E-C3D072A46ED8.jpg",
+                        "actHdImgUrl": "",
+                        "lowPrice": "380.00",
+                        "hotLevel": "139.1",
+                        "city": {
+                            "cityCode": "021",
+                            "cityName": "上海"
+                        },
+                        "venue": {
+                            "veName": "新光小剧场（新光影艺苑）"
+                        },
+                        "maxDiscount": "",
+                        "actTime": "03.28~04.28",
+                        "intro": "六点半钟声响起，灯忽然熄灭。人们在黑暗中尖叫着，颤抖着，兴奋地等待着一场刺激游戏",
+                        "sellerCount": "5",
+                        "pinyinName": "msqsshz"
+                    },
+                    {
+                        "actCode": "20190318001",
+                        "actName": "诗情话剧《漫长的告白》—上海站",
+                        "actImgUrl": "http://image4.xishiqu.cn/upload/activity/119/031/20190318001/v/b/A96FBE79-6814-318D-77EF-638A0C4D877A.jpg",
+                        "actHdImgUrl": "",
+                        "lowPrice": "1400.00",
+                        "hotLevel": "185.2",
+                        "city": {
+                            "cityCode": "021",
+                            "cityName": "上海"
+                        },
+                        "venue": {
+                            "veName": "虹桥艺术中心（原天山电影院）"
+                        },
+                        "maxDiscount": "",
+                        "actTime": "05.02~05.05",
+                        "intro": "终有一天岁月也将青年的韶华拾取，他们和自己的青春挥手作别，光阴似箭，却无悔那一段炽烈的追爱往事",
+                        "sellerCount": "1",
+                        "pinyinName": "manchangdegaobai"
+                    },
+                    {
+                        "actCode": "20181122004",
+                        "actName": "舞台剧《三体II黑暗森林》—上海站",
+                        "actImgUrl": "http://image.xishiqu.cn/upload/activity/118/112/20181122004/v/b/1DDAC588-4B8B-8A16-870B-34DA3EA18634.jpg",
+                        "actHdImgUrl": "",
+                        "lowPrice": "500.00",
+                        "hotLevel": "103.8",
+                        "city": {
+                            "cityCode": "021",
+                            "cityName": "上海"
+                        },
+                        "venue": {
+                            "veName": "上汽上海文化广场"
+                        },
+                        "maxDiscount": "",
+                        "actTime": "04.12~04.21",
+                        "intro": "三体人在利用科技锁死了地球人的科学之后，出动庞大的宇宙舰队直扑太阳系",
+                        "sellerCount": "6",
+                        "pinyinName": "haslshz"
+                    }
+                ]
+            },
+            {
+                "mTitle": "休闲娱乐",
+                "pinyinName": "xiuxianyule",
+                "mData": [
+                    {
+                        "actCode": "20190226009",
+                        "actName": "预订 魔潮风尚《时的平方》2019上海时尚艺术周—上海站",
+                        "actImgUrl": "http://image4.xishiqu.cn/upload/activity/119/022/20190226009/v/b/ECCD34CE-996A-9357-D9B7-2BBF669D819E.jpg",
+                        "actHdImgUrl": "",
+                        "lowPrice": "58.00",
+                        "hotLevel": "90.7",
+                        "city": {
+                            "cityCode": "021",
+                            "cityName": "上海"
+                        },
+                        "venue": {
+                            "veName": "ISSI 时尚空间"
+                        },
+                        "maxDiscount": "9.8",
+                        "actTime": "03.29~04.01",
+                        "intro": "向往时尚界的小伙伴们注意咯，还有时尚界交流的AfterParty等着你哟，香槟美酒，外滩夜色",
+                        "sellerCount": "2",
+                        "pinyinName": "sdpfsh"
+                    }
+                ]
+            },
+            {
+                "mTitle": "电影",
+                "pinyinName": "film",
+                "mData": [
+                    {
+                        "filmImg": "http://image.xishiqu.cn/upload/film/920/190/920190308//110BF087-B3E1-0170-2822-6A3414C38D7D.jpg",
+                        "filmName": "比悲伤更悲伤的故事",
+                        "filmEnName": "汉语普通话",
+                        "filmId": "607",
+                        "scoreD": "6.1",
+                        "scoreG": "6.1",
+                        "filmCatalog": "爱情",
+                        "filmDuration": "105",
+                        "openingDate": "2019.03.14"
+                    },
+                    {
+                        "filmImg": "http://image4.xishiqu.cn/upload/film/920/190/920190308//CB7626C7-DF7A-72C0-F849-F16D62FEB72F.jpg",
+                        "filmName": "惊奇队长",
+                        "filmEnName": "英语",
+                        "filmId": "604",
+                        "scoreD": "7.2",
+                        "scoreG": "7.2",
+                        "filmCatalog": "动作,冒险,科幻",
+                        "filmDuration": "124",
+                        "openingDate": "2019.03.08"
+                    },
+                    {
+                        "filmImg": "http://image4.xishiqu.cn/upload/film/920/181/920181217//549FD57E-EAD1-2F1F-1DFF-A6C12EAD145C.jpg",
+                        "filmName": "我们最好的时光",
+                        "filmEnName": "汉语普通话",
+                        "filmId": "565",
+                        "scoreD": "7.0",
+                        "scoreG": "7.0",
+                        "filmCatalog": "剧情",
+                        "filmDuration": "90",
+                        "openingDate": "2018.12.28"
+                    },
+                    {
+                        "filmImg": "http://image5.xishiqu.cn/upload/film/920/190/920190320//D491D2D1-947E-2670-CECD-3503DA580C6F.jpg",
+                        "filmName": "波西米亚狂想曲",
+                        "filmEnName": "英语",
+                        "filmId": "612",
+                        "scoreD": "8.6",
+                        "scoreG": "8.6",
+                        "filmCatalog": "剧情,音乐",
+                        "filmDuration": "131",
+                        "openingDate": "2019.03.22"
+                    },
+                    {
+                        "filmImg": "http://image4.xishiqu.cn/upload/film/920/190/920190320//CD5A5DF2-4077-D3F1-4772-1915FA6F43E9.jpg",
+                        "filmName": "地久天长",
+                        "filmEnName": "汉语普通话",
+                        "filmId": "613",
+                        "scoreD": "7.8",
+                        "scoreG": "7.8",
+                        "filmCatalog": "剧情",
+                        "filmDuration": "175",
+                        "openingDate": "2019.03.22"
+                    },
+                    {
+                        "filmImg": "http://image4.xishiqu.cn/upload/film/920/190/920190301//2B55679C-9E87-A8FB-A038-9563239FD718.jpg",
+                        "filmName": "绿皮书",
+                        "filmEnName": "英语/意大利语/俄语/德语",
+                        "filmId": "602",
+                        "scoreD": "8.9",
+                        "scoreG": "8.9",
+                        "filmCatalog": "剧情,喜剧,传记",
+                        "filmDuration": "130",
+                        "openingDate": "2019.03.01"
+                    },
+                    {
+                        "filmImg": "http://image3.xishiqu.cn/upload/film/920/190/920190320//99DE6D63-2F89-F107-595C-F884039732E9.jpg",
+                        "filmName": "乐高大电影2",
+                        "filmEnName": "英语",
+                        "filmId": "615",
+                        "scoreD": "7.0",
+                        "scoreG": "7.0",
+                        "filmCatalog": "动画,动作,冒险",
+                        "filmDuration": "108",
+                        "openingDate": "2019.03.22"
+                    },
+                    {
+                        "filmImg": "http://image4.xishiqu.cn/upload/film/920/190/920190222//AA9F484D-CF06-EBE4-F777-CAB8FB0A95DF.jpg",
+                        "filmName": "驯龙高手3",
+                        "filmEnName": "英语",
+                        "filmId": "601",
+                        "scoreD": "7.0",
+                        "scoreG": "7.0",
+                        "filmCatalog": "冒险,动画,奇幻",
+                        "filmDuration": "104",
+                        "openingDate": "2019.03.01"
+                    },
+                    {
+                        "filmImg": "http://image3.xishiqu.cn/upload/film/920/190/920190131//5D58B735-45E4-6429-2303-8430BC8855CC.jpg",
+                        "filmName": "流浪地球",
+                        "filmEnName": "汉语普通话",
+                        "filmId": "592",
+                        "scoreD": "8.0",
+                        "scoreG": "8.0",
+                        "filmCatalog": "科幻",
+                        "filmDuration": "125",
+                        "openingDate": "2019.02.05"
+                    },
+                    {
+                        "filmImg": "http://image3.xishiqu.cn/upload/film/920/190/920190314//8586E727-8145-98FC-4805-75D1DA73C849.jpg",
+                        "filmName": "我的英雄学院：两位英雄",
+                        "filmEnName": "日语",
+                        "filmId": "608",
+                        "scoreD": "7.3",
+                        "scoreG": "8.3",
+                        "filmCatalog": "动画",
+                        "filmDuration": "96",
+                        "openingDate": "2019.03.15"
+                    },
+                    {
+                        "filmImg": "http://image6.xishiqu.cn/upload/film/920/190/920190320//7FE05393-F142-73E0-994D-D2CA5C4294B6.jpg",
+                        "filmName": "篮球冠军",
+                        "filmEnName": "西班牙语",
+                        "filmId": "614",
+                        "scoreD": "7.1",
+                        "scoreG": "7.1",
+                        "filmCatalog": "剧情,喜剧",
+                        "filmDuration": "124",
+                        "openingDate": "2019.03.22"
+                    },
+                    {
+                        "filmImg": "http://image4.xishiqu.cn/upload/film/920/190/920190221//6E05806C-3955-9400-4AE7-1BC67291B29F.jpg",
+                        "filmName": "阿丽塔：战斗天使",
+                        "filmEnName": "英语/西班牙语",
+                        "filmId": "600",
+                        "scoreD": "7.5",
+                        "scoreG": "7.5",
+                        "filmCatalog": "科幻,动作,冒险",
+                        "filmDuration": "122",
+                        "openingDate": "2019.02.22"
+                    }
+                ]
+            }
+        ],
+        "activitySevenInfo": [
+            {
+                "title": "今",
+                "list": [
+                    {
+                        "actHdImgUrl": "",
+                        "actImgUrl": "http://image4.xishiqu.cn/upload/activity/118/092/20180925017/v/b/349154CF-395A-B31C-E617-8374640A5296.jpg",
+                        "maxDiscount": "",
+                        "actName": "赖声川经典舞台剧作品《暗恋桃花源》（经典版）—上海站",
+                        "actCode": "20180925017",
+                        "pinyinName": "anlianthysh",
+                        "lowPrice": "1880.00",
+                        "hotLevel": "178.2",
+                        "veName": "上剧场",
+                        "intro": "暗恋桃花源一剧以奇特的戏剧结构和悲喜交错的观看效果闻名于世，被称为表演工作坊的镇团之宝",
+                        "isPreSale": 0,
+                        "actTime": "2019-03-23-2019-03-24"
+                    },
+                    {
+                        "actHdImgUrl": "",
+                        "actImgUrl": "http://image.xishiqu.cn/upload/activity/119/021/20190215007/v/b/27B929F8-BA15-2A08-7ACB-48079863740C.jpg",
+                        "maxDiscount": "",
+                        "actName": "预订 LOVE LIVE! SUNSHINE Aqours World Love Live! ASIA TOUR—上海站",
+                        "actCode": "20190215007",
+                        "pinyinName": "ssawllat",
+                        "lowPrice": "968.00",
+                        "hotLevel": "144.1",
+                        "veName": "上海虹桥•国家会展中心",
+                        "intro": "唱响上海，嗨翻Love Live",
+                        "isPreSale": 0,
+                        "actTime": "2019-03-23-2019-03-24"
+                    },
+                    {
+                        "actHdImgUrl": "",
+                        "actImgUrl": "http://image6.xishiqu.cn/upload/activity/119/032/20190321003/v/b/5B5A5EE1-E8E6-B31F-12F1-D22E1402FE18.jpg",
+                        "maxDiscount": "8.8",
+                        "actName": "话剧《设杀游戏之神探霍桑》—上海站",
+                        "actCode": "20190321003",
+                        "pinyinName": "ssyxzsthsshz",
+                        "lowPrice": "248.00",
+                        "hotLevel": "87.7",
+                        "veName": "共舞台ET聚场",
+                        "intro": "台前幕后，强强联手，制作精良，剧情烧脑，必将俘获你爱戏的心",
+                        "isPreSale": 0,
+                        "actTime": "2019-03-23-2019-03-24"
+                    },
+                    {
+                        "actHdImgUrl": "",
+                        "actImgUrl": "http://image5.xishiqu.cn/upload/activity/119/032/20190320006/v/b/04516CF2-B978-F34D-87F6-27DE9C79AFE9.jpg",
+                        "maxDiscount": "",
+                        "actName": "90s Alt Rock Concert 90年代独立颓废摇滚之夜—上海站",
+                        "actCode": "20190320006",
+                        "pinyinName": "arcsh",
+                        "lowPrice": "158.00",
+                        "hotLevel": "134.3",
+                        "veName": "珍珠剧场",
+                        "intro": "整晚惊喜不断，速度集合了！",
+                        "isPreSale": 0,
+                        "actTime": "2019-03-23 周六 22:00"
+                    },
+                    {
+                        "actHdImgUrl": "",
+                        "actImgUrl": "http://image4.xishiqu.cn/upload/activity/118/122/20181221013/v/b/D654298E-11E6-94CF-272B-CD7D564A7519.jpg",
+                        "maxDiscount": "",
+                        "actName": "大型历史原创话剧《大清相国》—上海站",
+                        "actCode": "20181221013",
+                        "pinyinName": "dqxg",
+                        "lowPrice": "298.00",
+                        "hotLevel": "112.1",
+                        "veName": "虹桥艺术中心（原天山电影院）",
+                        "intro": "《大清相国》主人公陈廷敬，清代名臣，康熙帝的老师，历任经筵讲官，工部尚书，户部尚书，文渊阁大学士",
+                        "isPreSale": 0,
+                        "actTime": "2019-03-23-2019-03-24"
+                    },
+                    {
+                        "actHdImgUrl": "",
+                        "actImgUrl": "http://image6.xishiqu.cn/upload/activity/119/022/20190227009/v/b/6C538A71-99FB-BEFB-0221-DBD896E07E9A.jpg",
+                        "maxDiscount": "9.8",
+                        "actName": "上海杂技团《SPIRAL—炫》（云峰剧院）—上海站",
+                        "actCode": "20190227009",
+                        "pinyinName": "spiralyfjy",
+                        "lowPrice": "276.00",
+                        "hotLevel": "80.0",
+                        "veName": "云峰剧院",
+                        "intro": "SPIRAL 炫，一群年轻人在上海各个角落发生的事情，展示着上海的风貌、城市人的精神",
+                        "isPreSale": 0,
+                        "actTime": "2019-03-23-2019-03-31"
+                    },
+                    {
+                        "actHdImgUrl": "",
+                        "actImgUrl": "http://image4.xishiqu.cn/upload/activity/119/031/20190313013/v/b/7AEFFF7B-4852-4C9C-A37F-4CEAD599546F.jpg",
+                        "maxDiscount": "",
+                        "actName": "原创华语音乐剧《梁祝的继承者们》—上海站",
+                        "actCode": "20190313013",
+                        "pinyinName": "xfgdfgh",
+                        "lowPrice": "276.00",
+                        "hotLevel": "98.6",
+                        "veName": "上汽上海文化广场",
+                        "intro": "创造，在她是一种天命，好像爱之于每一个人。",
+                        "isPreSale": 0,
+                        "actTime": "2019-03-23-2019-03-24"
+                    },
+                    {
+                        "actHdImgUrl": "",
+                        "actImgUrl": "http://image4.xishiqu.cn/upload/activity/119/032/20190320019/v/b/48C53764-F351-D663-D9F2-B31C8924018A.jpg",
+                        "maxDiscount": "9.8",
+                        "actName": "大型滑稽戏《皇帝勿急急太监》—上海站",
+                        "actCode": "20190320019",
+                        "pinyinName": "hdwjjtj",
+                        "lowPrice": "276.00",
+                        "hotLevel": "87.1",
+                        "veName": "东方艺术中心（歌剧厅）",
+                        "intro": "皇帝勿急急太监",
+                        "isPreSale": 0,
+                        "actTime": "2019-03-23-2019-03-24"
+                    },
+                    {
+                        "actHdImgUrl": "",
+                        "actImgUrl": "http://image5.xishiqu.cn/upload/activity/119/012/20190121007/v/b/17B67A97-44E3-46DA-54BE-EA5CAD7B34BE.jpg",
+                        "maxDiscount": "",
+                        "actName": "开心麻花爆笑舞台剧《皇帝的新娘》—上海站",
+                        "actCode": "20190121007",
+                        "pinyinName": "wtjhddxnshz",
+                        "lowPrice": "",
+                        "hotLevel": "135.2",
+                        "veName": "上海保利大剧院",
+                        "intro": "气势恢宏的戏台，手工打造的戏服，原汁原味的配乐，精心编排的歌舞，让西域古国从遥远的记忆中复苏",
+                        "isPreSale": 0,
+                        "actTime": "2019-03-23-2019-03-23"
+                    },
+                    {
+                        "actHdImgUrl": "",
+                        "actImgUrl": "http://image.xishiqu.cn/upload/activity/118/052/20180529042/v/b/DD4BC66A-60AA-2F49-11AF-B3099FA5881C.jpg",
+                        "maxDiscount": "",
+                        "actName": "天天周末旅游联票—上海站",
+                        "actCode": "20180529042",
+                        "pinyinName": "ttzmshz",
+                        "lowPrice": "",
+                        "hotLevel": "83.1",
+                        "veName": "上海市区",
+                        "intro": "省钱、热门、便捷、省心，218元玩遍近2000元的旅游景区",
+                        "isPreSale": 0,
+                        "actTime": "2018-05-01-2019-04-30"
+                    },
+                    {
+                        "actHdImgUrl": "",
+                        "actImgUrl": "http://image.xishiqu.cn/upload/activity/118/112/20181128001/v/b/3E75FE6A-E37E-59D1-3A09-2922B5ABC52E.jpg",
+                        "maxDiscount": "",
+                        "actName": "预订 亲子音乐剧《神奇校车 气候大挑战》—上海站",
+                        "actCode": "20181128001",
+                        "pinyinName": "xqqhshz",
+                        "lowPrice": "",
+                        "hotLevel": "78.1",
+                        "veName": "上海人民大舞台",
+                        "intro": "寓教于乐趣味化学习，8首动听的音乐，把科学知识变成歌词唱出来，为科学启蒙增加了学习的乐趣。",
+                        "isPreSale": 0,
+                        "actTime": "2019-03-23-2019-03-24"
+                    },
+                    {
+                        "actHdImgUrl": "",
+                        "actImgUrl": "http://image4.xishiqu.cn/upload/activity/119/021/20190211004/v/b/E698A4C5-A6C4-6AA4-C5A5-A6BD212D0497.jpg",
+                        "maxDiscount": "",
+                        "actName": "亲子启蒙音乐会《古典音乐总动员》—上海站",
+                        "actCode": "20190211004",
+                        "pinyinName": "yyhgdyyzdy",
+                        "lowPrice": "",
+                        "hotLevel": "71.8",
+                        "veName": "上海大剧院（中剧场）",
+                        "intro": "讲故事的古典音乐会，把音乐幻化成人，把音乐会变成故事剧",
+                        "isPreSale": 0,
+                        "actTime": "2019-03-23-2019-03-23"
+                    }
+                ]
+            },
+            {
+                "title": "日",
+                "list": [
+                    {
+                        "actHdImgUrl": "",
+                        "actImgUrl": "http://image4.xishiqu.cn/upload/activity/118/092/20180925017/v/b/349154CF-395A-B31C-E617-8374640A5296.jpg",
+                        "maxDiscount": "",
+                        "actName": "赖声川经典舞台剧作品《暗恋桃花源》（经典版）—上海站",
+                        "actCode": "20180925017",
+                        "pinyinName": "anlianthysh",
+                        "lowPrice": "1880.00",
+                        "hotLevel": "178.2",
+                        "veName": "上剧场",
+                        "intro": "暗恋桃花源一剧以奇特的戏剧结构和悲喜交错的观看效果闻名于世，被称为表演工作坊的镇团之宝",
+                        "isPreSale": 0,
+                        "actTime": "2019-03-23-2019-03-24"
+                    },
+                    {
+                        "actHdImgUrl": "",
+                        "actImgUrl": "http://image.xishiqu.cn/upload/activity/119/021/20190215007/v/b/27B929F8-BA15-2A08-7ACB-48079863740C.jpg",
+                        "maxDiscount": "",
+                        "actName": "预订 LOVE LIVE! SUNSHINE Aqours World Love Live! ASIA TOUR—上海站",
+                        "actCode": "20190215007",
+                        "pinyinName": "ssawllat",
+                        "lowPrice": "968.00",
+                        "hotLevel": "144.1",
+                        "veName": "上海虹桥•国家会展中心",
+                        "intro": "唱响上海，嗨翻Love Live",
+                        "isPreSale": 0,
+                        "actTime": "2019-03-23-2019-03-24"
+                    },
+                    {
+                        "actHdImgUrl": "",
+                        "actImgUrl": "http://image6.xishiqu.cn/upload/activity/119/032/20190321003/v/b/5B5A5EE1-E8E6-B31F-12F1-D22E1402FE18.jpg",
+                        "maxDiscount": "8.8",
+                        "actName": "话剧《设杀游戏之神探霍桑》—上海站",
+                        "actCode": "20190321003",
+                        "pinyinName": "ssyxzsthsshz",
+                        "lowPrice": "248.00",
+                        "hotLevel": "87.7",
+                        "veName": "共舞台ET聚场",
+                        "intro": "台前幕后，强强联手，制作精良，剧情烧脑，必将俘获你爱戏的心",
+                        "isPreSale": 0,
+                        "actTime": "2019-03-23-2019-03-24"
+                    },
+                    {
+                        "actHdImgUrl": "",
+                        "actImgUrl": "http://image.xishiqu.cn/upload/activity/119/021/20190211003/v/b/14B137CC-C7D3-A699-736E-CF154EDAF493.jpg",
+                        "maxDiscount": "6.5",
+                        "actName": "美术启蒙儿童剧《从达芬奇到毕加索》—上海站",
+                        "actCode": "20190211003",
+                        "pinyinName": "etjcdfqdbjs",
+                        "lowPrice": "98.00",
+                        "hotLevel": "71.9",
+                        "veName": "上海大剧院（中剧场）",
+                        "intro": "升级版首演,艺术感舞美,大师级作品,全维度展现,玩库亲子艺术教育大舞台精彩纷呈",
+                        "isPreSale": 0,
+                        "actTime": "2019-03-24 周日"
+                    },
+                    {
+                        "actHdImgUrl": "",
+                        "actImgUrl": "http://image4.xishiqu.cn/upload/activity/119/030/20190304005/v/b/12B5BBB3-31FF-C4A7-7226-FEDEBAB2C152.jpg",
+                        "maxDiscount": "3.2",
+                        "actName": "魔幻童话儿童剧《阿拉丁神灯 Aladdin》—上海站",
+                        "actCode": "20190304005",
+                        "pinyinName": "aldsda",
+                        "lowPrice": "30.00",
+                        "hotLevel": "64.2",
+                        "veName": "云峰剧院",
+                        "intro": "这部剧既可以帮助你了解真实的孩子眼中的世界，同时也可以带你找回童年时期那一份专属的记忆",
+                        "isPreSale": 0,
+                        "actTime": "2019-03-24 周日"
+                    },
+                    {
+                        "actHdImgUrl": "",
+                        "actImgUrl": "http://image3.xishiqu.cn/upload/activity/119/030/20190304007/v/b/56E8BB39-6EE7-6680-4A9A-458BCF05ACD3.jpg",
+                        "maxDiscount": "3.2",
+                        "actName": "安徒生童话音乐舞台剧《丑小鸭 The Ugly Duckling》—上海站",
+                        "actCode": "20190304007",
+                        "pinyinName": "theuglyduckling",
+                        "lowPrice": "30.00",
+                        "hotLevel": "76.5",
+                        "veName": "东宫剧院",
+                        "intro": "根据安徒生童话故事改编，给我们带来一个不一样的丑小鸭\r\n",
+                        "isPreSale": 0,
+                        "actTime": "2019-03-24 周日"
+                    },
+                    {
+                        "actHdImgUrl": "",
+                        "actImgUrl": "http://image4.xishiqu.cn/upload/activity/118/122/20181221013/v/b/D654298E-11E6-94CF-272B-CD7D564A7519.jpg",
+                        "maxDiscount": "",
+                        "actName": "大型历史原创话剧《大清相国》—上海站",
+                        "actCode": "20181221013",
+                        "pinyinName": "dqxg",
+                        "lowPrice": "298.00",
+                        "hotLevel": "112.1",
+                        "veName": "虹桥艺术中心（原天山电影院）",
+                        "intro": "《大清相国》主人公陈廷敬，清代名臣，康熙帝的老师，历任经筵讲官，工部尚书，户部尚书，文渊阁大学士",
+                        "isPreSale": 0,
+                        "actTime": "2019-03-23-2019-03-24"
+                    },
+                    {
+                        "actHdImgUrl": "",
+                        "actImgUrl": "http://image6.xishiqu.cn/upload/activity/119/022/20190227009/v/b/6C538A71-99FB-BEFB-0221-DBD896E07E9A.jpg",
+                        "maxDiscount": "9.8",
+                        "actName": "上海杂技团《SPIRAL—炫》（云峰剧院）—上海站",
+                        "actCode": "20190227009",
+                        "pinyinName": "spiralyfjy",
+                        "lowPrice": "276.00",
+                        "hotLevel": "80.0",
+                        "veName": "云峰剧院",
+                        "intro": "SPIRAL 炫，一群年轻人在上海各个角落发生的事情，展示着上海的风貌、城市人的精神",
+                        "isPreSale": 0,
+                        "actTime": "2019-03-23-2019-03-31"
+                    },
+                    {
+                        "actHdImgUrl": "",
+                        "actImgUrl": "http://image5.xishiqu.cn/upload/activity/119/030/20190306001/v/b/215729B6-177E-9825-05D9-5A2A83B812CE.jpg",
+                        "maxDiscount": "",
+                        "actName": "大头儿子变形记—上海站",
+                        "actCode": "20190306001",
+                        "pinyinName": "dtezbxj",
+                        "lowPrice": "142.00",
+                        "hotLevel": "78.8",
+                        "veName": "黄浦剧场",
+                        "intro": "大头儿子和小头爸爸之变形记",
+                        "isPreSale": 0,
+                        "actTime": "2019-03-24 周日"
+                    },
+                    {
+                        "actHdImgUrl": "http://image6.xishiqu.cn/upload/activity/119/030/20190305020//b/B71F2394-9469-8F1E-EDE8-A167564015F7.jpg",
+                        "actImgUrl": "http://image3.xishiqu.cn/upload/activity/119/030/20190305020/v/b/C015D543-0D97-41BF-A6DD-77811D733B82.jpg",
+                        "maxDiscount": "",
+                        "actName": "世界经典音乐童话剧《小王子》—上海站",
+                        "actCode": "20190305020",
+                        "pinyinName": "yythjxwz",
+                        "lowPrice": "159.00",
+                        "hotLevel": "92.0",
+                        "veName": "中福会小伙伴剧场",
+                        "intro": "真正的友谊来自内心的真诚，快乐的真谛是爱与担当，跨越星球寻找的答案原来在我们身边。",
+                        "isPreSale": 0,
+                        "actTime": "2019-03-24 周日 13:30"
+                    },
+                    {
+                        "actHdImgUrl": "",
+                        "actImgUrl": "http://image4.xishiqu.cn/upload/activity/119/031/20190313013/v/b/7AEFFF7B-4852-4C9C-A37F-4CEAD599546F.jpg",
+                        "maxDiscount": "",
+                        "actName": "原创华语音乐剧《梁祝的继承者们》—上海站",
+                        "actCode": "20190313013",
+                        "pinyinName": "xfgdfgh",
+                        "lowPrice": "276.00",
+                        "hotLevel": "98.6",
+                        "veName": "上汽上海文化广场",
+                        "intro": "创造，在她是一种天命，好像爱之于每一个人。",
+                        "isPreSale": 0,
+                        "actTime": "2019-03-23-2019-03-24"
+                    },
+                    {
+                        "actHdImgUrl": "",
+                        "actImgUrl": "http://image4.xishiqu.cn/upload/activity/119/032/20190320019/v/b/48C53764-F351-D663-D9F2-B31C8924018A.jpg",
+                        "maxDiscount": "9.8",
+                        "actName": "大型滑稽戏《皇帝勿急急太监》—上海站",
+                        "actCode": "20190320019",
+                        "pinyinName": "hdwjjtj",
+                        "lowPrice": "276.00",
+                        "hotLevel": "87.1",
+                        "veName": "东方艺术中心（歌剧厅）",
+                        "intro": "皇帝勿急急太监",
+                        "isPreSale": 0,
+                        "actTime": "2019-03-23-2019-03-24"
+                    }
+                ]
+            },
+            {
+                "title": "一",
+                "list": [
+                    {
+                        "actHdImgUrl": "",
+                        "actImgUrl": "http://image4.xishiqu.cn/upload/activity/118/092/20180925017/v/b/349154CF-395A-B31C-E617-8374640A5296.jpg",
+                        "maxDiscount": "",
+                        "actName": "赖声川经典舞台剧作品《暗恋桃花源》（经典版）—上海站",
+                        "actCode": "20180925017",
+                        "pinyinName": "anlianthysh",
+                        "lowPrice": "1880.00",
+                        "hotLevel": "178.2",
+                        "veName": "上剧场",
+                        "intro": "暗恋桃花源一剧以奇特的戏剧结构和悲喜交错的观看效果闻名于世，被称为表演工作坊的镇团之宝",
+                        "isPreSale": 0,
+                        "actTime": "2019-03-23-2019-03-24"
+                    },
+                    {
+                        "actHdImgUrl": "",
+                        "actImgUrl": "http://image.xishiqu.cn/upload/activity/118/052/20180529042/v/b/DD4BC66A-60AA-2F49-11AF-B3099FA5881C.jpg",
+                        "maxDiscount": "",
+                        "actName": "天天周末旅游联票—上海站",
+                        "actCode": "20180529042",
+                        "pinyinName": "ttzmshz",
+                        "lowPrice": "",
+                        "hotLevel": "83.1",
+                        "veName": "上海市区",
+                        "intro": "省钱、热门、便捷、省心，218元玩遍近2000元的旅游景区",
+                        "isPreSale": 0,
+                        "actTime": "2018-05-01-2019-04-30"
+                    },
+                    {
+                        "actHdImgUrl": "",
+                        "actImgUrl": "http://image3.xishiqu.cn/upload/activity/118/121/20181217008/v/b/A4348823-7C47-06DD-049B-7EB124096004.jpg",
+                        "maxDiscount": "",
+                        "actName": "层层恐惧 鬼屋密室《迷魂》—上海站",
+                        "actCode": "20181217008",
+                        "pinyinName": "mhshhfds",
+                        "lowPrice": "",
+                        "hotLevel": "83.0",
+                        "veName": "汇嘉大厦",
+                        "intro": "这是一间多年来传闻闹鬼的酒店房间，曾有56个房客在此离奇自杀，此后再无人入住。",
+                        "isPreSale": 0,
+                        "actTime": "2018-12-19-2019-12-31"
+                    },
+                    {
+                        "actHdImgUrl": "",
+                        "actImgUrl": "http://image4.xishiqu.cn/upload/activity/119/022/20190227008/v/b/6321384C-45B6-48FF-7460-A05C0FE65C29.jpg",
+                        "maxDiscount": "",
+                        "actName": "上海杂技团《SPIRAL—炫》—上海站",
+                        "actCode": "20190227008",
+                        "pinyinName": "spiralpjq",
+                        "lowPrice": "",
+                        "hotLevel": "78.1",
+                        "veName": "上海商城剧院",
+                        "intro": "SPIRAL 炫，一群年轻人在上海各个角落发生的事情，展示着上海的风貌、城市人的精神",
+                        "isPreSale": 0,
+                        "actTime": "2019-03-25-2019-03-27"
+                    }
+                ]
+            },
+            {
+                "title": "二",
+                "list": [
+                    {
+                        "actHdImgUrl": "",
+                        "actImgUrl": "http://image3.xishiqu.cn/upload/activity/119/032/20190322002/v/b/5E9D5385-4B5F-7CB2-49DE-76655D2EE080.jpg",
+                        "maxDiscount": "",
+                        "actName": "开心麻花爆笑舞台剧《乌龙山伯爵》—上海站",
+                        "actCode": "20190322002",
+                        "pinyinName": "kxmhwlsboshz",
+                        "lowPrice": "136.00",
+                        "hotLevel": "93.9",
+                        "veName": "上海人民大舞台",
+                        "intro": "剧情大逆转剧情跌宕起伏，角色配角抢戏引爆笑点，舞美丰富场景美轮美奂，舞蹈谢幕舞彪悍",
+                        "isPreSale": 0,
+                        "actTime": "2019-03-26-2019-04-07"
+                    },
+                    {
+                        "actHdImgUrl": "",
+                        "actImgUrl": "http://image.xishiqu.cn/upload/activity/118/052/20180529042/v/b/DD4BC66A-60AA-2F49-11AF-B3099FA5881C.jpg",
+                        "maxDiscount": "",
+                        "actName": "天天周末旅游联票—上海站",
+                        "actCode": "20180529042",
+                        "pinyinName": "ttzmshz",
+                        "lowPrice": "",
+                        "hotLevel": "83.1",
+                        "veName": "上海市区",
+                        "intro": "省钱、热门、便捷、省心，218元玩遍近2000元的旅游景区",
+                        "isPreSale": 0,
+                        "actTime": "2018-05-01-2019-04-30"
+                    },
+                    {
+                        "actHdImgUrl": "",
+                        "actImgUrl": "http://image3.xishiqu.cn/upload/activity/118/121/20181217008/v/b/A4348823-7C47-06DD-049B-7EB124096004.jpg",
+                        "maxDiscount": "",
+                        "actName": "层层恐惧 鬼屋密室《迷魂》—上海站",
+                        "actCode": "20181217008",
+                        "pinyinName": "mhshhfds",
+                        "lowPrice": "",
+                        "hotLevel": "83.0",
+                        "veName": "汇嘉大厦",
+                        "intro": "这是一间多年来传闻闹鬼的酒店房间，曾有56个房客在此离奇自杀，此后再无人入住。",
+                        "isPreSale": 0,
+                        "actTime": "2018-12-19-2019-12-31"
+                    },
+                    {
+                        "actHdImgUrl": "",
+                        "actImgUrl": "http://image4.xishiqu.cn/upload/activity/119/022/20190227008/v/b/6321384C-45B6-48FF-7460-A05C0FE65C29.jpg",
+                        "maxDiscount": "",
+                        "actName": "上海杂技团《SPIRAL—炫》—上海站",
+                        "actCode": "20190227008",
+                        "pinyinName": "spiralpjq",
+                        "lowPrice": "",
+                        "hotLevel": "78.1",
+                        "veName": "上海商城剧院",
+                        "intro": "SPIRAL 炫，一群年轻人在上海各个角落发生的事情，展示着上海的风貌、城市人的精神",
+                        "isPreSale": 0,
+                        "actTime": "2019-03-25-2019-03-27"
+                    }
+                ]
+            },
+            {
+                "title": "三",
+                "list": [
+                    {
+                        "actHdImgUrl": "",
+                        "actImgUrl": "http://image3.xishiqu.cn/upload/activity/119/032/20190322002/v/b/5E9D5385-4B5F-7CB2-49DE-76655D2EE080.jpg",
+                        "maxDiscount": "",
+                        "actName": "开心麻花爆笑舞台剧《乌龙山伯爵》—上海站",
+                        "actCode": "20190322002",
+                        "pinyinName": "kxmhwlsboshz",
+                        "lowPrice": "136.00",
+                        "hotLevel": "93.9",
+                        "veName": "上海人民大舞台",
+                        "intro": "剧情大逆转剧情跌宕起伏，角色配角抢戏引爆笑点，舞美丰富场景美轮美奂，舞蹈谢幕舞彪悍",
+                        "isPreSale": 0,
+                        "actTime": "2019-03-26-2019-04-07"
+                    },
+                    {
+                        "actHdImgUrl": "",
+                        "actImgUrl": "http://image4.xishiqu.cn/upload/activity/119/030/20190304002/v/b/B039B601-59E0-83EB-A14D-8D893F502FF6.jpg",
+                        "maxDiscount": "",
+                        "actName": "预订 HYDE世界巡回演唱会2019—上海站",
+                        "actCode": "20190304002",
+                        "pinyinName": "hydeychshz",
+                        "lowPrice": "1075.00",
+                        "hotLevel": "113.8",
+                        "veName": "上海虹桥•国家会展中心",
+                        "intro": "HYDE用现场的不羁的live告诉你，你可以用音乐对抗整个世界的压力",
+                        "isPreSale": 1,
+                        "actTime": "2019-03-27 周三 19:30"
+                    },
+                    {
+                        "actHdImgUrl": "",
+                        "actImgUrl": "http://image.xishiqu.cn/upload/activity/118/052/20180529042/v/b/DD4BC66A-60AA-2F49-11AF-B3099FA5881C.jpg",
+                        "maxDiscount": "",
+                        "actName": "天天周末旅游联票—上海站",
+                        "actCode": "20180529042",
+                        "pinyinName": "ttzmshz",
+                        "lowPrice": "",
+                        "hotLevel": "83.1",
+                        "veName": "上海市区",
+                        "intro": "省钱、热门、便捷、省心，218元玩遍近2000元的旅游景区",
+                        "isPreSale": 0,
+                        "actTime": "2018-05-01-2019-04-30"
+                    },
+                    {
+                        "actHdImgUrl": "",
+                        "actImgUrl": "http://image3.xishiqu.cn/upload/activity/118/121/20181217008/v/b/A4348823-7C47-06DD-049B-7EB124096004.jpg",
+                        "maxDiscount": "",
+                        "actName": "层层恐惧 鬼屋密室《迷魂》—上海站",
+                        "actCode": "20181217008",
+                        "pinyinName": "mhshhfds",
+                        "lowPrice": "",
+                        "hotLevel": "83.0",
+                        "veName": "汇嘉大厦",
+                        "intro": "这是一间多年来传闻闹鬼的酒店房间，曾有56个房客在此离奇自杀，此后再无人入住。",
+                        "isPreSale": 0,
+                        "actTime": "2018-12-19-2019-12-31"
+                    },
+                    {
+                        "actHdImgUrl": "",
+                        "actImgUrl": "http://image4.xishiqu.cn/upload/activity/119/022/20190227008/v/b/6321384C-45B6-48FF-7460-A05C0FE65C29.jpg",
+                        "maxDiscount": "",
+                        "actName": "上海杂技团《SPIRAL—炫》—上海站",
+                        "actCode": "20190227008",
+                        "pinyinName": "spiralpjq",
+                        "lowPrice": "",
+                        "hotLevel": "78.1",
+                        "veName": "上海商城剧院",
+                        "intro": "SPIRAL 炫，一群年轻人在上海各个角落发生的事情，展示着上海的风貌、城市人的精神",
+                        "isPreSale": 0,
+                        "actTime": "2019-03-25-2019-03-27"
+                    },
+                    {
+                        "actHdImgUrl": "",
+                        "actImgUrl": "http://image4.xishiqu.cn/upload/activity/119/022/20190227001/v/b/AA392CBC-97DE-0835-C7D3-97F0417A03F9.jpg",
+                        "maxDiscount": "",
+                        "actName": "安东尼与克莉奥佩特拉—上海站",
+                        "actCode": "20190227001",
+                        "pinyinName": "adnyklaptl",
+                        "lowPrice": "",
+                        "hotLevel": "88.1",
+                        "veName": "黄浦剧场",
+                        "intro": "文艺男神拉尔夫 费因斯出演爱上埃及艳后的安东尼，西蒙古德温将惊人的罗马悲剧进行当代演绎",
+                        "isPreSale": 0,
+                        "actTime": "2019-03-27 周三 19:00"
+                    }
+                ]
+            },
+            {
+                "title": "四",
+                "list": [
+                    {
+                        "actHdImgUrl": "",
+                        "actImgUrl": "http://image5.xishiqu.cn/upload/activity/118/121/20181212009/v/b/22A93E43-3C70-0CC7-018E-C3D072A46ED8.jpg",
+                        "maxDiscount": "",
+                        "actName": "阿加莎推理名剧《谋杀启事》中文版—上海站",
+                        "actCode": "20181212009",
+                        "pinyinName": "msqsshz",
+                        "lowPrice": "380.00",
+                        "hotLevel": "139.1",
+                        "veName": "新光小剧场（新光影艺苑）",
+                        "intro": "六点半钟声响起，灯忽然熄灭。人们在黑暗中尖叫着，颤抖着，兴奋地等待着一场刺激游戏",
+                        "isPreSale": 0,
+                        "actTime": "2019-03-28-2019-04-28"
+                    },
+                    {
+                        "actHdImgUrl": "",
+                        "actImgUrl": "http://image3.xishiqu.cn/upload/activity/119/032/20190322002/v/b/5E9D5385-4B5F-7CB2-49DE-76655D2EE080.jpg",
+                        "maxDiscount": "",
+                        "actName": "开心麻花爆笑舞台剧《乌龙山伯爵》—上海站",
+                        "actCode": "20190322002",
+                        "pinyinName": "kxmhwlsboshz",
+                        "lowPrice": "136.00",
+                        "hotLevel": "93.9",
+                        "veName": "上海人民大舞台",
+                        "intro": "剧情大逆转剧情跌宕起伏，角色配角抢戏引爆笑点，舞美丰富场景美轮美奂，舞蹈谢幕舞彪悍",
+                        "isPreSale": 0,
+                        "actTime": "2019-03-26-2019-04-07"
+                    },
+                    {
+                        "actHdImgUrl": "",
+                        "actImgUrl": "http://image5.xishiqu.cn/upload/activity/119/012/20190121004/v/b/44DC4E8E-6093-818F-E88A-379C3FD164EB.jpg",
+                        "maxDiscount": "",
+                        "actName": "孟京辉经典戏剧作品话剧《琥珀》—上海站",
+                        "actCode": "20190121004",
+                        "pinyinName": "hpshz",
+                        "lowPrice": "480.00",
+                        "hotLevel": "117.8",
+                        "veName": "上海大剧院（大剧场）",
+                        "intro": "所有的爱情都是悲哀的，可尽管悲哀，依然是我们知道的美好的事",
+                        "isPreSale": 0,
+                        "actTime": "2019-03-28-2019-03-30"
+                    },
+                    {
+                        "actHdImgUrl": "",
+                        "actImgUrl": "http://image6.xishiqu.cn/upload/activity/119/022/20190227009/v/b/6C538A71-99FB-BEFB-0221-DBD896E07E9A.jpg",
+                        "maxDiscount": "9.8",
+                        "actName": "上海杂技团《SPIRAL—炫》（云峰剧院）—上海站",
+                        "actCode": "20190227009",
+                        "pinyinName": "spiralyfjy",
+                        "lowPrice": "276.00",
+                        "hotLevel": "80.0",
+                        "veName": "云峰剧院",
+                        "intro": "SPIRAL 炫，一群年轻人在上海各个角落发生的事情，展示着上海的风貌、城市人的精神",
+                        "isPreSale": 0,
+                        "actTime": "2019-03-23-2019-03-31"
+                    },
+                    {
+                        "actHdImgUrl": "",
+                        "actImgUrl": "http://image3.xishiqu.cn/upload/activity/119/030/20190306015/v/b/A10FA0AA-A120-B44B-5667-69163C455CE0.jpg",
+                        "maxDiscount": "",
+                        "actName": "《女王召见》 The Audience（原版放映）—上海站",
+                        "actCode": "20190306015",
+                        "pinyinName": "nwzjshz",
+                        "lowPrice": "450.00",
+                        "hotLevel": "155.5",
+                        "veName": "黄浦剧场",
+                        "intro": "有趣、真实、善良、跌宕起伏，并充满惊喜，我爱这部剧里的每一分钟",
+                        "isPreSale": 0,
+                        "actTime": "2019-03-28-2019-04-18"
+                    },
+                    {
+                        "actHdImgUrl": "",
+                        "actImgUrl": "http://image4.xishiqu.cn/upload/activity/119/031/20190319006/v/b/B56E0460-2B99-7A60-DE2C-778DDA32EBD7.jpg",
+                        "maxDiscount": "9.6",
+                        "actName": "原创华语音乐剧《聊斋》—上海站",
+                        "actCode": "20190319006",
+                        "pinyinName": "liaozhaishz",
+                        "lowPrice": "270.00",
+                        "hotLevel": "93.5",
+                        "veName": "上汽上海文化广场",
+                        "intro": "纵观全剧，无论舞台美术还是剧场技术，无不透着艺术家们的精心巧思",
+                        "isPreSale": 0,
+                        "actTime": "2019-03-28-2019-03-30"
+                    },
+                    {
+                        "actHdImgUrl": "",
+                        "actImgUrl": "http://image.xishiqu.cn/upload/activity/118/052/20180529042/v/b/DD4BC66A-60AA-2F49-11AF-B3099FA5881C.jpg",
+                        "maxDiscount": "",
+                        "actName": "天天周末旅游联票—上海站",
+                        "actCode": "20180529042",
+                        "pinyinName": "ttzmshz",
+                        "lowPrice": "",
+                        "hotLevel": "83.1",
+                        "veName": "上海市区",
+                        "intro": "省钱、热门、便捷、省心，218元玩遍近2000元的旅游景区",
+                        "isPreSale": 0,
+                        "actTime": "2018-05-01-2019-04-30"
+                    },
+                    {
+                        "actHdImgUrl": "",
+                        "actImgUrl": "http://image3.xishiqu.cn/upload/activity/118/121/20181217008/v/b/A4348823-7C47-06DD-049B-7EB124096004.jpg",
+                        "maxDiscount": "",
+                        "actName": "层层恐惧 鬼屋密室《迷魂》—上海站",
+                        "actCode": "20181217008",
+                        "pinyinName": "mhshhfds",
+                        "lowPrice": "",
+                        "hotLevel": "83.0",
+                        "veName": "汇嘉大厦",
+                        "intro": "这是一间多年来传闻闹鬼的酒店房间，曾有56个房客在此离奇自杀，此后再无人入住。",
+                        "isPreSale": 0,
+                        "actTime": "2018-12-19-2019-12-31"
+                    }
+                ]
+            },
+            {
+                "title": "五",
+                "list": [
+                    {
+                        "actHdImgUrl": "",
+                        "actImgUrl": "http://image5.xishiqu.cn/upload/activity/118/121/20181212009/v/b/22A93E43-3C70-0CC7-018E-C3D072A46ED8.jpg",
+                        "maxDiscount": "",
+                        "actName": "阿加莎推理名剧《谋杀启事》中文版—上海站",
+                        "actCode": "20181212009",
+                        "pinyinName": "msqsshz",
+                        "lowPrice": "380.00",
+                        "hotLevel": "139.1",
+                        "veName": "新光小剧场（新光影艺苑）",
+                        "intro": "六点半钟声响起，灯忽然熄灭。人们在黑暗中尖叫着，颤抖着，兴奋地等待着一场刺激游戏",
+                        "isPreSale": 0,
+                        "actTime": "2019-03-28-2019-04-28"
+                    },
+                    {
+                        "actHdImgUrl": "",
+                        "actImgUrl": "http://image3.xishiqu.cn/upload/activity/119/032/20190322002/v/b/5E9D5385-4B5F-7CB2-49DE-76655D2EE080.jpg",
+                        "maxDiscount": "",
+                        "actName": "开心麻花爆笑舞台剧《乌龙山伯爵》—上海站",
+                        "actCode": "20190322002",
+                        "pinyinName": "kxmhwlsboshz",
+                        "lowPrice": "136.00",
+                        "hotLevel": "93.9",
+                        "veName": "上海人民大舞台",
+                        "intro": "剧情大逆转剧情跌宕起伏，角色配角抢戏引爆笑点，舞美丰富场景美轮美奂，舞蹈谢幕舞彪悍",
+                        "isPreSale": 0,
+                        "actTime": "2019-03-26-2019-04-07"
+                    },
+                    {
+                        "actHdImgUrl": "",
+                        "actImgUrl": "http://image5.xishiqu.cn/upload/activity/119/012/20190121004/v/b/44DC4E8E-6093-818F-E88A-379C3FD164EB.jpg",
+                        "maxDiscount": "",
+                        "actName": "孟京辉经典戏剧作品话剧《琥珀》—上海站",
+                        "actCode": "20190121004",
+                        "pinyinName": "hpshz",
+                        "lowPrice": "480.00",
+                        "hotLevel": "117.8",
+                        "veName": "上海大剧院（大剧场）",
+                        "intro": "所有的爱情都是悲哀的，可尽管悲哀，依然是我们知道的美好的事",
+                        "isPreSale": 0,
+                        "actTime": "2019-03-28-2019-03-30"
+                    },
+                    {
+                        "actHdImgUrl": "",
+                        "actImgUrl": "http://image6.xishiqu.cn/upload/activity/118/122/20181220002/v/b/8D26F48F-DF8F-49D6-3E8A-3FF31BC95256.jpg",
+                        "maxDiscount": "",
+                        "actName": "李坚演绎贝多芬32首钢琴奏鸣曲—上海站",
+                        "actCode": "20181220004",
+                        "pinyinName": "gqzmq",
+                        "lowPrice": "580.00",
+                        "hotLevel": "118.4",
+                        "veName": "上海交响乐团音乐厅",
+                        "intro": "浪漫主义时期的指挥家、教育家、评论家冯-彪罗曾经把巴赫的《十二平均律》奉为键盘作品中的旧约圣经",
+                        "isPreSale": 0,
+                        "actTime": "2019-03-29 周五 19:30"
+                    },
+                    {
+                        "actHdImgUrl": "",
+                        "actImgUrl": "http://image6.xishiqu.cn/upload/activity/119/022/20190227009/v/b/6C538A71-99FB-BEFB-0221-DBD896E07E9A.jpg",
+                        "maxDiscount": "9.8",
+                        "actName": "上海杂技团《SPIRAL—炫》（云峰剧院）—上海站",
+                        "actCode": "20190227009",
+                        "pinyinName": "spiralyfjy",
+                        "lowPrice": "276.00",
+                        "hotLevel": "80.0",
+                        "veName": "云峰剧院",
+                        "intro": "SPIRAL 炫，一群年轻人在上海各个角落发生的事情，展示着上海的风貌、城市人的精神",
+                        "isPreSale": 0,
+                        "actTime": "2019-03-23-2019-03-31"
+                    },
+                    {
+                        "actHdImgUrl": "",
+                        "actImgUrl": "http://image3.xishiqu.cn/upload/activity/119/031/20190312027/v/b/BD8B115D-9585-6F56-DC58-9177A792F846.jpg",
+                        "maxDiscount": "",
+                        "actName": "英国国家剧院现场呈现《简 爱》—上海站",
+                        "actCode": "20190312028",
+                        "pinyinName": "jiaaiaaa",
+                        "lowPrice": "300.00",
+                        "hotLevel": "149.9",
+                        "veName": "黄浦剧场",
+                        "intro": "英国国家剧院与布里斯托老维克剧院联合出品",
+                        "isPreSale": 0,
+                        "actTime": "2019-03-29-2019-04-19"
+                    },
+                    {
+                        "actHdImgUrl": "",
+                        "actImgUrl": "http://image4.xishiqu.cn/upload/activity/119/031/20190319006/v/b/B56E0460-2B99-7A60-DE2C-778DDA32EBD7.jpg",
+                        "maxDiscount": "9.6",
+                        "actName": "原创华语音乐剧《聊斋》—上海站",
+                        "actCode": "20190319006",
+                        "pinyinName": "liaozhaishz",
+                        "lowPrice": "270.00",
+                        "hotLevel": "93.5",
+                        "veName": "上汽上海文化广场",
+                        "intro": "纵观全剧，无论舞台美术还是剧场技术，无不透着艺术家们的精心巧思",
+                        "isPreSale": 0,
+                        "actTime": "2019-03-28-2019-03-30"
+                    },
+                    {
+                        "actHdImgUrl": "",
+                        "actImgUrl": "http://image.xishiqu.cn/upload/activity/118/052/20180529042/v/b/DD4BC66A-60AA-2F49-11AF-B3099FA5881C.jpg",
+                        "maxDiscount": "",
+                        "actName": "天天周末旅游联票—上海站",
+                        "actCode": "20180529042",
+                        "pinyinName": "ttzmshz",
+                        "lowPrice": "",
+                        "hotLevel": "83.1",
+                        "veName": "上海市区",
+                        "intro": "省钱、热门、便捷、省心，218元玩遍近2000元的旅游景区",
+                        "isPreSale": 0,
+                        "actTime": "2018-05-01-2019-04-30"
+                    },
+                    {
+                        "actHdImgUrl": "",
+                        "actImgUrl": "http://image3.xishiqu.cn/upload/activity/118/121/20181217008/v/b/A4348823-7C47-06DD-049B-7EB124096004.jpg",
+                        "maxDiscount": "",
+                        "actName": "层层恐惧 鬼屋密室《迷魂》—上海站",
+                        "actCode": "20181217008",
+                        "pinyinName": "mhshhfds",
+                        "lowPrice": "",
+                        "hotLevel": "83.0",
+                        "veName": "汇嘉大厦",
+                        "intro": "这是一间多年来传闻闹鬼的酒店房间，曾有56个房客在此离奇自杀，此后再无人入住。",
+                        "isPreSale": 0,
+                        "actTime": "2018-12-19-2019-12-31"
+                    },
+                    {
+                        "actHdImgUrl": "",
+                        "actImgUrl": "http://image5.xishiqu.cn/upload/activity/119/030/20190306014/v/b/3E5AA279-C6DE-0705-E11F-A0FE18C532C6.jpg",
+                        "maxDiscount": "",
+                        "actName": "郭德纲弟子高鹤彩相声专场—上海站",
+                        "actCode": "20190306014",
+                        "pinyinName": "xlhxs",
+                        "lowPrice": "",
+                        "hotLevel": "81.7",
+                        "veName": "上海城隍庙相爷府茶楼",
+                        "intro": "笑乐汇相声会馆 ",
+                        "isPreSale": 0,
+                        "actTime": "2019-03-23-2019-03-30"
+                    }
+                ]
+            }
+        ],
+        "activityLikeInfo": [
+            {
+                "actCode": "20190313001",
+                "actName": "预订 2019超级草莓音乐节—上海站",
+                "lowPrice": "578.00",
+                "intro": "本次沪蓉双城超级草莓现场共设置10个舞台，邀请包括来自英国、美国、日本、荷兰等150余组艺人参演",
+                "maxDiscount": "",
+                "actImgUrl": "http://image.xishiqu.cn/upload/activity/119/031/20190313001/v/m/F4F0FD71-3A45-1DFF-1C96-67891F5D7226.jpg",
+                "actHdImgUrl": "",
+                "veName": "上海滩运动公社（原上海瑞可碧橄榄球俱乐部）",
+                "actTime": "2019.04.26~2019.04.28",
+                "pinyinName": "cmsh",
+                "isPreSale": 0,
+                "statusTag": "售票中",
+                "hotLevel": 113.4
+            },
+            {
+                "actCode": "20181119002",
+                "actName": "预订 费玉清告别演唱会—上海站",
+                "lowPrice": "550.00",
+                "intro": "他的演唱会，永远都是一个人，一套西装，一杯白开水，自己一个人唱满几个小时",
+                "maxDiscount": "",
+                "actImgUrl": "http://image3.xishiqu.cn/upload/activity/118/111/20181119002/v/m/9E466839-6A8D-FAFB-EEA1-D90077E96646.jpg",
+                "actHdImgUrl": "",
+                "veName": "梅赛德斯—奔驰文化中心",
+                "actTime": "2019.03.30~2019.03.31",
+                "pinyinName": "feiyuqsh",
+                "isPreSale": 0,
+                "statusTag": "售票中",
+                "hotLevel": 134.9
+            },
+            {
+                "actCode": "20190123010",
+                "actName": "预订  林宥嘉idol世界巡回演唱会—上海站",
+                "lowPrice": "642.00",
+                "intro": "这是一场跨越语言隔阂的演唱会，连不懂中文的人都可以非常享受",
+                "maxDiscount": "",
+                "actImgUrl": "http://image5.xishiqu.cn/upload/activity/119/012/20190123010/v/m/611C0E22-07DF-84F3-61C5-50B09735633F.jpg",
+                "actHdImgUrl": "",
+                "veName": "上海虹口足球场",
+                "actTime": "2019.05.11~2019.05.11",
+                "pinyinName": "lyjidolychshz",
+                "isPreSale": 1,
+                "statusTag": "预订中",
+                "hotLevel": 103.7
+            },
+            {
+                "actCode": "20190123009",
+                "actName": "预订  张杰【未  LIVE】 巡回演唱会—上海站",
+                "lowPrice": "486.00",
+                "intro": "2019焕然升级，再度出发，星星集结，共赴华语LIVE。过去成曲，唱向未来，张杰将未LIVE献给你",
+                "maxDiscount": "",
+                "actImgUrl": "http://image.xishiqu.cn/upload/activity/119/012/20190123009/v/m/1BFA522A-B4DD-87CD-6ACE-944926E0C04C.jpg",
+                "actHdImgUrl": "",
+                "veName": "上海虹口足球场",
+                "actTime": "2019.04.20~2019.04.20",
+                "pinyinName": "zjwlychshz",
+                "isPreSale": 1,
+                "statusTag": "预订中",
+                "hotLevel": 96.5
+            },
+            {
+                "actCode": "20190311009",
+                "actName": "预订 上海上港主场足球比赛（中超 亚冠 足协杯）—上海站",
+                "lowPrice": "74.00",
+                "intro": "上海上港VS重庆斯威",
+                "maxDiscount": "5.7",
+                "actImgUrl": "http://image5.xishiqu.cn/upload/activity/119/031/20190311009/v/m/90AF19BB-4191-1053-6B9C-929CC2BD90B3.jpg",
+                "actHdImgUrl": "",
+                "veName": "上海体育场",
+                "actTime": "2019.04.05~2019.04.05",
+                "pinyinName": "sgcqswshz",
+                "isPreSale": 1,
+                "statusTag": "预订中",
+                "hotLevel": 85.1
+            },
+            {
+                "actCode": "20190321004",
+                "actName": "预订 法语原版音乐剧《巴黎圣母院》—上海站",
+                "lowPrice": "304.00",
+                "intro": "巴黎圣母院值得看的一部音乐剧。",
+                "maxDiscount": "",
+                "actImgUrl": "http://image3.xishiqu.cn/upload/activity/119/032/20190321004/v/m/B96689F5-266F-FBBE-F373-83139B3B6B07.jpg",
+                "actHdImgUrl": "",
+                "veName": "上汽上海文化广场",
+                "actTime": "2019.07.18~2019.07.26",
+                "pinyinName": "blsmy",
+                "isPreSale": 0,
+                "statusTag": "售票中",
+                "hotLevel": 108
+            },
+            {
+                "actCode": "20190308001",
+                "actName": "预订 音乐剧《白夜行》—上海站",
+                "lowPrice": "535.00",
+                "intro": "2018音乐剧黑马，2019再度引燃魔都，白夜行音乐剧，春夏巡演上海站",
+                "maxDiscount": "",
+                "actImgUrl": "http://image.xishiqu.cn/upload/activity/119/030/20190308001/v/m/5B4E590B-48CF-FBBD-0102-53C7980B1D35.jpg",
+                "actHdImgUrl": "",
+                "veName": "上汽上海文化广场",
+                "actTime": "2019.06.29~2019.07.07",
+                "pinyinName": "byxyyj",
+                "isPreSale": 0,
+                "statusTag": "售票中",
+                "hotLevel": 117.3
+            },
+            {
+                "actCode": "20181217012",
+                "actName": "预订 FORMULA1 中国大奖赛—上海站",
+                "lowPrice": "620.00",
+                "intro": "上海奥迪国际赛道的总长度为5451.24米，具有7处左转弯道及7处右转弯道。平均时速205公里。",
+                "maxDiscount": "",
+                "actImgUrl": "http://image5.xishiqu.cn/upload/activity/118/121/20181217012/v/m/BB84910F-7093-13D7-157C-B8BBDF1F19CD.jpg",
+                "actHdImgUrl": "",
+                "veName": "上海奥迪国际赛车场",
+                "actTime": "2019.04.12~2019.04.14",
+                "pinyinName": "f1shz",
+                "isPreSale": 1,
+                "statusTag": "预订中",
+                "hotLevel": 106.7
+            },
+            {
+                "actCode": "20190122001",
+                "actName": "陈绮贞20周年演唱会《漫漫长夜 Cheer 20》—上海站",
+                "lowPrice": "420.00",
+                "intro": "有一个夜晚，像20年一样长，我们赞颂黑暗与星空，希望天永远不要亮",
+                "maxDiscount": "",
+                "actImgUrl": "http://image3.xishiqu.cn/upload/activity/119/012/20190122001/v/m/6D344526-964F-A4E7-11A5-847D13C4AC59.jpg",
+                "actHdImgUrl": "",
+                "veName": "梅赛德斯—奔驰文化中心",
+                "actTime": "2019.04.20~2019.04.20",
+                "pinyinName": "cqzmmcycshz",
+                "isPreSale": 1,
+                "statusTag": "预订中",
+                "hotLevel": 116
+            },
+            {
+                "actCode": "20190123011",
+                "actName": "预订  Troye Sivan特洛伊 希梵：盛放巡演—上海站",
+                "lowPrice": "980.00",
+                "intro": "澳洲流行才子，Troye Sivan特洛伊 希梵，盛放巡演2019上海站",
+                "maxDiscount": "",
+                "actImgUrl": "http://image5.xishiqu.cn/upload/activity/119/012/20190123011/v/m/331D361E-118E-F164-638B-A76802698174.jpg",
+                "actHdImgUrl": "",
+                "veName": "梅赛德斯—奔驰文化中心",
+                "actTime": "2019.04.22~2019.04.22",
+                "pinyinName": "tstlysfychshz",
+                "isPreSale": 1,
+                "statusTag": "预订中",
+                "hotLevel": 142.3
+            },
+            {
+                "actCode": "20190314001",
+                "actName": "中超 上海申花VS北京人和—上海站",
+                "lowPrice": "117.00",
+                "intro": "所有蓝血人拭目以待，不狂不放不申花",
+                "maxDiscount": "6.8",
+                "actImgUrl": "http://image.xishiqu.cn/upload/activity/119/031/20190314001/v/m/F50955BC-EC6C-BC34-E0DE-9F640AB92008.jpg",
+                "actHdImgUrl": "",
+                "veName": "上海虹口足球场",
+                "actTime": "2019.04.07~2019.04.07",
+                "pinyinName": "shshbjrhshz",
+                "isPreSale": 0,
+                "statusTag": "售票中",
+                "hotLevel": 78.3
+            },
+            {
+                "actCode": "20181227012",
+                "actName": "话剧 暗恋桃花源（专属版）—上海站",
+                "lowPrice": "265.00",
+                "intro": "暗恋桃花源一剧以奇特的戏剧结构和悲喜交错的观看效果闻名于世，被称为表演工作坊的镇团之宝",
+                "maxDiscount": "",
+                "actImgUrl": "http://image6.xishiqu.cn/upload/activity/118/122/20181227012/v/m/35D6EB1F-F39B-BA2A-0B34-1CFC402FC1D9.jpg",
+                "actHdImgUrl": "",
+                "veName": "上剧场",
+                "actTime": "2018.12.31~2019.04.21",
+                "pinyinName": "anthyzsbshz",
+                "isPreSale": 0,
+                "statusTag": "售票中",
+                "hotLevel": 124.2
+            },
+            {
+                "actCode": "20190221009",
+                "actName": "预订 东野圭吾《信》音乐剧中文版—上海站",
+                "lowPrice": "320.00",
+                "intro": "他们即将在舞台上进行一场有关经验和灵感、过去与现在的对决交锋，碰撞出全新的火花",
+                "maxDiscount": "",
+                "actImgUrl": "http://image.xishiqu.cn/upload/activity/119/022/20190221009/v/m/36221F16-5D8B-3B5C-F87D-06081C0B99EF.jpg",
+                "actHdImgUrl": "",
+                "veName": "云峰剧院",
+                "actTime": "2019.04.18~2019.04.28",
+                "pinyinName": "yyjxshz",
+                "isPreSale": 0,
+                "statusTag": "售票中",
+                "hotLevel": 143.6
+            },
+            {
+                "actCode": "20190123007",
+                "actName": "《暗恋桃花源》（30周年纪念版）—上海站",
+                "lowPrice": "276.00",
+                "intro": "三十年常演不衰，再度献演上剧场舞台，邀您共赴桃花源之约",
+                "maxDiscount": "",
+                "actImgUrl": "http://image6.xishiqu.cn/upload/activity/119/012/20190123007/v/m/C75E8E3B-4587-73D0-9729-C08FA60855FA.jpg",
+                "actHdImgUrl": "",
+                "veName": "上剧场",
+                "actTime": "2019.04.05~2019.04.14",
+                "pinyinName": "althyjnbshz",
+                "isPreSale": 0,
+                "statusTag": "售票中",
+                "hotLevel": 118.6
+            },
+            {
+                "actCode": "20181107009",
+                "actName": "预订 世界原版经典音乐剧《猫》CATS—上海站",
+                "lowPrice": "536.00",
+                "intro": "一个特别的夜晚，杰里科猫家族正在举行一年一度的舞会。形形色色的猫咪们为争取那一个重生机会",
+                "maxDiscount": "",
+                "actImgUrl": "http://image3.xishiqu.cn/upload/activity/118/110/20181107009/v/m/4E44BF04-CA0B-A7D7-FF8B-CA2C85CF7C93.jpg",
+                "actHdImgUrl": "",
+                "veName": "上汽上海文化广场",
+                "actTime": "2019.06.07~2019.06.16",
+                "pinyinName": "maoshangh",
+                "isPreSale": 0,
+                "statusTag": "售票中",
+                "hotLevel": 113.2
+            },
+            {
+                "actCode": "20190125001",
+                "actName": "预订  汪峰《就这样》巡回演唱会—上海站",
+                "lowPrice": "500.00",
+                "intro": "此次巡回演唱会，大步前进的汪峰用回归的姿态开启着一段全新的旅程",
+                "maxDiscount": "",
+                "actImgUrl": "http://image3.xishiqu.cn/upload/activity/119/012/20190125001/v/m/6A30C2A9-0476-11EC-F80D-CAD09D17D75E.jpg",
+                "actHdImgUrl": "",
+                "veName": "梅赛德斯—奔驰文化中心",
+                "actTime": "2019.05.25~2019.05.25",
+                "pinyinName": "wfjzyychshz",
+                "isPreSale": 1,
+                "statusTag": "预订中",
+                "hotLevel": 98.5
+            },
+            {
+                "actCode": "20190215005",
+                "actName": "预订 郭富城《舞林密码》世界巡回演唱会—上海站",
+                "lowPrice": "610.00",
+                "intro": "华人音乐之骄傲，演出舞台之动魄，震撼寰宇的划时代全球巡演终于拉开帷幕",
+                "maxDiscount": "",
+                "actImgUrl": "http://image5.xishiqu.cn/upload/activity/119/021/20190215005/v/m/77781A61-4A82-77B4-CAE2-18F6013FB34E.jpg",
+                "actHdImgUrl": "",
+                "veName": "梅赛德斯—奔驰文化中心",
+                "actTime": "2019.05.11~2019.05.11",
+                "pinyinName": "gfcshych",
+                "isPreSale": 1,
+                "statusTag": "预订中",
+                "hotLevel": 100.6
+            },
+            {
+                "actCode": "20181112001",
+                "actName": "预订 伍佰 China Blue Rock Star演唱会—上海站",
+                "lowPrice": "420.00",
+                "intro": "他的大型演唱会绝对不只是一辈子要朝圣一次的现场，而是每一次降临都是不能错过的现场。",
+                "maxDiscount": "",
+                "actImgUrl": "http://image6.xishiqu.cn/upload/activity/118/111/20181112001/v/m/2F8ADC07-9265-D47D-1F6B-7D813B6695A3.jpg",
+                "actHdImgUrl": "",
+                "veName": "梅赛德斯—奔驰文化中心",
+                "actTime": "2019.05.18~2019.05.18",
+                "pinyinName": "wbychsh",
+                "isPreSale": 1,
+                "statusTag": "预订中",
+                "hotLevel": 99.8
+            }
+        ],
+        "noticeInfo": ""
+    }
+}

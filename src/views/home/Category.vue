@@ -1,7 +1,7 @@
 <template>
   <div id="category">
     <CateHeader class="page__header"></CateHeader>
-    <router-view class="CateScorll"></router-view>
+    <router-view class="bg"></router-view>
   </div>
     
 </template>
@@ -16,10 +16,10 @@ import CateHeader from '@/components/categorys/CateHeader'
 export default {
   components: {
     CateHeader
-  }
+  },
+
+  
 }
-
-
 </script>
 
 
@@ -27,7 +27,9 @@ export default {
 <style lang="stylus" scoped>
 
 #category 
-    padding-bottom: .55rem
-
-
+  padding-bottom: .45rem
+  height 100%
+  .bg
+    padding: .12rem
+    height 100%
 </style>

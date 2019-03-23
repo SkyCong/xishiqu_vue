@@ -53,7 +53,8 @@ export default {
       spinnerType: 'fading-circle'
     });
     const data = await request({
-      url: 'https://api.myjson.com/bins/z3fja',
+      // url: 'https://api.myjson.com/bins/z3fja',
+      url: './index.json',
       // url: '/ajax/home/index',
       // params : {
       //   cityCode : '021'
@@ -61,7 +62,7 @@ export default {
 
     })
     const moskData = await request({
-      url: '../showHeader.json'
+      url: '/showHeader.json'
     })
 
     this.topData = moskData
