@@ -111,7 +111,7 @@ export default {
 
 
 <style lang="stylus" scoped>
-@import '~@/assets/login.styl'
+@import '~@/assets/loginok.styl'
 
 
 </style>
