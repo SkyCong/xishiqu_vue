@@ -3,10 +3,13 @@
     <div class="block" v-for="(activityCate , n) in activityCateInfos" :key="n">
       <h3 class="block__title">
         {{activityCate.mTitle}}
-        <small>查看更多</small>
+          <small>
+            <router-link :to="'/category/'+activityCate.pinyinName" tag="button" >查看更多</router-link>
+          </small>
+        <!-- <router-link :to="'/category/'+activityCate.pinyinName" tag="small">查看更多</router-link> -->
       </h3>
-      <ShowCard :mData="activityCate.mData[0]" v-if="flagCard(activityCate.pinyinName)"></ShowCard>
-      <ShowItemX :pinyinName="activityCate.pinyinName" :mData="activityCate.mData" v-if="flagItemX(activityCate.pinyinName)"></ShowItemX>
+      <ShowCard :mData="activityCate.mData[0]" v-if="activityCate.pinyinName!='film'"></ShowCard>
+      <ShowItemX :pinyinName="activityCate.pinyinName" :mData="activityCate.mData"></ShowItemX>
     </div>  
   </div>
 </template>
@@ -29,15 +32,9 @@ export default {
     ShowItemX
   },
 
+
   methods: {
-    flagCard(state) {
-      if(state != 'film')
-        return true
-    },
-    flagItemX(state) {
-      if(state != 'xiuxianyule')
-        return true
-    }
+
   }
 }
 </script>
@@ -47,8 +44,8 @@ export default {
   .block 
     border-bottom: 1px solid #efefef
     padding: .1rem 0
-    &:last-child 
-      border-bottom: none
+    // &:last-child 
+    //   border-bottom: none
             
       
   .block__title 
@@ -62,6 +59,12 @@ export default {
       color: #999
       font-size: .12rem
       margin-top: .05rem
+      button
+        background #fff
+        margin: 0
+        padding: 0
+        border: 1px solid transparent  //自定义边框
+        outline: none   //消除默认点击蓝色边框效果
         
 </style>
 

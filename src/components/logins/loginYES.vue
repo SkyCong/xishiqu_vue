@@ -1,128 +1,90 @@
 <template>
-<body id="dashboard" class="ready">
-    <noscript></noscript>
-        <div class="wrapper wrap-content">
-        <div id="progress-box" class="pre-loader" onclick="location.reload();">
-            <div class="inner">
-                <div class="la-ball-grid-pulse la-2x">
-                    <div></div><div></div><div></div>
-                    <div></div><div></div><div></div>
-                    <div></div><div></div><div></div>
-                </div>
-                <p>点击页面可重新加载</p>
-            </div>
-        </div>
-                
-<div class="jumbotron">
-
-    <header class="header transparent">
+  <div id="dashboard">
+    <div class="jumbotron">
+      <header class="header transparent">
         <span class="left">
-                        <a class="icon-angle-left icon" href="http://m.xishiqu.com"></a>
-                    </span>
+          <a class="icon-angle-left icon" href="http://m.xishiqu.com"></a>
+        </span>
         <span class="middle"></span>
-        <div class="right"><a href="http://m.xishiqu.com/member/letter"><span class="icon-bell-o icon"></span></a></div>
-    </header>
-    <div class="member">
+        <div class="right">
+          <a href="http://m.xishiqu.com/member/letter">
+            <span class="icon-bell-o icon"></span>
+          </a>
+        </div>
+      </header>
+      <div class="member">
         <img src="http://m.xishiqu.com/m/images/default-avatar.png">
         <span class="nick-name" style="overflow: auto; width: auto;">17862819117</span>
-            </div>
-</div>
-
-<div class="list-group with-icon">
-    <a class="list-group-item my-order" href="http://m.xishiqu.com/member/order">
-        <span class="icon icon-list"></span>
-        <span class="list-title">演出订单
-                    </span>
-    </a>
-    <a class="list-group-item my-film" href="/films/my-film">
-        <span class="icon icon-list"></span>
-        <span class="list-title">电影订单</span>
-    </a>
-    <a class="list-group-item my-card" href="http://m.xishiqu.com/member/discount">
-        <span class="icon icon-credit-card"></span>
-        <span class="list-title">我的卡券</span>
-    </a>
-        <a class="list-group-item my-wallet" href="http://m.xishiqu.com/member/wallet">
-        <span class="icon icon-suitcase"></span>
-        <span class="list-title">我的钱包</span>
-    </a>
+      </div>
     </div>
-<div class="list-group with-icon">
-    <a class="list-group-item my-favorite" href="http://m.xishiqu.com/member/favorite">
-        <span class="icon icon-heart-o"></span>
-        <span class="list-title">我的收藏</span>
-    </a>
-    <a class="list-group-item my-address" href="http://m.xishiqu.com/member/address">
-        <span class="icon icon-address"></span>
-        <span class="list-title">收货地址</span>
-    </a>
-        <a class="list-group-item my-password" href="http://m.xishiqu.com/member/password/change">
-        <span class="icon icon-user"></span>
-        <span class="list-title">修改密码</span>
-    </a>
-        <a class="list-group-item my-service" href="tel:400-003-9992">
+
+    <div class="list-group with-icon">
+      <a class="list-group-item my-order" href="http://m.xishiqu.com/member/order">
+        <span class="icon icon-list">
+            <svg style="width: 1em; height: 1em;vertical-align: top;fill: currentColor;overflow: hidden;" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="7148"><path d="M291.212478 166.487825l441.576067 0c14.427594 0 26.239618-11.806907 26.239618-26.237571L759.028163 26.584472c0-14.429641-11.812023-26.237571-26.239618-26.237571L291.212478 0.346901c-14.435781 0-26.239618 11.80793-26.239618 26.237571l0 113.664759C264.971837 154.681942 276.776697 166.487825 291.212478 166.487825zM860.248496 80.794118l-74.980715 0 0 59.459207c0 28.941146-23.554462 52.478212-52.480258 52.478212L291.219641 192.731536c-28.933983 0-52.480258-23.537066-52.480258-52.478212L238.739383 80.794118l-74.987878 0c-43.282782 0-78.704526 35.413558-78.704526 78.698386L85.046978 944.954713c0 43.282782 35.421744 78.698386 78.704526 78.698386l696.496991 0c43.282782 0 78.704526-35.415604 78.704526-78.698386L938.953022 159.492504C938.953022 116.207675 903.531278 80.794118 860.248496 80.794118zM814.18539 787.03196c0 19.976984-16.340153 36.32123-36.319184 36.32123L247.156076 823.353191c-19.97903 0-36.319184-16.344247-36.319184-36.32123l0-6.054903c0-19.97903 16.340153-36.323277 36.319184-36.323277l530.710131 0c19.97903 0 36.319184 16.344247 36.319184 36.323277L814.18539 787.03196zM814.18539 572.366879c0 19.976984-16.340153 36.32123-36.319184 36.32123L247.156076 608.688109c-19.97903 0-36.319184-16.344247-36.319184-36.32123l0-6.056949c0-19.976984 16.340153-36.32123 36.319184-36.32123l530.710131 0c19.97903 0 36.319184 16.344247 36.319184 36.32123L814.18539 572.366879zM814.18539 357.699752c0 19.97903-16.340153 36.323277-36.319184 36.323277L247.156076 394.023028c-19.97903 0-36.319184-16.344247-36.319184-36.323277l0-6.054903c0-19.976984 16.340153-36.323277 36.319184-36.323277l530.710131 0c19.97903 0 36.319184 16.346293 36.319184 36.323277L814.18539 357.699752z" p-id="7149"></path></svg>
+        </span>
+        <span class="list-title">演出订单<i></i></span>
+      </a>
+      <a class="list-group-item my-film" href="/films/my-film">
+        <span class="icon icon-list">
+            <svg style="width: 1em; height: 1em;vertical-align: top;fill: currentColor;overflow: hidden;" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="5044"><path d="M908.036096 188.635238c73.681101 88.004301 115.638477 201.591296 115.638477 324.388045 0 281.409229-229.230182 510.629786-510.651187 510.629786-283.467674 0-512.697958-229.220557-512.697958-510.629786 0-283.455795 229.230182-512.676454 512.697958-512.676454 125.871923 0 239.463731 45.025485 328.495104 119.726797 65.494323 9.209754 96.194867-9.209754 115.638477-92.097536l66.517709 22.512742C999.11424 132.353434 960.226918 176.355533 908.036096 188.635238L908.036096 188.635238zM221.368832 393.296486c-64.47104 0-117.685146 53.211955-117.685146 119.726797 0 64.468275 53.214106 119.726797 117.685146 119.726797 66.517709 0 119.731814-55.258522 119.731814-119.726797C341.100646 446.508442 287.886541 393.296486 221.368832 393.296486L221.368832 393.296486zM513.023386 103.700787c-66.517709 0-119.731814 53.211955-119.731814 117.68023 0 66.514944 53.214106 119.726797 119.731814 119.726797 64.47104 0 119.731814-53.211955 119.731814-119.726797C632.7552 156.912742 577.494323 103.700787 513.023386 103.700787L513.023386 103.700787zM444.458906 513.023283c0 37.862298 30.700442 67.538227 68.564378 67.538227s67.541094-29.67593 67.541094-67.538227-29.677158-68.56151-67.541094-68.56151S444.458906 475.160986 444.458906 513.023283L444.458906 513.023283zM513.023386 682.892186c-66.517709 0-119.731814 54.235238-119.731814 119.726797 0 66.514944 53.214106 119.726797 119.731814 119.726797 64.47104 0 119.731814-53.211955 119.731814-119.726797C632.7552 737.127322 577.494323 682.892186 513.023386 682.892186L513.023386 682.892186zM682.899354 513.023283c0 64.468275 54.237491 119.726797 119.731814 119.726797 66.517709 0 119.731814-55.258522 119.731814-119.726797 0-66.514944-53.214106-119.726797-119.731814-119.726797C737.136845 393.296486 682.899354 446.508442 682.899354 513.023283z" p-id="5045"></path></svg>
+        </span>
+        <span class="list-title">电影订单<i></i></span>
+      </a>
+      <a class="list-group-item my-card" href="http://m.xishiqu.com/member/discount">
+        <span class="icon icon-credit-card">
+            <svg style="width: 1em; height: 1em;vertical-align: top;fill: currentColor;overflow: hidden;" viewBox="0 0 1462 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="303"><path d="M1389.714286 1024H73.142857a73.142857 73.142857 0 0 1-73.142857-73.142857V73.142857a73.142857 73.142857 0 0 1 73.142857-73.142857h1316.571429a73.142857 73.142857 0 0 1 73.142857 73.142857v877.714286a73.142857 73.142857 0 0 1-73.142857 73.142857zM146.285714 877.714286h1170.285715V146.285714H146.285714v731.428572z m1024-438.857143H292.571429V292.571429h877.714285v146.285714z" fill="#fff" p-id="304"></path></svg>
+        </span>
+        <span class="list-title">我的卡券<i></i></span>
+      </a>
+      <a class="list-group-item my-wallet" href="http://m.xishiqu.com/member/wallet">
+        <span class="icon icon-suitcase">
+            <svg style="width: 1em; height: 1em;vertical-align: top;fill: currentColor;overflow: hidden;" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="5268"><path d="M785.2 926.8H206.8c-87 0-157.7-70.8-157.7-157.7V254.8c0-86.9 70.7-157.7 157.7-157.7h578.3c87 0 157.7 70.8 157.7 157.7v96c0 17.7-14.3 32-32 32s-32-14.3-32-32v-96c0-51.7-42-93.7-93.7-93.7H206.8c-51.7 0-93.7 42-93.7 93.7v514.3c0 51.7 42 93.7 93.7 93.7h578.3c51.7 0 93.7-42 93.7-93.7v-98.3c0-17.7 14.3-32 32-32s32 14.3 32 32v98.3c0 87-70.7 157.7-157.6 157.7z" fill="#fff" p-id="5269"></path><path d="M942.8 670.8h-256c-88.2 0-160-71.8-160-160s71.8-160 160-160h256c17.7 0 32 14.3 32 32v256c0 17.7-14.3 32-32 32z m-256-256c-52.9 0-96 43.1-96 96s43.1 96 96 96h224v-192h-224z" fill="#fff" p-id="5270"></path></svg>
+        </span>
+        <span class="list-title">我的钱包<i></i></span>
+      </a>
+    </div>
+    <div class="list-group with-icon">
+      <a class="list-group-item my-favorite" href="http://m.xishiqu.com/member/favorite">
+        <span class="icon icon-heart-o">
+            <svg style="width: 1em; height: 1em;vertical-align: top;fill: currentColor;overflow: hidden;" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="334"><path d="M714.07688 108.265796c-78.336136 0-152.170748 35.124985-201.437825 92.215238-49.267077-57.091276-123.099642-92.215238-201.437825-92.215238-138.79409 0-246.201331 105.373932-246.201331 241.502309 0 166.860309 152.171772 300.780391 382.722658 507.156692l64.916499 57.092299 64.916499-57.092299C808.108486 650.548496 960.279235 516.628414 960.279235 349.768105 960.279235 213.639728 852.871993 108.265796 714.07688 108.265796L714.07688 108.265796zM540.268322 799.156092l-9.093099 8.131191-18.535145 16.305361-18.534122-16.305361-9.049097-8.131191c-108.544135-97.111758-202.224748-180.978864-264.211521-255.971859-60.151985-72.851215-86.993307-132.500756-86.993307-193.417151 0-47.977711 18.142196-92.172259 51.058886-124.455523 32.786731-32.17377 77.638241-49.901527 126.292358-49.901527 56.260351 0 111.86681 25.530466 148.763139 68.284199l52.67571 61.112869 52.677756-61.112869c36.895305-42.753733 92.499717-68.284199 148.760069-68.284199 48.65514 0 93.50665 17.727757 126.292358 49.901527 32.917714 32.283264 51.058886 76.477812 51.058886 124.455523 0 60.915371-26.841322 120.564913-86.992283 193.417151C742.449068 618.177228 648.767432 702.044334 540.268322 799.156092L540.268322 799.156092zM540.268322 799.156092" p-id="335"></path></svg>
+        </span>
+        <span class="list-title">我的收藏<i></i></span>
+      </a>
+      <a class="list-group-item my-address" href="http://m.xishiqu.com/member/address">
+        <span class="icon icon-address">
+            <svg style="width: 1em; height: 1em;vertical-align: top;fill: currentColor;overflow: hidden;" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4386"><path d="M895.616384 347.812188q0 10.22977-0.511489 19.436563t-1.534466 19.436563q-9.206793 84.907093-37.338661 163.164835t-71.096903 150.377622-99.228771 138.613387-121.734266 127.872128q-9.206793 11.252747-23.528472 11.252747-15.344655 0-24.551449-11.252747-65.470529-61.378621-122.245754-128.895105t-100.251748-141.170829-71.608392-152.935065-36.315684-165.210789q0-8.183816-0.511489-15.344655t-0.511489-15.344655q0-71.608392 28.131868-135.032967t76.211788-110.481518 113.038961-74.677323 138.613387-27.62038 138.101898 27.62038 112.527473 74.677323 76.211788 110.481518 28.131868 135.032967zM540.643357 507.396603q33.758242 0 63.424575-12.787213t51.66034-34.26973 34.781219-50.637363 12.787213-61.89011-12.787213-61.89011-34.781219-50.637363-51.66034-34.26973-63.424575-12.787213-63.424575 12.787213-52.171828 34.26973-35.292707 50.637363-12.787213 61.89011 12.787213 61.89011 35.292707 50.637363 52.171828 34.26973 63.424575 12.787213z" p-id="4387"></path></svg>
+        </span>
+        <span class="list-title">收货地址<i></i></span>
+      </a>
+      <a class="list-group-item my-password" href="http://m.xishiqu.com/member/password/change">
+        <span class="icon icon-user">
+            <svg style="width: 1em; height: 1em;vertical-align: top;fill: currentColor;overflow: hidden;" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="3906"><path d="M0 1024C0 808.704 94.1568 619.8784 235.9296 511.5904 285.4912 634.1632 389.9904 719.4624 512 719.4624 634.0096 719.4624 738.5088 634.1632 788.0704 511.5904 929.8432 619.8784 1024 808.704 1024 1024L0 1024ZM512 614.4C342.3232 614.4 204.8 476.8768 204.8 307.2 204.8 137.5232 342.3232 0 512 0 681.6768 0 819.2 137.5232 819.2 307.2 819.2 476.8768 681.6768 614.4 512 614.4Z" p-id="3907"></path></svg>
+        </span>
+        <span class="list-title">修改密码<i></i></span>
+      </a>
+      <a class="list-group-item my-service" href="tel:400-003-9992">
         <span class="icon icon-service"></span>
         <span class="list-last">客服电话 ：400-003-9992</span>
-    </a>
-</div>
-<div class="logout">
-    <a class="btn btn-primary btn-block" href="http://m.xishiqu.com/logout">退出登录</a>
-</div>
+      </a>
     </div>
-    <script>
-document.addEventListener("DOMContentLoaded", function(event) {
-    document.querySelector('body').classList.add('ready');
-    if (document.querySelector(".nick-name").innerHTML.length <= 11 ) {
-        document.getElementsByClassName('nick-name')[0].style.overflow = 'auto';
-        document.getElementsByClassName('nick-name')[0].style.width = 'auto';
-    } else {
-        document.getElementsByClassName('nick-name')[0].style.overflow = 'hidden';
-        document.getElementsByClassName('nick-name')[0].style.width = '36%';
-    }
-});
-</script>
-    <script>
-        var domain = 'http://m.xishiqu.com';
-        setTimeout(function(){
-        var alert = document.querySelector('.alert');
-        if (alert)
-            alert.remove();
-    }, 1500);
-    // setTimeout(function(){
-    //     var announce = document.querySelector('.announce');
-    //     if (announce)
-    //         announce.remove();
-    // }, 6000);
-    </script>
-    <!-----------------Google Analytics Start-------------------------->
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-80730474-1', 'auto');
-      ga('send', 'pageview');
-
-    </script>
-    <!-----------------Google Analytics End-------------------------->
-    <script src="//m.xishiqu.com/m/js/stat.js" charset="utf-8"></script><iframe src="http://m.xishiqu.com/mobileStat?marketId=0&amp;projectId=&amp;refURL=http://m.xishiqu.com/member/dashboard" __idm_frm__="976" style="display: none; width: 0px; height: 0px;"></iframe>
-
-
-</body>
+    <div class="logout">
+      <a class="btn btn-primary btn-block" href="http://m.xishiqu.com/logout">退出登录</a>
+    </div>
+  </div>
 </template>
 
 
 <script>
-import request from "@/utils/request"
-import ActivityList from '@/components/common/catelist/ActivityList'
-import { Indicator } from "mint-ui"
+import request from "@/utils/request";
+import ActivityList from "@/components/common/catelist/ActivityList";
+import { Indicator } from "mint-ui";
 
 export default {
   data() {
     return {
       yanchanghuiList: []
-    }
+    };
   },
 
   components: {
@@ -130,27 +92,27 @@ export default {
   },
 
   async created() {
-    Indicator.open({
-      text: "加载中...",
-      spinnerType: "fading-circle"
-    });
-
+    // Indicator.open({
+    //   text: "加载中...",
+    //   spinnerType: "fading-circle"
+    // });
 
     // const result = await request({
     //   url: "https://api.myjson.com/bins/1bimge"
     // });
 
-    this.yanchanghuiList = result.result.list;
-    console.log(this.yanchanghuiList);
-    
-    Indicator.close();
-  },
+    // this.yanchanghuiList = result.result.list;
+    // console.log(this.yanchanghuiList);
 
+    // Indicator.close();
+  }
 };
 </script>
 
 
 <style lang="stylus" scoped>
+@import '~@/assets/login.styl'
+
 
 </style>
 

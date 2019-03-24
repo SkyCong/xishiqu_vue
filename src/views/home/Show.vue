@@ -68,7 +68,7 @@ export default {
     this.topData = moskData
     this.activityCateInfos = data.result.activityCateInfo   
     this.activityLikeInfos = data.result.activityLikeInfo  
-
+      
     Indicator.close();
   },
 

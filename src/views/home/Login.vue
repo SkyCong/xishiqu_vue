@@ -1,31 +1,27 @@
 <template>
   <div>
-    123
-    <!-- <loginYES></loginYES> -->
+    <LoginYES></LoginYES>
   </div>
 </template>
 
 
-// <script>
-// import request from "@/utils/request"
-// import loginYES from '@/components/logins/loginYES'
-// import { Indicator } from "mint-ui"
+<script>
+import request from "@/utils/request"
+import LoginYES from '@/components/logins/LoginYES'
+import { Indicator } from "mint-ui"
 
-// export default {
-//   data() {
-//     return {
-//       yanchanghuiList: []
-//     }
-//   },
-
-//   components: {
-//     ActivityList
-//   },
-
-// };
-// </script>
+export default {
 
 
-// <style lang="stylus" scoped>
+  components: {
+    LoginYES
+  },
 
-// </style>
+}
+
+</script>
+
+
+<style lang="stylus" scoped>
+
+</style>
