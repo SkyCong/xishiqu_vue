@@ -38,7 +38,9 @@ export default {
   mounted() {
     this.$nextTick(() => {
       if (!this.scroll) {
-        this.scroll = new BScroll(".cateScorll")
+        this.scroll = new BScroll(".cateScorll",{
+          click: true
+        })
       } else {
         this.scroll.refresh();
       }

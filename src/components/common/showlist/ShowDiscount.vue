@@ -1,5 +1,5 @@
 <template>
-  <div class="thumbnail__tag" v-if="flag">
+  <div class="thumbnail__tag" v-if="this.maxDiscount != ''">
     <span>{{maxDiscount}}</span>折 起
   </div>
 </template>
@@ -12,12 +12,12 @@ export default {
   props: {
     maxDiscount: String
   },
-  computed: {
-    flag() {
-      if(this.maxDiscount != '')
-        return true
-    }
-  }
+  // computed: {
+  //   // flag() {
+  //   //   if(this.maxDiscount != '')
+  //   //     return true
+  //   // }
+  // }
 }
 
 </script>

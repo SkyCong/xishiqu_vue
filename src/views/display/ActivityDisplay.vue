@@ -6,13 +6,13 @@
         <div class="wrap">
           <div class="wrap-list">
             <div class="page__header">
-              <div class="left">
-                <i class="icon icon-angle-left">
+              <router-link class="left" to="/show" tag="div">
+                <i class="icon icon-angle-left" >
                   <svg t="1553179774098" style="width: 1em; height: 1em;vertical-align: middle;fill: currentColor;overflow: hidden;" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="3312"><path d="M244.905102 548.656955c0.640598 0.647433 1.298773 1.260688 1.967689 1.862226 0.602513 0.664035 1.215768 1.32221 1.863202 1.962808l457.001475 457.007725c19.284336 19.287071 50.550391 19.284336 69.831798 0 19.284336-19.28336 19.284336-50.547461 0-69.833751L349.658072 513.741643l429.438194-429.43878c19.28336-19.287266 19.28336-50.550391 0-69.837657-19.287266-19.286289-50.550391-19.286289-69.834727 0L244.905102 478.824572C225.617835 498.105978 225.617835 529.370666 244.905102 548.656955L244.905102 548.656955z" p-id="3313"></path>
                   </svg>
                 </i>
                 <!---->
-              </div>
+              </router-link>
               <div class="middle">
                 <span>演出详情</span>
               </div>
@@ -273,7 +273,7 @@
             <svg t="1553597567450" class="icon" style="width: 1em; height: 1em;vertical-align: middle;fill: currentColor;overflow: hidden;" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4586"><path d="M512 922.59a31.9 31.9 0 0 1-22.63-9.37L146.31 570.15A274.6 274.6 0 0 1 512 161.54a274.6 274.6 0 0 1 365.69 408.61L534.63 913.21a31.9 31.9 0 0 1-22.63 9.38zM340.47 165.41a210.58 210.58 0 0 0-148.9 359.49L512 845.33 832.43 524.9a210.58 210.58 0 1 0-297.8-297.81 32 32 0 0 1-45.25 0 209.2 209.2 0 0 0-148.91-61.68z" p-id="4587" fill="#bfbfbf"></path><path d="M512 922.59a31.9 31.9 0 0 1-22.63-9.37L146.31 570.15A274.6 274.6 0 0 1 512 161.54a274.6 274.6 0 0 1 365.69 408.61L534.63 913.21a31.9 31.9 0 0 1-22.63 9.38zM340.47 165.41a210.58 210.58 0 0 0-148.9 359.49L512 845.33 832.43 524.9a210.58 210.58 0 1 0-297.8-297.81 32 32 0 0 1-45.25 0 209.2 209.2 0 0 0-148.91-61.68z" p-id="4588" fill="#8a8a8a"></path></svg>
           </span>
           <!---->
-          <div class="item btn">比价购票</div>
+          <div class="item btn" @click="tz">比价购票</div>
         </div>
         <div>
           <!---->
@@ -291,13 +291,28 @@
 <script>
 import BScroll from "better-scroll";
 import { Indicator } from "mint-ui";
+import { METHODS } from 'http';
 
 export default {
   
   mounted() {
-    let displayScroll = new BScroll(".wrap");
+
+    let displayScroll = new BScroll(".wrap",{
+          click: true
+    })
+
+  },
+
+  methods: {
+
+    tz(){
+      console.log(0);
+      
+      // this.$router.replace('/show')
+    }
   }
 
+  
 
 }
 </script>

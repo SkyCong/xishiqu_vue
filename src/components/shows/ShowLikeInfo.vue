@@ -3,8 +3,7 @@
   <div class="favours" >
 
     <h3 class="block__title">投你所喜</h3>
-
-    <div class="node node--activity horizontal" v-for="(activity , n) in activityLikeInfos" :key="n">
+    <router-link to="/activity" class="node node--activity horizontal" v-for="(activity , n) in activityLikeInfos" :key="n" tag="div">
       <!---->
       <!---->
       <div class="thumbnail" :style="{backgroundImage : 'url('+activity.actImgUrl+')'}">
@@ -22,7 +21,7 @@
       </div>
       <!---->
       <!---->
-    </div>
+    </router-link>  
   </div>
 
 </template>

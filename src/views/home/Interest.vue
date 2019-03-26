@@ -59,7 +59,9 @@ export default {
 
   mounted() {
     let page=2
-    let interestScroll = new BScroll(".wrap")
+    let interestScroll = new BScroll(".wrap",{
+          click: true
+    })
     let that = this
 
     interestScroll.on('scroll', function(e) {

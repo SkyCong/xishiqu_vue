@@ -4,7 +4,7 @@
     <!--11.2*mData.length-->
     <template v-if="pinyinName!='film'">
       <div class="wrapper" :style="'width: '+1.12*(mData.length-1)+'rem;'">
-        <div class="node node--activity vertical" v-for="(item , n) in mData.slice(1)" :key="n">
+        <router-link to="/activity"  class="node node--activity vertical" v-for="(item , n) in mData.slice(1)" :key="n" tag="div">
           <div class="thumbnail" :style="{backgroundImage : 'url('+item.actImgUrl+')'}">
             <!---->
             <div class="thumbnail__hot">
@@ -24,21 +24,21 @@
             <div class="venue"></div>
           </div>
           <!---->
-        </div>
+        </router-link>
       </div>
     </template>
 
     <template v-else>
         <div class="wrapper" :style="'width: '+1.12*mData.length+'rem;'">
-          <!-- <div> -->
-            <div class="node node--film vertical" v-for="(film , t) in mData" :key="t">
+          <!-- <router-link> -->
+            <router-link to="/activity" class="node node--film vertical" v-for="(film , t) in mData" :key="t" tag="div">
               <div class="thumbnail" :style="{backgroundImage : 'url('+film.filmImg+')'}">
                 <div class="thumbnail__score">{{film.scoreD}}</div>
               </div>
               <div class="main">
                 <h1 class="filmName">{{film.filmName}}</h1>
               </div>
-            </div>  
+            </router-link>  
           <!-- </div>        -->
         </div>
     </template>

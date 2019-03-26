@@ -13,6 +13,7 @@ import Login from '@/views/home/Login'
 
 import ActivityDisplay from '@/views/display/ActivityDisplay'
 import FilmDisplay from '@/views/display/FilmDisplay'
+import SerchDisplay from '@/views/display/SerchDisplay'
 
 import CateQuanbu from '@/components/categorys/CateQuanbu'
 import CateYanchanghui from '@/components/categorys/CateYanchanghui'
@@ -128,7 +129,11 @@ export default new Router({
       path: '/filmdis',
       name: 'filmdis',
       component: FilmDisplay
+    },
+    {
+      path: '/serch',
+      name: 'serch',
+      component: SerchDisplay
     }
-    
   ]
 })

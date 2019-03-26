@@ -21,7 +21,9 @@ export default {
   },
 
   mounted() {
-    let loginScroll = new BScroll(".wrap")
+    let loginScroll = new BScroll(".wrap",{
+          click: true
+    })
   
   }
   

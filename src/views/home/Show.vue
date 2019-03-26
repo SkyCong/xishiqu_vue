@@ -73,7 +73,9 @@ export default {
   },
 
   mounted() {
-    let bScroll = new BScroll('.list-wrap')
+    let bScroll = new BScroll('.list-wrap',{
+          click: true
+    })
   },
 
 }

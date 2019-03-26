@@ -1,5 +1,5 @@
 <template>
-  <div class="main-node" >
+  <router-link to="/activity" lass="main-node" tag="div">
     <div class="node node--activity primary">
       <div
         class="bg"
@@ -30,7 +30,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </router-link>
 </template>
 
 <script>
