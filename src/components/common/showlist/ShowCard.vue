@@ -1,5 +1,5 @@
 <template>
-  <div class="main-node">
+  <div class="main-node" >
     <div class="node node--activity primary">
       <div
         class="bg"

@@ -30,36 +30,68 @@
 import request from "@/utils/request"
 import BScroll from 'better-scroll'
 import LoginYES from '@/components/logins/LoginYES'
-import { Indicator } from 'mint-ui'
+import _ from 'lodash'
 
 export default {
 
-  
   data () {
     return {
        newItems: []
     }
   },
 
+  async created() {
 
-  mounted() {
-    let interestScroll = new BScroll(".wrap")
+    let result = await request({
+      url: 'proxy/chinanews/getNewsList',
+      params: {
+        language: "chs",
+        pageSize: 15,
+        searchType: 1,
+        dtp: 6,
+        isWap: "yes",
+        cname: "yl",
+        pageIndex: 1,
+      }
+    })
+    this.newItems=result.data
   },
 
-  async created() {
-    Indicator.open({
-      text: '加载中...',
-      spinnerType: 'fading-circle'
-    });
+  mounted() {
+    let page=2
+    let interestScroll = new BScroll(".wrap")
+    let that = this
 
-    const result = await request({
-      url: '/interest.json'
+    interestScroll.on('scroll', function(e) {
+      
     })
 
-    this.newItems = result.data
+    interestScroll.on('scrollEnd', _.debounce(async function() {
+      if (this.y <= this.maxScrollY) {
+        let result = await request({
+          url: 'proxy/chinanews/getNewsList',
+          params: {
+            language: "chs",
+            pageSize: 15,
+            searchType: 1,
+            dtp: 6,
+            isWap: "yes",
+            cname: "yl",
+            pageIndex: page++,
+          }
+        })
 
-      
-    Indicator.close();
+        that.newItems = [
+          ...that.newItems,
+          ...result.data
+        ]
+
+        that.$nextTick(() => {
+          this.refresh()
+        })
+      }
+    }))
+  
   },
 
 }

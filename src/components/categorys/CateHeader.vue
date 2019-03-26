@@ -9,9 +9,9 @@
 
         <div>
           上海
-          <i class="icon icon-angle-down">
+          <router-link to="/city" tag="i" class="icon icon-angle-down">
             <svg t="1552719750747" class="icon" style="width: 1em; height: 1em;vertical-align: middle;fill: currentColor;overflow: hidden; margin-left: 0.05rem;" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="3878"><path d="M838.4 355.2L512 681.6c-6.4 6.4-14.4 9.6-22.4 9.6-8 0-16.8-3.2-22.4-9.6L140 355.2c-12-12-14.4-32.8-2.4-45.6 12-13.6 33.6-13.6 46.4-0.8l305.6 305.6h0.8L796 308.8c12.8-12.8 33.6-12.8 46.4 0.8 10.4 12.8 8.8 32.8-4 45.6z" fill="#999" p-id="3879"></path></svg>
-          </i>
+          </router-link>
         </div>
       </div>
 

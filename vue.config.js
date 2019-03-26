@@ -38,6 +38,14 @@ module.exports = {
         // pathRewrite: { 
         //   "^/proxy": ""
         // }
+      },
+      '/proxy': {
+        target: 'http://www.chinanews.com',
+        secure: false,//false 为http
+        changeOrigin: true,
+        pathRewrite: { 
+          "^/proxy": ""
+        }
       }
     }
   }
