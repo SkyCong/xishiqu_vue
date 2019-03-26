@@ -1,15 +1,9 @@
 <template>
-  <Home></Home>
+    <router-view></router-view>
 </template>
 
 <script>
-import Home from './views/home/Home'
 
-export default {
-  components: {
-    Home
-  } 
-}
 </script>
 
 <style lang="stylus">

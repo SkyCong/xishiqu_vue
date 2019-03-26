@@ -14,7 +14,6 @@
 <script>
 
 import Tabbar from '@/components/layout/Tabbar'
-import Show from '@/views/home/Show'
 // import MainTop from './MainTop'
 // import MainCenter from './MainCenter'
 // import MainBottom from './MainBottom'
@@ -23,8 +22,7 @@ import Show from '@/views/home/Show'
 export default {
 
   components: {
-    Tabbar,
-    Show
+    Tabbar
   }
 
 }

@@ -1,6 +1,9 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 
+import Splash from '../views/splash/Splash.vue'
+import Home from '../views/home/Home'
+
 import Show from '@/views/home/Show'
 import CityPicker from '@/views/city/CityPicker'
 import Category from '@/views/home/Category'
@@ -8,8 +11,8 @@ import Interest from '@/views/home/Interest'
 import Resell from '@/views/home/Resell'
 import Login from '@/views/home/Login'
 
-import ActivityDisplay from '@/components/display/ActivityDisplay'
-import FilmDisplay from '@/components/display/FilmDisplay'
+import ActivityDisplay from '@/views/display/ActivityDisplay'
+import FilmDisplay from '@/views/display/FilmDisplay'
 
 import CateQuanbu from '@/components/categorys/CateQuanbu'
 import CateYanchanghui from '@/components/categorys/CateYanchanghui'
@@ -34,80 +37,87 @@ export default new Router({
   routes: [
     {
       path: '/',
-      redirect: '/show'
+      component: Splash
     },
     {
-      path: '/show',
-      name: 'show',
-      component: Show
-    },
-    {
-      path: '/city',
-      name: 'city',
-      component: CityPicker
-    },
-    {
-      path: '/category',
-      name: 'category',
-      redirect: '/category/quanbu',
-      component: Category,
+      path: '/home',
+      component: Home,
+      redirect: '/show',
       children: [
         {
-          path: 'quanbu',
-          component: CateQuanbu
+          path: '/show',
+          name: 'show',
+          component: Show
         },
         {
-          path: 'yanchanghui',
-          component: CateYanchanghui
+          path: '/city',
+          name: 'city',
+          component: CityPicker
         },
         {
-          path: 'huajugeju',
-          component: CateHuajugeju
+          path: '/category',
+          name: 'category',
+          redirect: '/category/quanbu',
+          component: Category,
+          children: [
+            {
+              path: 'quanbu',
+              component: CateQuanbu
+            },
+            {
+              path: 'yanchanghui',
+              component: CateYanchanghui
+            },
+            {
+              path: 'huajugeju',
+              component: CateHuajugeju
+            },
+            {
+              path: 'xiuxianyule',
+              component: CateXiuxianyule
+            },
+            {
+              path: 'film',
+              component: CateFilm
+            },
+            {
+              path: 'tiyusaishi',
+              component: CateTiyusaishi
+            },
+            {
+              path: 'ertongqinzi',
+              component: CateErtongqinzi
+            },
+            {
+              path: 'yinyuehui',
+              component: CateYinyuehui
+            },
+            {
+              path: 'quyizaji',
+              component: CateQuyizaji
+            },
+            {
+              path: 'wudaobalei',
+              component: CateWudaobalei
+            }
+          ]
+        },    
+        {
+          path: '/interest',
+          name: 'interest',
+          component: Interest
         },
         {
-          path: 'xiuxianyule',
-          component: CateXiuxianyule
+          path: '/resell',
+          name: 'resell',
+          component: Resell
         },
         {
-          path: 'film',
-          component: CateFilm
-        },
-        {
-          path: 'tiyusaishi',
-          component: CateTiyusaishi
-        },
-        {
-          path: 'ertongqinzi',
-          component: CateErtongqinzi
-        },
-        {
-          path: 'yinyuehui',
-          component: CateYinyuehui
-        },
-        {
-          path: 'quyizaji',
-          component: CateQuyizaji
-        },
-        {
-          path: 'wudaobalei',
-          component: CateWudaobalei
+          path: '/login',
+          name: 'login',
+          component: Login
         }
       ]
-    },    
-    {
-      path: '/interest',
-      name: 'interest',
-      component: Interest
-    },
-    {
-      path: '/resell',
-      name: 'resell',
-      component: Resell
-    },
-    {
-      path: '/login',
-      name: 'login',
-      component: Login
     },
     {
       path: '/activity',
@@ -119,5 +129,6 @@ export default new Router({
       name: 'filmdis',
       component: FilmDisplay
     }
+    
   ]
 })
