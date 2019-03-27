@@ -35,10 +35,10 @@
           </div>
           <div class="minor">
             <div class="item">
-              <div class="left">
+              <router-link to="/" class="left" tag="div">
                 <h4 class="title">每月打卡</h4>
                 <div class="remark"></div>
-              </div>
+              </router-link>
               <div class="img" style="background-image: url(&quot;http://image3.xishiqu.cn/upload/apic/920/190/920190307//51709A14-F31C-DC33-3CFC-AB81EB7EAEB2.jpg&quot;);"></div>
             </div>
             <div class="item">
