@@ -32,12 +32,17 @@ module.exports = {
     port: 8080,
     proxy: {
       '/ajax': {
-        target: 'http://m.xishiqu.com/',
+        target: 'http://m.xishiqu.com',
         secure: false,//false 为http
         changeOrigin: true
         // pathRewrite: { 
         //   "^/proxy": ""
         // }
+      },
+      '/api': {
+        target: 'http://m.xishiqu.com',
+        secure: false,//false 为http
+        changeOrigin: true
       },
       '/proxy': {
         target: 'http://www.chinanews.com',

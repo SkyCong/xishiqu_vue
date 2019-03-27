@@ -8,7 +8,7 @@
 <script>
 // import request from "@/utils/request"
 import BScroll from 'better-scroll'
-import LoginYES from '@/components/logins/LoginYES'
+// import LoginYES from '@/components/logins/LoginYES'
 import LoginNO from '@/components/logins/LoginNO'
 import { Indicator } from "mint-ui"
 
@@ -16,7 +16,6 @@ export default {
 
 
   components: {
-    LoginYES,
     LoginNO
   },
 

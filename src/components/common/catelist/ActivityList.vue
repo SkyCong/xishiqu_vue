@@ -51,7 +51,7 @@ export default {
 </script>
 
 <style lang="stylus">
-@import '~@/assets/node-activity.styl';
+@import '~@/assets/node-activity.styl'
 
   .cateScorll
       height 100%

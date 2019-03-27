@@ -1,5 +1,5 @@
 <template>
-  <router-link to="/activity" lass="main-node" tag="div">
+  <router-link :to="'/activity/'+mData.pinyinName" lass="main-node" tag="div">
     <div class="node node--activity primary">
       <div
         class="bg"

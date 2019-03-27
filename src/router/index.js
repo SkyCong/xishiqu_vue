@@ -10,6 +10,8 @@ import Category from '@/views/home/Category'
 import Interest from '@/views/home/Interest'
 import Resell from '@/views/home/Resell'
 import Login from '@/views/home/Login'
+// import LoginYES from '@/views/home/LoginYES'
+
 
 import ActivityDisplay from '@/views/display/ActivityDisplay'
 import FilmDisplay from '@/views/display/FilmDisplay'
@@ -32,6 +34,7 @@ import CateWudaobalei from '@/components/categorys/CateWudaobalei'
 // import ComingSoon from '@/components/movielist/ComingSoon'
 
 Vue.use(Router)
+
 
 export default new Router({
   mode: 'history',
@@ -117,16 +120,21 @@ export default new Router({
           path: '/login',
           name: 'login',
           component: Login
-        }
+        },
+        // {
+        //   path: '/loginok',
+        //   name: 'loginok',
+        //   component: LoginYES
+        // }
       ]
     },
     {
-      path: '/activity',
+      path: '/activity/:id',
       name: 'activity',
       component: ActivityDisplay
     },
     {
-      path: '/filmdis',
+      path: '/filmdis/:id',
       name: 'filmdis',
       component: FilmDisplay
     },

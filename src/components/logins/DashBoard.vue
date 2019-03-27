@@ -77,7 +77,6 @@
 
 <script>
 import request from "@/utils/request";
-import ActivityList from "@/components/common/catelist/ActivityList";
 import { Indicator } from "mint-ui";
 
 export default {
@@ -88,7 +87,7 @@ export default {
   },
 
   components: {
-    ActivityList
+    
   },
 
   async created() {

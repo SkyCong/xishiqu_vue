@@ -44,28 +44,28 @@
             <div class="basic-info">
               <div
                 class="bg"
-                style="background-image: url(&quot;http://image.xishiqu.cn/upload/activity/119/031/20190313001/v/b/F4F0FD71-3A45-1DFF-1C96-67891F5D7226.jpg&quot;);"
+                :style="{backgroundImage : 'url('+activityList.thumbnail+')'}"
               ></div>
               <div class="mask"></div>
               <div class="thumbnail">
                 <!---->
                 <img
-                  src="http://image.xishiqu.cn/upload/activity/119/031/20190313001/v/b/F4F0FD71-3A45-1DFF-1C96-67891F5D7226.jpg"
+                  :src="activityList.thumbnail"
                   class="thumbnail__img"
                 >
               </div>
               <div class="main">
-                <h1 class="title">预订 2019超级草莓音乐节—上海站</h1>
-                <div class="date">2019.04.26~2019.04.28</div>
+                <h1 class="title">{{activityList.actName}}</h1>
+                <div class="date">{{activityList.actDate}}</div>
                 <div class="heat">
                   <div class="heat__main">
-                    112.2 ℃
+                    {{activityList.hotLevel}} ℃
                     <br>
                     <span>西十区指数</span>
                   </div>
                 </div>
                 <div class="price">
-                  578.00
+                  {{activityList.minPrice}}
                   <span class="sub">起</span>
                 </div>
               </div>
@@ -75,7 +75,7 @@
                 <span class="text-content">
                   <i class="icon icon-marker">
                     <svg t="1553609758231" style="width: 1.0009765625em; height: 1em;vertical-align: text-bottom;fill: currentColor;overflow: hidden;" viewBox="0 0 1025 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2140"><path d="M839.946482 389.336542c0-179.917116-147.043874-325.820973-328.561518-325.820973-181.460336 0-328.561518 145.903857-328.561518 325.820973 0 59.446709 16.307166 114.955546 44.308214 162.939652l-0.351011 0 284.574638 407.316894 284.690277-407.316894-0.379665 0C823.757001 504.292088 839.946482 448.783251 839.946482 389.336542M511.413617 552.215816c-90.716353 0-164.280247-72.922251-164.280247-162.907928 0-89.927346 73.563895-162.907928 164.280247-162.907928 90.802315 0 164.280247 72.980582 164.280247 162.907928C675.693865 479.293565 602.215932 552.215816 511.413617 552.215816" p-id="2141" fill="#707070"></path></svg>
-                  </i>上海滩运动公社（原上海瑞可碧橄榄球俱乐部）
+                  </i>{{activityList.veName}}
                 </span>
               </div>
               <!---->
@@ -152,21 +152,7 @@
                   <div class="collapsed">
                     <div class="intro__content">
                       <div>
-                        <p
-                          style="text-indent:2em;"
-                        >摩登系音乐人全员出动，两岸三地受欢迎的音乐人也会一同亮相。台北上海闺蜜合体？民谣搭档嘻哈传奇？都会擦出什么样的火花？</p>
-                        <p
-                          style="text-indent:2em;"
-                        >Hip-Hop阵容里，有偶像级人气超级CP，有老炮和新生代，也有当地说唱风向标及通过《明日之子》《中国新说唱》等节目为大众熟知的潮流ICON。</p>
-                        <p
-                          style="text-indent:2em;"
-                        >曾推出舌头、木马、诱导社、小河、万晓利等世纪之交中国摇滚和民谣中坚力量，创造了一个世代之历史的独立乐界标杆——BadHead厂牌，成立20周年将初次以舞台的形式在音乐节亮相。</p>
-                        <p
-                          style="text-indent:2em;"
-                        >“YOUNG BLOOD新血计划”作为摩登天空十分具有探索性的青年文化和艺术人才发掘项目，将初次在沪蓉双城同步打造青年潮流文化阵地——“YOUNG BLOOD新血街区”，联合MVM视觉厂牌，集合艺术装置、潮流元素、街头文化等丰富内容，“YOUNG BLOOD新血计划舞台”也将汇集“YOUNG BLOOD新血音乐人”中的佼佼者，呈现十分前沿的青年文化景象，成为现场乐迷必去的打卡地。</p>
-                        <p
-                          style="text-indent: 2em;"
-                        >I.M.O. 星际动力别动队_你们的老朋友——宇航员REZ和YUKO，将带上新朋友河魨KULI、双头鹅GANS以全新的形式现身。高颜值的草莓周边将在现场新鲜发售。</p>
+                        {{activityList.content}}
                       </div>
                       <div class="gallery-wrapper">
                         <div class="gallery swiper-container">
@@ -273,7 +259,7 @@
             <svg t="1553597567450" class="icon" style="width: 1em; height: 1em;vertical-align: middle;fill: currentColor;overflow: hidden;" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4586"><path d="M512 922.59a31.9 31.9 0 0 1-22.63-9.37L146.31 570.15A274.6 274.6 0 0 1 512 161.54a274.6 274.6 0 0 1 365.69 408.61L534.63 913.21a31.9 31.9 0 0 1-22.63 9.38zM340.47 165.41a210.58 210.58 0 0 0-148.9 359.49L512 845.33 832.43 524.9a210.58 210.58 0 1 0-297.8-297.81 32 32 0 0 1-45.25 0 209.2 209.2 0 0 0-148.91-61.68z" p-id="4587" fill="#bfbfbf"></path><path d="M512 922.59a31.9 31.9 0 0 1-22.63-9.37L146.31 570.15A274.6 274.6 0 0 1 512 161.54a274.6 274.6 0 0 1 365.69 408.61L534.63 913.21a31.9 31.9 0 0 1-22.63 9.38zM340.47 165.41a210.58 210.58 0 0 0-148.9 359.49L512 845.33 832.43 524.9a210.58 210.58 0 1 0-297.8-297.81 32 32 0 0 1-45.25 0 209.2 209.2 0 0 0-148.91-61.68z" p-id="4588" fill="#8a8a8a"></path></svg>
           </span>
           <!---->
-          <div class="item btn" @click="tz">比价购票</div>
+          <div class="item btn">比价购票</div>
         </div>
         <div>
           <!---->
@@ -289,12 +275,35 @@
 
 
 <script>
+import request from '@/utils/request'
 import BScroll from "better-scroll";
-import { Indicator } from "mint-ui";
-import { METHODS } from 'http';
+// import { Indicator } from "mint-ui";
+// import { METHODS } from 'http';
 
 export default {
-  
+
+  data () {
+    return {
+       activityList: []
+    }
+  },
+
+  async created() {
+
+    let result = await request({
+      url: '/ajax/activity/detail',
+      params: {
+        pinyinName: this.$route.params.id
+      }
+
+    })
+
+    this.activityList=result.result.activity
+  },  
+
+
+
+
   mounted() {
 
     let displayScroll = new BScroll(".wrap",{
@@ -305,11 +314,6 @@ export default {
 
   methods: {
 
-    tz(){
-      console.log(0);
-      
-      // this.$router.replace('/show')
-    }
   }
 
   
@@ -319,7 +323,7 @@ export default {
 
 
 <style lang="stylus" scoped>
-  @import '~@/assets/activity.styl';
+  @import '~@/assets/activity-display.styl';
   #activity
     height 100vh
     .wrap 
