@@ -30,7 +30,7 @@
             flex: 1;
             display: flex;
             .icon-search {
-                flex: 0 0 .2em;
+                flex: 0 0 2em;
                 font-size: 18px;
             }
             .left__input {
@@ -47,7 +47,7 @@
             }
         }
         .search__right {
-            flex: 0 0 .3em;
+            flex: 0 0 3em;
             text-align: right;
             font-size: .14rem;
         }
@@ -179,3 +179,13 @@
         }
     }
 }
+
+.clearfix:after, .clearfix:before {
+    content: " ";
+    display: table;
+}
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: table; }
+.clearfix:after {
+  clear: both; }
