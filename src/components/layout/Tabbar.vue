@@ -21,7 +21,7 @@
         <span class="text">转票</span>
       </router-link>
 
-     	<router-link to="/login" active-class="active" tag="li">
+     	<router-link to="/member" active-class="active" tag="li">
         <span class="i my"></span> 
         <span class="text">我</span>
       </router-link>

@@ -1,32 +1,27 @@
 <template>
   <div class="cateScorll">
     <div class="node-list paddingtop">
-      <div class="node node--film horizontal" v-for="(film , n) in dataList" :key="n">
-        <div
-          class="thumbnail"
-          :style="{backgroundImage : 'url('+film.filmImg+')'}"
-        >
-          <!---->
-        </div>
-        <div class="main">
-          <div>
-            <h1 class="i title">{{film.filmName}}</h1>
-            <div class="i scores">
-              <span class="score score-db">
-                <label class="score__source">豆瓣</label>{{film.scoreG}}
-              </span>
-              <span class="score score-gwl">
-                <label class="score__source">淘票票</label>{{film.scoreD}}
-              </span>
+      <router-link :to="'/filmdis/'+film.filmId"  class="node node--film horizontal" v-for="(film , n) in dataList" :key="n" tag="div"> 
+          <div class="thumbnail" :style="{backgroundImage : 'url('+film.filmImg+')'}"></div>
+          <div class="main">
+            <div>
+              <h1 class="i title">{{film.filmName}}</h1>
+              <div class="i scores">
+                <span class="score score-db">
+                  <label class="score__source">豆瓣</label>{{film.scoreG}}
+                </span>
+                <span class="score score-gwl">
+                  <label class="score__source">淘票票</label>{{film.scoreD}}
+                </span>
+              </div>
+              <div class="i time"></div>
+              <div class="i quote"></div>
+              <div class="i actors">{{film.filmActor}}</div>
             </div>
-            <div class="i time"></div>
-            <div class="i quote"></div>
-            <div class="i actors">{{film.filmActor}}</div>
+            <span class="btn btn-seat">比价</span>
           </div>
-          <span class="btn btn-seat">比价</span>
-        </div>
         <!---->
-      </div>
+      </router-link>
       <div class="loading"></div>
     </div>  
   </div>

@@ -1,7 +1,7 @@
 <template>
   <div class="cateScorll">
     <div class="paddingtop">
-      <div class="node node--activity horizontal" v-for="(activity , n) in dataList" :key="n">
+      <router-link :to="'/activity/'+activity.pinyinName" class="node node--activity horizontal" v-for="(activity , n) in dataList" :key="n" tag="div">
         <!---->
         <!---->
         <div class="thumbnail" :style="{backgroundImage : 'url('+activity.actImgUrl+')'}"></div>
@@ -19,7 +19,7 @@
         </div>
         <!---->
         <!---->
-      </div>
+      </router-link>
     </div>
   </div>
 </template>

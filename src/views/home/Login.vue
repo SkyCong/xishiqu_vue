@@ -43,18 +43,18 @@
           </div>
           <button disabled="disabled" class="btn btn-default login-btn">登录</button>
         </div>
-        <div class="tab-content__account" v-if="li_id === 1">
+        <div class="tab-content__account" v-if="li_id === 1" :model="ruleForm" ref="ruleForm">
           <div class="input__account">
             <i class="icon icon-admin">
               <svg t="1553426650566" style="width: 1em; height: 1em;vertical-align: middle;fill: currentColor;overflow: hidden;" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="22007"><path d="M508.96896 92.2624c-117.248 0-212.64384 96.80896-212.64384 215.7568 0 118.94784 95.39584 215.7568 212.64384 215.7568 117.248 0 212.64384-96.78848 212.64384-215.7568C721.6128 189.0304 626.21696 92.2624 508.96896 92.2624L508.96896 92.2624M596.5824 544.5632l-159.3344 0c-148.04992 0-268.47232 122.12224-268.47232 272.24064l0 16.15872c0 78.49984 118.49728 78.49984 268.47232 78.49984l159.3344 0c144.09728 0 268.51328 0 268.51328-78.49984l0-16.15872C865.09568 666.70592 744.6528 544.5632 596.5824 544.5632L596.5824 544.5632" p-id="22008" fill="#2c2c2c"></path></svg>
             </i> 
-            <input type="text" name="account" placeholder="请输入登录账号" class="form-control">
+            <input type="text" name="account" placeholder="请输入登录账号" class="form-control" v-model="ruleForm.userName" ref="account">
           </div> 
           <div class="input__password">
             <i class="icon icon-lock">
               <svg t="1553694892246"  style="width: 1em; height: 1em;vertical-align: middle;fill: currentColor;overflow: hidden;" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2173"><path d="M765.604952 364.063693l-42.267663 0 0-84.535325c0-116.65793-94.679359-211.337289-211.337289-211.337289s-211.337289 94.679359-211.337289 211.337289l0 84.535325-42.267663 0c-46.705742 0-84.535325 37.829584-84.535325 84.535325l0 422.674579c0 46.705742 37.829584 84.535325 84.535325 84.535325l507.209904 0c46.705742 0 84.535325-37.829584 84.535325-84.535325L850.140277 448.599018C850.140277 401.893276 812.310693 364.063693 765.604952 364.063693zM512 744.470609c-46.705742 0-84.535325-37.829584-84.535325-84.535325 0-46.705742 37.829584-84.535325 84.535325-84.535325s84.535325 37.829584 84.535325 84.535325C596.534302 706.642049 558.705742 744.470609 512 744.470609zM643.029242 364.063693 380.970758 364.063693l0-84.535325c0-72.27714 58.752102-131.029242 131.029242-131.029242S643.029242 207.251228 643.029242 279.528368L643.029242 364.063693z" p-id="2174" fill="#2c2c2c"></path></svg>
             </i> 
-              <input :type="show" maxlength="18" name="password" placeholder="请输入登录密码" class="form-control"> 
+              <input :type="show" maxlength="18" name="password" placeholder="请输入登录密码" class="form-control" v-model="ruleForm.password" ref="password"> 
               <button>
                 <i class="icon" :style="on_off === 0 ? 'display:none' : ''"  @click="iClass(0)">
                   <svg t="1553695040394" style="width: 1em; height: 1em;vertical-align: middle;fill: currentColor;overflow: hidden;" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="3731"><path d="M332.8 729.6l34.133333-34.133333c42.666667 12.8 93.866667 21.333333 145.066667 21.333333 162.133333 0 285.866667-68.266667 375.466667-213.333333-46.933333-72.533333-102.4-128-166.4-162.133334l29.866666-29.866666c72.533333 42.666667 132.266667 106.666667 183.466667 192-98.133333 170.666667-243.2 256-426.666667 256-59.733333 4.266667-119.466667-8.533333-174.933333-29.866667z m-115.2-64c-51.2-38.4-93.866667-93.866667-132.266667-157.866667 98.133333-170.666667 243.2-256 426.666667-256 38.4 0 76.8 4.266667 110.933333 12.8l-34.133333 34.133334c-25.6-4.266667-46.933333-4.266667-76.8-4.266667-162.133333 0-285.866667 68.266667-375.466667 213.333333 34.133333 51.2 72.533333 93.866667 115.2 128l-34.133333 29.866667z m230.4-46.933333l29.866667-29.866667c8.533333 4.266667 21.333333 4.266667 29.866666 4.266667 46.933333 0 85.333333-38.4 85.333334-85.333334 0-12.8 0-21.333333-4.266667-29.866666l29.866667-29.866667c12.8 17.066667 17.066667 38.4 17.066666 64 0 72.533333-55.466667 128-128 128-17.066667-4.266667-38.4-12.8-59.733333-21.333333zM384 499.2c4.266667-68.266667 55.466667-119.466667 123.733333-123.733333 0 4.266667-123.733333 123.733333-123.733333 123.733333zM733.866667 213.333333l29.866666 29.866667-512 512-34.133333-29.866667L733.866667 213.333333z" fill="#444444" p-id="3732"></path></svg>
@@ -64,7 +64,7 @@
                 </i>
               </button>
           </div> 
-          <button disabled="disabled" class="btn btn-default login-btn">登录</button> 
+          <button class="btn btn-default login-btn" @click="submitForm" >登录</button> 
           <a href="#" class="forgot-pwd">找回密码</a> 
           <a href="#" class="register">新用户注册</a>
         </div>
@@ -99,12 +99,17 @@
 
 <script>
 
+
 export default {
   data() {
     return {
       li_id: 0,
       on_off: 1,
-      show : 'password'
+      show : 'password',
+      ruleForm: {
+        userName: '', //用户名
+        password: '' //密码
+      },
     };
   },
 
@@ -118,7 +123,40 @@ export default {
         this.show='text'
       else
         this.show='password'
-    }
+    },
+    //点击登录调用方法
+    submitForm() {
+      console.log(0);
+      
+      //保存的账号
+      var name=this.ruleForm.userName;
+      //保存的密码
+      var pass=this.ruleForm.password;
+      if(name==''||name==null){
+      alert("请输入正确的用户名");
+      return
+      }else if(pass==''||pass==null) {
+      alert("请输入正确的密码");
+      return
+      }
+      
+      //接口
+      var url='/login.json';
+      this.$http.get(url,this.ruleForm)
+      .then(res=>{
+        if(res.body.from[0].userName==this.ruleForm.password && res.body.from[0].userName==this.ruleForm.password){
+          alert("登陆成功！")
+          this.$store.state.isLogin = true
+          console.log(this.$store.state.isLogin);
+          this.$router.push("/member")
+        return
+        } else{
+          alert("用户名或密码错误,请重新输入");
+          this.ruleForm.userName='';
+          this.ruleForm.password='';
+        }
+    });
+    },
   }
 
 

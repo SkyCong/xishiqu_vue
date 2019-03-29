@@ -81,6 +81,7 @@ export default {
         scrollY:false,
         eventPassthrough:'vertical'
       })
+      console.log(this.$store.state.isLogin);
     }
 }
 </script>

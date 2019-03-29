@@ -31,6 +31,7 @@ import request from "@/utils/request"
 import BScroll from 'better-scroll'
 // import LoginYES from '@/components/logins/LoginYES'
 import _ from 'lodash'
+import { nextTick } from 'q';
 
 export default {
 
@@ -38,6 +39,17 @@ export default {
     return {
        newItems: []
     }
+  },
+
+  beforeRouteEnter (to, from, next) {
+    next(vm => {
+      if(vm.$store.state.isLogin)
+       vm.$router.push({path:'/interest'})
+      else{
+        alert('请先登录')
+        vm.$router.push({path:'/login'})        
+      }
+    })
   },
 
   async created() {

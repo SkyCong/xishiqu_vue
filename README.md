@@ -66,4 +66,27 @@ module.exports = {
 ##项目总结0327
 #1. 详情页的跳转运用到了 路由的动态匹配 在index.js设置路由的：id属性 在相应的接口调用中用this.$route.params.id 进行传递 御用:to="'/activity/'+id" 对其进行进入 
 
-#2. 
+##项目总结0328
+#1. 项目搜索匹配完成 主要涉及到了绑定表单 watch实时监听 改变params值来进行页面的搜索渲染
+
+  data() {
+    return {
+      show : true,
+      keyserch : [],
+      serchList : []
+    };
+  },
+  watch: {
+    async keyserch(value){
+
+      let result = await request({
+        url: '/ajax/keywords',
+        params: {
+          q : this.keyserch
+        }
+      })
+      this.serchList=result.result
+      console.log(result.result);
+      
+    }
+  },
