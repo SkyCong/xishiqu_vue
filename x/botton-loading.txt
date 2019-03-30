@@ -1,0 +1,13 @@
+<div class="loading"></div>
+
+.loading {
+    position: relative;
+    display: block;
+    border-radius: 50%;
+    background-color: #ff884e;
+    width: 2rem;
+    height: 2rem;
+    margin: .5rem auto;
+    -webkit-animation: spin-bounce 1s 0s ease-in-out infinite;
+    animation: spin-bounce 1s 0s ease-in-out infinite;
+}

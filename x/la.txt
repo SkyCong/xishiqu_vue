@@ -1,0 +1,92 @@
+Class
+A https://api.myjson.com/bins/y1zma
+B https://api.myjson.com/bins/1bimge
+
+
+AAA
+https://api.myjson.com/bins/16zelu
+https://api.myjson.com/bins/9cfp6 xxx
+
+BBB
+https://api.myjson.com/bins/z3fja
+
+
+news:pagr1
+http://www.chinanews.com/chinanews/getNewsList?language=chs&pageSize=15&searchType=1&dtp=6&isWap=yes&cname=yl&pageIndex=1
+
+
+?/laos
+https://api.myjson.com/bins/ii1aa
+
+https://api.myjson.com/bins/15sjea
+
+asdasd05011
+
+<template>
+  <div class="layout-container">
+    <Header></Header>
+    <main>
+      <MainTop></MainTop>
+      <MainCenter></MainCenter>
+      <MainBottom></MainBottom>
+    </main>
+    <Tabbar></Tabbar>
+  </div>
+</template>
+
+<script>
+import Header from "./Header";
+import MainTop from "./MainTop";
+import MainCenter from "./MainCenter";
+import MainBottom from "./MainBottom";
+import Tabbar from "./Tabbar";
+
+export default {
+  data() {
+    return {
+      msg : ''
+    }
+  },
+
+  components: {
+    Header,
+    MainTop,
+    MainCenter,
+    MainBottom,
+    Tabbar
+  },
+
+  mounted(){
+    this.get()
+  },
+  
+  methods: {
+    get() {
+      //发送get请求
+      this.$http.get("/proxy/ajax/home/index?cityCode=021", { emulateJSON: true }).then(
+        function(res) {
+          console.log(res.body);
+          this.msg = res.body.data;          
+        },
+        function() {
+          console.log("请求失败处理");
+        }
+      );
+    }
+  }
+}
+
+</script>
+
+<style lang="stylus" scoped>
+@import '~@/assets/ellipsis.styl'
+.layout-container
+  height 100%
+  display flex
+  flex-direction column
+  main
+    flex 1
+    background #fff
+    ellipsis(auto, 2)
+</style>
+

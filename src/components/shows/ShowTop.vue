@@ -12,7 +12,7 @@
     <!-- ———————Nav导航———————————————————————————————————————— -->
      <div class="categories">
       <div class="wrapper">
-        <router-link :to="'/category/'+fruit.pinyinName" class="item" v-for="(fruit , n) in frontCateInfos" :key="n" tag="div">
+        <router-link :to="'/category/'+fruit.pinyinName" class="item" v-for="(fruit , n) in frontCateInfos" :key="n.actCode" tag="div">
           <span :class="'cate-icon '+fruit.pinyinName"></span>
           {{fruit.title}}
         </router-link>

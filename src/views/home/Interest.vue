@@ -4,7 +4,7 @@
 
     <div class="wrap">
       <div class="paddingtop">
-          <div class="newItems" v-for="(newItem , n) in newItems" :key="n">
+          <div class="newItems" v-for="(newItem , n) in newItems" :key="n.id">
             <div class="item-wrap">
               <h3 class="title">{{newItem.title}}</h3>
               <h4 class="er-title">{{newItem.summary.substring(newItem.title.length+4)}}...</h4>

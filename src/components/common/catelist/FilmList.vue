@@ -1,7 +1,7 @@
 <template>
   <div class="cateScorll">
     <div class="node-list paddingtop">
-      <router-link :to="'/filmdis/'+film.filmId"  class="node node--film horizontal" v-for="(film , n) in dataList" :key="n" tag="div"> 
+      <router-link :to="'/filmdis/'+film.filmId"  class="node node--film horizontal" v-for="(film , n) in dataList" :key="n.filmId" tag="div"> 
           <div class="thumbnail" :style="{backgroundImage : 'url('+film.filmImg+')'}"></div>
           <div class="main">
             <div>

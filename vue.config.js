@@ -5,6 +5,9 @@
 // }
 
 module.exports = {
+  publicPath: process.env.NODE_ENV === 'production'
+  ? 'http://10.60.18.160/xishiqu'
+  : '/',
   // 基本路径
   // baseUrl: './',
   // // 输出文件目录
@@ -28,8 +31,8 @@ module.exports = {
   },
 
   devServer: {
-    host: '10.60.18.51',
-    port: 8080,
+    // host: '10.60.18.51',
+    // port: 8080,
     proxy: {
       '/ajax': {
         target: 'http://m.xishiqu.com',

@@ -62,7 +62,7 @@
                 <h3 class="title video__title">影人信息</h3>
                 <div class="video">
                   <ul class="video__list clearfix">
-                    <li class="list__item" v-for="(filmActorList , n) in filmList.filmActorList" :key="n">
+                    <li class="list__item" v-for="(filmActorList , n) in filmList.filmActorList" :key="n.filmId">
                       <img
                         :src="filmActorList.imgUrl"
                         class="item__img"

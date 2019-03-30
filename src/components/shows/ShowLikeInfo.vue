@@ -3,7 +3,7 @@
   <div class="favours" >
 
     <h3 class="block__title">投你所喜</h3>
-    <router-link :to="'/activity/'+activity.pinyinName" class="node node--activity horizontal" v-for="(activity , n) in activityLikeInfos" :key="n" tag="div">
+    <router-link :to="'/activity/'+activity.pinyinName" class="node node--activity horizontal" v-for="(activity , n) in activityLikeInfos" :key="n.actCode" tag="div">
       <!---->
       <!---->
       <div class="thumbnail" :style="{backgroundImage : 'url('+activity.actImgUrl+')'}">

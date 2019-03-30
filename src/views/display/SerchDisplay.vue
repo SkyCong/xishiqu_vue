@@ -33,7 +33,7 @@
         <div class="vague">
           <div class="vague__content">
             <!-- v-for -->
-            <router-link :to="'/activity/'+keys.pinyinName" class="vague-item" v-for="(keys , n) in serchList" :key="n" tag="div">
+            <router-link :to="'/activity/'+keys.pinyinName" class="vague-item" v-for="(keys , n) in serchList" :key="n.actCode" tag="div">
               <span class="item__left">
                 {{keys.result}}
               </span> 

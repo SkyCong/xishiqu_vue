@@ -1,6 +1,6 @@
 <template>
   <div class="activityCateClass">
-    <div class="block" v-for="(activityCate , n) in activityCateInfos" :key="n">
+    <div class="block" v-for="(activityCate , n) in activityCateInfos" :key="n.actCode">
       <h3 class="block__title">
         {{activityCate.mTitle}}
           <small>
